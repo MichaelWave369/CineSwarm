@@ -327,3 +327,5 @@ export * from './canonical-admission-commit.js';
 export * from './resumable-human-ceremony.js';
 
 export * from './challenge-health-handoff.js';
+
+export * from './waveforge-release-reference.js';
