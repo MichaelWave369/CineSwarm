@@ -1,9 +1,9 @@
 {
   "name": "@parallax-network/cineswarm-bridge",
   "private": true,
-  "version": "0.26.0",
+  "version": "0.27.0",
   "type": "module",
-  "description": "Fail-closed Studio/CineSwarm bridge through C1.24H challenge health/reissue and compact public human handoff, preserving C1.24G resumability and C1.24F journaled canonical commit.",
+  "description": "Fail-closed CineSwarm governance bridge through C1.24H plus a ratified, reference-only WaveForgeStudio final-release receiver that preserves explicit human acceptance and zero inherited execution authority.",
   "exports": {
     ".": "./src/index.js",
     "./execution-authorization": "./src/execution-authorization.js",
@@ -31,7 +31,8 @@
     "./human-ceremony-console": "./src/human-ceremony-console.js",
     "./canonical-admission-commit": "./src/canonical-admission-commit.js",
     "./resumable-human-ceremony": "./src/resumable-human-ceremony.js",
-    "./challenge-health-handoff": "./src/challenge-health-handoff.js"
+    "./challenge-health-handoff": "./src/challenge-health-handoff.js",
+    "./waveforge-release-reference": "./src/waveforge-release-reference.js"
   },
   "scripts": {
     "test": "node --test test/*.test.mjs"
