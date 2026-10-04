@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "production-plan/v1",
+  "projectId": "pocket-spark",
+  "idempotencyKey": "pocket-spark-native-v2",
+  "lineage": {
+    "sourceSystem": "INTEROFFICE",
+    "sourceHash": "3a476f12d215dcad55744c962e93aa702dba78b48ab6e1907b4d24cbec78ef0f"
+  },
+  "shots": [
+    {
+      "shotId": "pocket-spark-001",
+      "prompt": "A mysterious glowing game cartridge sits inside the tiny PixelForge room. Soft luminous energy pulses from the cartridge while the camera slowly pushes toward it. Cozy pixel-inspired visual identity interpreted cinematically. No people. No dialogue. Stable geometry. No text artifacts. No logos.",
+      "durationSeconds": 5,
+      "delivery": {
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "container": "mp4"
+      },
+      "backendPreference": [
+        "wan22-ti2v-5b",
+        "wan21-t2v-1.3b"
+      ],
+      "conditioning": [],
+      "seed": 369,
+      "acceptanceEligible": true,
+      "publicReleaseAuthorized": false
+    }
+  ]
+}

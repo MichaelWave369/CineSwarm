@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "model-manifest/v1",
+  "modelId": "Wan-AI/Wan2.1-T2V-1.3B",
+  "backendId": "wan21-t2v-1.3b",
+  "source": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+  "revision": "PIN_EXACT_REVISION_BEFORE_USE",
+  "localHash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "license": "Verify and record the exact upstream repository/checkpoint license at acquisition",
+  "downloadedAt": null,
+  "sizeBytes": 0,
+  "runtime": "Official Wan-Video/Wan2.1 generate.py; t2v-1.3B; 832x480; CPU offload; T5 on CPU",
+  "vramProfiles": [
+    {
+      "strategy": "CPU_OFFLOAD",
+      "minimumVramMiB": 9216,
+      "minimumRamMiB": 16384,
+      "minimumDiskMiB": 20480,
+      "basis": "Official Wan documentation states 8.19 GB VRAM; CineSwarm reserves scheduler headroom"
+    }
+  ],
+  "approvedUse": "Local Parallax consumer-GPU bootstrap video generation after hash, license, and physical render validation",
+  "status": "BLOCKED",
+  "statusReason": "Template only; source revision, model bytes, local hash, license receipt, and operator approval are not yet established"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "model-manifest/v1",
+  "modelId": "Wan-AI/Wan2.2-TI2V-5B",
+  "backendId": "wan22-ti2v-5b",
+  "source": "https://huggingface.co/Wan-AI/Wan2.2-TI2V-5B",
+  "revision": "PIN_EXACT_REVISION_BEFORE_USE",
+  "localHash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "license": "Verify and record the exact upstream model license at acquisition",
+  "downloadedAt": null,
+  "sizeBytes": 0,
+  "runtime": "Official Wan-Video/Wan2.2 generate.py",
+  "vramProfiles": [
+    {
+      "strategy": "CPU_OFFLOAD",
+      "minimumVramMiB": 24576,
+      "minimumRamMiB": 32768,
+      "minimumDiskMiB": 32768
+    }
+  ],
+  "approvedUse": "Local Parallax video generation after hash, license, and physical render validation",
+  "status": "BLOCKED",
+  "statusReason": "Template only; source revision, model bytes, local hash, license receipt, and operator approval are not yet established"
+}
+
