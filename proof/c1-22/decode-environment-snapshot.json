@@ -1,0 +1,39 @@
+{
+  "schema": "parallax.cineswarm.decode-environment-snapshot.c1.22.v0.1",
+  "snapshotId": "c1-22-local-decode-environment-proof",
+  "policyId": "pn0001-c1-22-decode-access-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "nodeVersion": "v22.16.0",
+    "ffmpeg": {
+      "executablePath": "/usr/bin/ffmpeg",
+      "executableSha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+      "versionLine": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+      "versionOutputSha256": "b241942a091ee91966e5b04017a34f1f2a3bcfb1cf80a195e274db03874459d9",
+      "decodersOutputSha256": "514e72f38a6aa6d5505b1e4f4d02e4ce1dd293137583b8b5451394b6c6c2e693",
+      "encodersOutputSha256": "55c045dc4e4ff586777ebdeadba97dad24fdfd6eeed7bf1b523dd9cebdc8e2f9",
+      "formatsOutputSha256": "0ea68916a53ce2de48c6a9dcf9f25d6842be1099de84ae55384b191d969c7ab2"
+    },
+    "ffprobe": {
+      "executablePath": "/usr/bin/ffprobe",
+      "executableSha256": "cefc5f81c0b18429cdbf8fa5a89e1e9c759235e10f93f9b329ff1b2fdff26f46",
+      "versionLine": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers",
+      "versionOutputSha256": "02412fef1eca820a65af53c5fa03b637f92ef643783005ccf9c4b4e3a31fb699"
+    }
+  },
+  "capabilityHash": "1cc0a123132cd5d3103c0efe808cc106dde9a7f8a7a8a057f8b53befeeb4ceb5",
+  "capturedAt": "2026-08-13T21:38:11.843Z",
+  "credentialsCaptured": false,
+  "decoderEnvironmentCanAuthorizeRelease": false,
+  "originalDeleteAuthorized": false,
+  "preservationDerivativeDeleteAuthorized": false,
+  "accessDerivativeCanReplaceOriginal": false,
+  "accessDerivativeCanReplacePreservationDerivative": false,
+  "accessDerivativeCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "snapshotHash": "3fc6d78435e45dc56a125967be9b8030352a495bc136bf2f6e6e78efedc323aa"
+}

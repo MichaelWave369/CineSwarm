@@ -1,0 +1,32 @@
+{
+  "sourceObservation": {
+    "path": "/mnt/data/cineswarm_format_migration_proof/source-proof.avi",
+    "sha256": "259afcbc9a18f058db3cf028ea1ea6e71205708592156eabd2220e7a07b8edd1",
+    "durationSeconds": 2,
+    "width": 320,
+    "height": 180,
+    "frameRate": "24/1",
+    "sampleRate": 48000,
+    "channels": 2,
+    "container": "avi",
+    "videoCodec": "mpeg4",
+    "audioCodec": "pcm_s16le",
+    "decodedVideoSha256": "505f99f3031ac2e9b05ee550c0230fa2318d1f0bf870caa7bb7496beeb989072",
+    "decodedAudioSha256": "e94bf471c0a8c1d229a8047fcd52516781023a35485c695fba862512bd4f5a23"
+  },
+  "derivativeObservation": {
+    "path": "/mnt/data/cineswarm_format_migration_proof/preservation-derivative.mkv",
+    "sha256": "75119a3052bbe86cfaea2efc67b39003a714f889f7854d5e07487cd21c4848ee",
+    "durationSeconds": 2,
+    "width": 320,
+    "height": 180,
+    "frameRate": "24/1",
+    "sampleRate": 48000,
+    "channels": 2,
+    "container": "matroska,webm",
+    "videoCodec": "ffv1",
+    "audioCodec": "pcm_s24le",
+    "decodedVideoSha256": "505f99f3031ac2e9b05ee550c0230fa2318d1f0bf870caa7bb7496beeb989072",
+    "decodedAudioSha256": "e94bf471c0a8c1d229a8047fcd52516781023a35485c695fba862512bd4f5a23"
+  }
+}

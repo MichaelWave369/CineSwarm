@@ -1,0 +1,49 @@
+{
+  "schema": "parallax.cineswarm.independent-rebuild-register.c1.24.v0.1",
+  "registerId": "c1-24-proof-independent-rebuild-register",
+  "policyId": "pn0001-c1-24-independent-build-policy",
+  "c23PolicyId": "pn0001-c1-23-repro-decode-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "sourceC23ReproDecodeRegisterHash": "0d89c12e52a87cea7e1b3fec977dbe0e5dc7b610547d387a82ea57409171b7dc",
+  "revision": 2,
+  "recordedAt": "2026-08-13T23:04:30.323Z",
+  "entries": [
+    {
+      "index": 1,
+      "event": "BUILD_INPUT_ARCHIVE_RECORDED",
+      "archiveId": "c1-24-proof-ffmpeg-7.1.5-build-input-archive",
+      "archiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+      "sourceVersion": "7.1.5",
+      "recordedAt": "2026-08-13T23:04:10.132Z",
+      "previousEntryHash": null,
+      "entryHash": "a2faac576851d4f0a86ed4852b52df1097b934e8dbddeabc28251463d0d7bb0f"
+    },
+    {
+      "index": 2,
+      "event": "INDEPENDENT_REBUILD_RECEIPT_RECORDED",
+      "receiptId": "c1-24-proof-ffmpeg-7.1.5-independent-rebuild-receipt",
+      "receiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+      "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+      "reportHash": "ffa490672c3e5e5a8da53bd663648031be019977577e1b3f115de77b9406a56b",
+      "fullIndependentSourceRebuildProven": true,
+      "recordedAt": "2026-08-13T23:04:30.323Z",
+      "previousEntryHash": "a2faac576851d4f0a86ed4852b52df1097b934e8dbddeabc28251463d0d7bb0f",
+      "entryHash": "0aef152d0c332175954df8b4cf84ca60addd4a557919b2f9b6c4f8e2cbbda0d4"
+    }
+  ],
+  "entryCount": 2,
+  "headHash": "0aef152d0c332175954df8b4cf84ca60addd4a557919b2f9b6c4f8e2cbbda0d4",
+  "buildInputArchiveCount": 1,
+  "independentRebuildReceiptCount": 1,
+  "status": "INDEPENDENT_REBUILD_HISTORY_PRESENT",
+  "fullIndependentSourceRebuildProven": true,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "originalDeleteAuthorized": false,
+  "preservationDerivativeDeleteAuthorized": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "6f1b2af31f1039942071e0af4dd51083411115e168d0306cc7b5fddd2706eb54"
+}

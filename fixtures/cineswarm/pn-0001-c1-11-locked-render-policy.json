@@ -1,0 +1,37 @@
+{
+  "schema": "parallax.cineswarm.locked-render-policy.c1.11.v0.1",
+  "policyId": "pn0001-seq01-locked-render-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "requireActivePictureLock": true,
+  "requireExactLockedArtifactHashes": true,
+  "requireHumanAudioConformReview": true,
+  "requireMeasuredRenderQc": true,
+  "requireVideoStream": true,
+  "requireAudioStream": true,
+  "requireExactTimelineDuration": true,
+  "output": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "videoCodec": "h264",
+    "audioCodec": "aac"
+  },
+  "audio": {
+    "sampleRateHz": 48000,
+    "channels": 2,
+    "integratedLufsTarget": -16,
+    "integratedLufsTolerance": 1,
+    "maxTruePeakDbtp": -1.5,
+    "standardMeaning": "internal-parallax-target-not-external-broadcast-compliance"
+  },
+  "qc": {
+    "durationToleranceSeconds": 0.15
+  },
+  "autoMasterAcceptance": false,
+  "audioLockAuthority": false,
+  "canonAuthority": false,
+  "ledgerPromotionAuthority": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

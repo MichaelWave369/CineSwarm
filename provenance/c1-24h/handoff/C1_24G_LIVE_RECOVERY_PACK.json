@@ -1,0 +1,50 @@
+{
+  "schema": "parallax.cineswarm.resumable-human-ceremony-recovery-pack.c1.24g.v0.1",
+  "packId": "c1-24g-michael-hughes-c1-24-admission-001-session-recovery-pack",
+  "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "sessionHash": "7ce6b9288947eec378f0e5609bec00d05fc3f1afefc1df8d22d8311ac99809a7",
+  "transcriptHash": "bf1878e984789ccf2a6ce7d8e7c796bc67844436cc80e7f143ae4967f7a07d21",
+  "resumeHash": "826308d881af52cd161c316f403ef4870a96c4d684e3c71ed40cc841ad764acb",
+  "currentStatus": "AWAITING_PUBLIC_ENROLLMENT_RESPONSE",
+  "createdAt": "2026-08-14T01:02:00Z",
+  "canonicalBaseline": {
+    "keyRegistryHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+    "c24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "admissionRegisterHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+    "commitRegisterHash": "66215b5a84de14f44428f21aca3882c502cc4ebd8c2809413eb55776e049be94"
+  },
+  "artifacts": [
+    {
+      "kind": "SESSION",
+      "path": "SESSION.json",
+      "sha256": "41c881c3fb9d8b18e603191d8fabe735643159c1ee96717746d20fe16d336bb8",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "TRANSCRIPT",
+      "path": "TRANSCRIPT.json",
+      "sha256": "034eb9e3df6fc138182408e5f108ba95a850b000c0bdf9d81837c837502e8e92",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24D_PUBLIC_ENROLLMENT_CHALLENGE",
+      "path": "C1_24D_LIVE_KEY_ENROLLMENT_CHALLENGE.json",
+      "sha256": "24a246e88621e6d0cc0ab97e118ece162eed50c10fc72f5731bb17219c95b32d",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "witnessMode": "EVIDENCE_TRANSCRIPT_NOT_INDEPENDENT_HUMAN_WITNESS",
+  "containsPrivateKeyMaterial": false,
+  "privateKeyPathIncluded": false,
+  "canAuthorizeAdmission": false,
+  "canApplyCanonicalCommit": false,
+  "orchestratorCanGeneratePrivateKey": false,
+  "orchestratorCanInferHumanAcknowledgement": false,
+  "orchestratorCanSignAdmission": false,
+  "orchestratorCanConfirmCommit": false,
+  "orchestratorCanAutoApplyCanonicalCommit": false,
+  "orchestratorCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "packHash": "d945566ac5655c30a183aaab0e38d151b31dd62c6e8b73b4f47e15487d708fae"
+}

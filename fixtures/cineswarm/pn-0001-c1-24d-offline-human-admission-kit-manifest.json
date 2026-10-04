@@ -1,0 +1,42 @@
+{
+  "schema": "parallax.cineswarm.offline-human-admission-kit-manifest.c1.24d.v0.1",
+  "manifestId": "pn0001-c1-24d-offline-human-admission-kit",
+  "policyId": "pn0001-c1-24d-offline-human-admission-kit-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "generatedAt": "2026-08-13T23:43:00.000Z",
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "sourceHashes": {
+    "keyCeremonyPolicyHash": "a2d4d15012191da66c21c73542074971f9d013d75d7a5c08d9efbb73c512662a",
+    "keyCeremonyPlanHash": "dbbf58f6dd4b7a1c278a730cc6b16b9dcf552f34308de5aedbc2bc30a21d65c0",
+    "admissionPolicyHash": "f4c9f570313ae8951009f4ba2c37f9c68ad1f7a54ccf8729b85c640df154da15",
+    "c24CanonicalRegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "admissionRegisterHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+    "keyRegistryHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+    "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+    "rebuildReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+    "proofRegisterHash": "6f1b2af31f1039942071e0af4dd51083411115e168d0306cc7b5fddd2706eb54",
+    "buildLogSha256": "963c62f7e10ea8573c65ff97cb063b58c5fe1ec93801578c4eb03b47ec60387f"
+  },
+  "technicalProofEarned": true,
+  "activeHumanSigningKeys": 0,
+  "canonicalAdmissionPending": true,
+  "humanActionsRequired": [
+    "Generate the Ed25519 private key outside the repository/sidecar and retain it under direct human control.",
+    "Return only the public enrollment response and compare the full SHA-256 public-key fingerprint before enrollment.",
+    "Perform the C1.24C evidence review and explicitly choose ADMIT_TO_CANONICAL, HOLD, or REJECT.",
+    "If admitting, sign the exact short-lived C1.24C signing request offline with the enrolled private key.",
+    "Return only the signed response; canonical application remains a separate verifier-controlled step."
+  ],
+  "privateKeyIncluded": false,
+  "privateKeyExpectedInRepository": false,
+  "kitCanAuthorizeAdmission": false,
+  "kitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "manifestHash": "0f88b00dbed8f3fa7f7d95e091d732c170c132171602561755e31723d9250885"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "parallax.cineswarm.independent-rebuild-admission-readiness.c1.24c.v0.1",
+  "phase": "C1.24C",
+  "status": "PENDING_HUMAN_ADMISSION",
+  "technicalProofEarned": true,
+  "canonicalRegisterRevision": 0,
+  "canonicalFullIndependentSourceRebuildProven": false,
+  "admissionRegisterRevision": 0,
+  "admissionReceiptCount": 0,
+  "activeHumanSigningKeys": 0,
+  "blockers": [
+    "NO_ACTIVE_HUMAN_SIGNING_KEY",
+    "NO_HUMAN_ADMISSION_RECEIPT",
+    "CANONICAL_C1_24_NOT_ADMITTED"
+  ],
+  "requiredProof": {
+    "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+    "recipeHash": "131aca2a679688789e8b2d6083c044bbb2d14d8c50a18a2856b32f7e0ee9c207",
+    "reportHash": "ffa490672c3e5e5a8da53bd663648031be019977577e1b3f115de77b9406a56b",
+    "rebuildReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+    "proofRegisterHash": "6f1b2af31f1039942071e0af4dd51083411115e168d0306cc7b5fddd2706eb54",
+    "buildLogSha256": "963c62f7e10ea8573c65ff97cb063b58c5fe1ec93801578c4eb03b47ec60387f"
+  },
+  "humanDecisionRequired": true,
+  "humanSignatureRequired": true,
+  "autoAdmission": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

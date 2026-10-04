@@ -1,0 +1,21 @@
+{
+  "schema": "parallax.cineswarm.provider-go-no-go.v0.1",
+  "decisionId": "pn0001-seq01-go-no-go-draft-001",
+  "packetId": "pn0001-seq01-provider-readiness",
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "simulated": false,
+  "decision": "NO_GO",
+  "liveRunAuthorized": false,
+  "spendAuthorized": false,
+  "reason": "The provider readiness packet still carries unresolved evidence, credential, and authorization blockers.",
+  "acknowledgedBlockers": [
+    "GPT Image 2 retention / ZDR posture is not yet authoritatively confirmed for this live run.",
+    "Current request cost must be rechecked from official pricing evidence before spend authorization.",
+    "OPENAI_API_KEY has not been externally provisioned for the governed live-run environment.",
+    "Founder has not yet recorded a GO / NO_GO decision for this first provider-backed execution.",
+    "Three request-specific live execution authorization records have not yet been created."
+  ]
+}

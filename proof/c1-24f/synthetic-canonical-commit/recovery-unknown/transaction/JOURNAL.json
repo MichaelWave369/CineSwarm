@@ -1,0 +1,22 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-transaction-journal.c1.24f.v0.1",
+  "transactionId": "pn0001-c1-24f-canonical-admission-transaction",
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+  "state": "COMMITTED",
+  "updatedAt": "2026-08-14T00:33:38.369Z",
+  "canonicalRoot": "/mnt/data/cineswarm_c1_24f_operational_proof/canonical-root",
+  "ceremonyDir": "/mnt/data/cineswarm_c1_24f_operational_proof/ceremony",
+  "previewPath": "/mnt/data/cineswarm_c1_24f_operational_proof/preview/C1_24F_COMMIT_PREVIEW.json",
+  "committedTargets": [
+    "keyRegistry",
+    "c24Register",
+    "admissionRegister"
+  ],
+  "auditHash": "75891f52d840fdde610e35c7179ce83c74bbd1abb2213ae3e0def9f27a8c8a4a",
+  "receiptHash": "026063ca6c0d236d64f510803b507ff014a57e8fa2fdff5310982e26e4664032",
+  "commitRegisterHash": "5988f647e3e444d681eb5ebcd27ba678824784b796b33aaf11aec8c0e9080a0c",
+  "multiFileAtomicityClaimed": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "journalHash": "4af4fcf256c1736b7cb2e40feb4ac5004a96d5a8ee8e2be83ed1ffe79539f2fd"
+}

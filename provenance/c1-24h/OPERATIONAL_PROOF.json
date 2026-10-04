@@ -1,0 +1,16 @@
+{
+  "schema": "parallax.cineswarm.c1-24h-operational-proof.v0.1",
+  "liveHealthAuditHash": "cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061",
+  "liveHealthResult": "PASS",
+  "compactHandoffManifestHash": "312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e",
+  "compactHandoffBytes": 23604,
+  "reissueReceiptHash": "04903152fd10af4f92bf3e0301364115d869d3da5fb60eee0282deb642de7d08",
+  "reissueReason": "EXPIRED",
+  "reissuePreservedAuthority": true,
+  "reissueCarriedEnrollmentResponse": false,
+  "canonicalMutation": false,
+  "privateKeyPersisted": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "proofHash": "36709c8da1d6c52abbcdf83d610c493be079bb7710ea57eaf688593927279532"
+}

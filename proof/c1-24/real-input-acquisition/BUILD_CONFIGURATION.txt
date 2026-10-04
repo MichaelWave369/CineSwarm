@@ -1,0 +1,16 @@
+C1.24 real-source build configuration candidate
+source=FFmpeg 7.1.5
+network_during_build=blocked-by-seccomp-policy
+source_compilation=required
+copied_decoder_binary=forbidden
+x86_asm=disabled (nasm not present in current sandbox)
+external_libraries=disabled/autodetect-disabled
+required_demuxers=avi,matroska
+required_decoders=mpeg4,ffv1,pcm_s16le,pcm_s24le
+proof_output_encoders=rawvideo,pcm_s16le
+required_protocols=file,pipe
+required_filters=aresample
+proof_output_muxers=null,rawvideo,s16le(runtime alias; configure component pcm_s16le)
+programs=ffmpeg,ffprobe
+make_jobs=4
+configure_args=--disable-autodetect --disable-network --disable-doc --disable-debug --disable-x86asm --disable-everything --enable-ffmpeg --enable-ffprobe --enable-protocol=file --enable-protocol=pipe --enable-demuxer=avi --enable-demuxer=matroska --enable-decoder=mpeg4 --enable-decoder=ffv1 --enable-decoder=pcm_s16le --enable-decoder=pcm_s24le --enable-filter=aresample --enable-encoder=rawvideo --enable-encoder=pcm_s16le --enable-muxer=null --enable-muxer=rawvideo --enable-muxer=pcm_s16le

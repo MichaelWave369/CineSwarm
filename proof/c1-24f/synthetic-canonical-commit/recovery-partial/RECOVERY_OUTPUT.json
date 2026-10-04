@@ -1,0 +1,9 @@
+{
+  "status": "ROLLED_BACK_RECOVERED",
+  "states": [
+    "AFTER",
+    "BEFORE",
+    "BEFORE"
+  ],
+  "restored": true
+}

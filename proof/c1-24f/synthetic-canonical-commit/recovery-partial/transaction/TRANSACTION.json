@@ -1,0 +1,49 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-transaction-plan.c1.24f.v0.1",
+  "transactionId": "pn0001-c1-24f-canonical-admission-transaction",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "previewHash": "f59e2486f81cdb5225aa39bb617dca7543b007c3e85bb77f23bfb8d37178d59f",
+  "confirmationHash": "a850746ae9e1cdb93d6c52697f8143476f4cac7498feb12eaa7ab3c827785997",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "keyId": "proof-human-c1-24d-key",
+  "preparedAt": "2026-08-14T00:46:30Z",
+  "state": "PREPARED",
+  "operations": [
+    {
+      "order": 1,
+      "target": "SIGNING_KEY_REGISTRY",
+      "logicalPath": "fixtures/cineswarm/pn-0001-c1-6-signing-key-registry.json",
+      "beforeHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+      "afterHash": "3c166de15db6d56867dbaea393a4c9e8ca1cbaa0422177e6fe245f488de1749d",
+      "backupRequired": true
+    },
+    {
+      "order": 2,
+      "target": "C1_24_CANONICAL_REGISTER",
+      "logicalPath": "fixtures/cineswarm/pn-0001-c1-24-independent-rebuild-register.json",
+      "beforeHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+      "afterHash": "af612f6c196321ed4accd38aefb6e870647b7cd63b99aac473d1f7e2ce8e8cb4",
+      "backupRequired": true
+    },
+    {
+      "order": 3,
+      "target": "C1_24C_ADMISSION_REGISTER",
+      "logicalPath": "fixtures/cineswarm/pn-0001-c1-24c-independent-rebuild-admission-register.json",
+      "beforeHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+      "afterHash": "5657f7c211b1398f62935e3448e2fdaad950abda293147f938abd8e72c966546",
+      "backupRequired": true
+    }
+  ],
+  "recoveryModel": "BACKUP_EACH_TARGET_AND_JOURNAL_EACH_RENAME",
+  "multiFileAtomicityClaimed": false,
+  "canonicalApplyPerformed": false,
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8"
+}

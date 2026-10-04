@@ -1,0 +1,23 @@
+{
+  "schema": "parallax.cineswarm.canon-ledger-policy.c1.13.v0.1",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "masterReviewPolicyId": "pn0001-seq01-master-review-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "signatureAlgorithm": "Ed25519",
+  "privateKeyCustody": "external-human-controlled",
+  "requireRegisteredMasterCandidate": true,
+  "requireExactMasterCandidateHash": true,
+  "requireExactMasterOutputHash": true,
+  "requireIndependentCanonReviewRecord": true,
+  "requireHumanCanonPromotionSignature": true,
+  "requireCompleteLedgerEvidenceInventory": true,
+  "appendOnlyCanonRegister": true,
+  "appendOnlyLedgerPacketRegister": true,
+  "requireExplicitCanonSupersessionForReplacement": true,
+  "autoCanonPromotion": false,
+  "autoLedgerAdmission": false,
+  "networkReleaseAuthority": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

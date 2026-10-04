@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-commit-policy.c1.24f.v0.1",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "sourceC24EPolicyId": "pn0001-c1-24e-human-ceremony-console-policy",
+  "requireExactStageValidation": true,
+  "requireExactBeforeHashes": true,
+  "requireFullCommitDigestReentry": true,
+  "requireRecoveryBackups": true,
+  "requireJournaledTwoPhaseCommit": true,
+  "requirePostCommitAudit": true,
+  "requireSeparateHumanCommitAct": true,
+  "commitModel": "JOURNALED_TWO_PHASE_RECOVERABLE_NOT_MULTI_FILE_ATOMIC",
+  "claimMultiFileAtomicity": false,
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

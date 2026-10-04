@@ -1,0 +1,128 @@
+{
+  "schema": "parallax.cineswarm.build-input-archive.c1.24.v0.1",
+  "archiveId": "c1-24-proof-ffmpeg-7.1.5-build-input-archive",
+  "policyId": "pn0001-c1-24-independent-build-policy",
+  "sourceProject": "FFmpeg",
+  "sourceVersion": "7.1.5",
+  "sourceC23ReproDecodeRegisterHash": "0d89c12e52a87cea7e1b3fec977dbe0e5dc7b610547d387a82ea57409171b7dc",
+  "artifacts": [
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-01",
+      "kind": "UPSTREAM_SOURCE_TARBALL",
+      "origin": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-7.1.5.tar.xz",
+      "sha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+      "size": 11050340
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-02",
+      "kind": "DETACHED_SIGNATURE",
+      "origin": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz.asc",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-7.1.5.tar.xz.asc",
+      "sha256": "7ce4b9d56e3ef0cd4c3a9c0b2c8a034ac91e6c4c011c1f10b05a8aa7292fca35",
+      "size": 520
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-03",
+      "kind": "SIGNING_PUBLIC_KEY",
+      "origin": "https://ffmpeg.org/ffmpeg-devel.asc",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-devel.asc",
+      "sha256": "397b3becedcd5a98769967ff1ff8501ddc89f8368b8f766e4701377d7dbaabe5",
+      "size": 1709
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-04",
+      "kind": "COMPILER_TOOLCHAIN",
+      "origin": "captured-local-toolchain://debian-trixie-amd64-gcc-14.2.0",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/toolchain.tar.xz",
+      "sha256": "8af8383b5caa0990b73354c8d8d7bed0484a5c42ad0b7ffa9f34554ad9c1500f",
+      "size": 53748380
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-05",
+      "kind": "BUILD_TOOL",
+      "origin": "captured-local-buildtools://make-4.4.1-shell-coreutils",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/buildtools.tar",
+      "sha256": "c9c7fabf6da5b1f2bf2072c2736ab4d9c109a16d3b69781f9393cd72fe44d0f8",
+      "size": 17940480
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-06",
+      "kind": "SYSROOT_OR_BUILD_DEPENDENCY_CLOSURE",
+      "origin": "captured-local-sysroot://debian-trixie-amd64-libc-linux-headers",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/sysroot.tar.xz",
+      "sha256": "f05ba018a1f0e991d6015787ec173c9a2209b421a7a83cc323047684405c0384",
+      "size": 9497312
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-07",
+      "kind": "BUILD_CONFIGURATION",
+      "origin": "parallax-governed-config://c1.24-minimal-decoder",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/build-configuration-bundle.tar",
+      "sha256": "4544eddb7458e998116005885277eabe0fd1a002bdbbf4e09c22c1db51cf3ea3",
+      "size": 51200
+    }
+  ],
+  "authenticity": {
+    "signatureVerified": true,
+    "signingKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+    "sourceArtifactSha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+    "verificationTool": "gpg-detached-signature-plus-frozen-fingerprint"
+  },
+  "toolchain": {
+    "compilerId": "gcc",
+    "compilerVersion": "gcc (Debian 14.2.0-19) 14.2.0",
+    "compilerSha256": "a23ecab8ff08f09ad8c80602c2c5df7f49e09c25905cb8975902e101bf72635f",
+    "buildToolId": "make",
+    "buildToolVersion": "GNU Make 4.4.1",
+    "buildToolSha256": "8a229baf64671988cfb5af43ba3070c6ce7214cf32bcf96155115559d1466fa7"
+  },
+  "buildConfiguration": {
+    "networkAllowed": false,
+    "credentialsAllowed": false,
+    "copyHostDecoderBinaries": false,
+    "configureArgs": [
+      "--disable-autodetect",
+      "--disable-network",
+      "--disable-doc",
+      "--disable-debug",
+      "--disable-x86asm",
+      "--disable-everything",
+      "--enable-ffmpeg",
+      "--enable-ffprobe",
+      "--enable-protocol=file",
+      "--enable-protocol=pipe",
+      "--enable-demuxer=avi",
+      "--enable-demuxer=matroska",
+      "--enable-decoder=mpeg4",
+      "--enable-decoder=ffv1",
+      "--enable-decoder=pcm_s16le",
+      "--enable-decoder=pcm_s24le",
+      "--enable-filter=aresample",
+      "--enable-encoder=rawvideo",
+      "--enable-encoder=pcm_s16le",
+      "--enable-muxer=null",
+      "--enable-muxer=rawvideo",
+      "--enable-muxer=pcm_s16le"
+    ],
+    "makeJobs": 4
+  },
+  "inputClosureComplete": true,
+  "sourceAuthenticityVerified": true,
+  "createdAt": "2026-08-13T23:04:10.132Z",
+  "fullIndependentSourceRebuildProven": false,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "originalDeleteAuthorized": false,
+  "preservationDerivativeDeleteAuthorized": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "archiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df"
+}

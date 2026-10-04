@@ -1,0 +1,6 @@
+{
+  "schema": "parallax.cineswarm.signing-key-registry.c1.6.v0.1",
+  "keys": [],
+  "status": "UNPROVISIONED",
+  "note": "No real human signing public key has been registered yet. Private keys are never stored here."
+}

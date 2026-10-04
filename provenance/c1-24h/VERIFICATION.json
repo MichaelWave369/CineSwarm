@@ -1,0 +1,16 @@
+{
+  "schema": "parallax.cineswarm.c1-24h-proof-verification.v0.1",
+  "valid": true,
+  "proofHash": "36709c8da1d6c52abbcdf83d610c493be079bb7710ea57eaf688593927279532",
+  "healthAuditHash": "cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061",
+  "healthResult": "PASS",
+  "handoffManifestHash": "312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e",
+  "handoffFileCount": 10,
+  "reissueReceiptHash": "04903152fd10af4f92bf3e0301364115d869d3da5fb60eee0282deb642de7d08",
+  "currentCanonicalC24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "canonicalMutation": false,
+  "privateKeyPersisted": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "verificationHash": "010deec9bf8adc5c43627793d734b679f7bd77ff54b7684c020e5210000cc788"
+}

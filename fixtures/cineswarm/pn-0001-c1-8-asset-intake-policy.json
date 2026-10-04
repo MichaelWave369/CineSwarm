@@ -1,0 +1,14 @@
+{
+  "schema": "parallax.cineswarm.asset-intake-policy.c1.8.v0.1",
+  "policyId": "pn0001-c1-8-image-intake-v0.1",
+  "allowedMediaTypes": ["image/png", "image/jpeg", "image/webp"],
+  "maxArtifactBytes": 52428800,
+  "requireJournalSucceededLink": true,
+  "requireHashVerification": true,
+  "requireHumanReview": true,
+  "autoAccept": false,
+  "pictureLockAuthority": false,
+  "canonAuthority": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

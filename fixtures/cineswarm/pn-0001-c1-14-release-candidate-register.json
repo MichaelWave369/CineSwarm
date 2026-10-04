@@ -1,0 +1,18 @@
+{
+  "schema": "parallax.cineswarm.release-candidate-register.c1.14.v0.1",
+  "registerId": "pn0001-seq01-cold-open-release-candidate-register",
+  "policyId": "pn0001-seq01-ledger-release-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T19:40:00.000Z",
+  "status": "EMPTY_NO_RELEASE_CANDIDATES",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "releaseCandidateCount": 0,
+  "networkReleasedCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "b3b0ce6dbecf4b2ac4fc05c835c92c1631a45472695b4de4520e5e6be59afde1"
+}

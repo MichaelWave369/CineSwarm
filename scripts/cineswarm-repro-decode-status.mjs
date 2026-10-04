@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+import { readFileSync } from 'node:fs'; import { resolve } from 'node:path'; import { classifyReproDecodeState } from '../packages/cineswarm-bridge/src/reproducible-decode-capsule.js';
+const root=resolve(process.argv[2]||'.'); const policy=JSON.parse(readFileSync(resolve(root,'fixtures/cineswarm/pn-0001-c1-23-repro-decode-policy.json'),'utf8')); const register=JSON.parse(readFileSync(resolve(root,'fixtures/cineswarm/pn-0001-c1-23-repro-decode-register.json'),'utf8')); const c22=JSON.parse(readFileSync(resolve(root,'fixtures/cineswarm/pn-0001-c1-22-decode-access-register.json'),'utf8')); console.log(JSON.stringify(classifyReproDecodeState({policy,register,sourceC22DecodeAccessRegisterHash:c22.registerHash}),null,2));

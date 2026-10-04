@@ -1,0 +1,29 @@
+{
+  "schema": "parallax.cineswarm.human-key-ceremony.c1.7.v0.1",
+  "ceremonyId": "proof-c1-24d-enrollment-ceremony",
+  "action": "ENROLL",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "simulated": false,
+  "recordedAt": "2026-08-13T23:42:00Z",
+  "previousKeyId": null,
+  "newKey": {
+    "keyId": "proof-human-c1-24d-key",
+    "algorithm": "Ed25519",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUAdB3IhdqFSnfwslEKPEssUWq3xU5X6z9xTDzfEYVyQ=\n-----END PUBLIC KEY-----",
+    "fingerprintSha256": "6af46e6201c457f38b3fd338e7fb9239d45ce6aa22e68099106309c3896747e2",
+    "possessionProof": {
+      "challengeNonce": "cafebabedeadbeef00112233445566778899aabbccddeeff0123456789abcdef",
+      "signatureBase64": "W62q/29LlJXrSeAhs1c6RC4nwM6H+wAdPRU3N35aaOguuDA/pLDnSuBiQ3BIhdDO3oFqIxkewspHzWvo5mZSDw=="
+    }
+  },
+  "acknowledgements": {
+    "privateKeyHeldExternally": true,
+    "privateKeyNotStoredInRepository": true,
+    "fingerprintVerifiedByHuman": true
+  },
+  "publicRelease": false,
+  "relayDependency": false
+}

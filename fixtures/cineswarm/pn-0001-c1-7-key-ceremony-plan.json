@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.key-ceremony-plan.c1.7.v0.1",
+  "planId": "pn0001-c1-7-michael-key-ceremony",
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "status": "PENDING_KEY_GENERATION",
+  "privateKeyMustRemainExternal": true,
+  "steps": [
+    "Generate an Ed25519 keypair outside the repository.",
+    "Keep the private key under direct human control.",
+    "Record only the public key, SHA-256 fingerprint, and proof-of-possession signature in the ceremony receipt.",
+    "Human compares and acknowledges the fingerprint before enrollment.",
+    "Use ROTATE for normal replacement, RECOVER only with explicit evidence, and REVOKE when a key must no longer validate new receipts."
+  ],
+  "publicRelease": false,
+  "relayDependency": false
+}

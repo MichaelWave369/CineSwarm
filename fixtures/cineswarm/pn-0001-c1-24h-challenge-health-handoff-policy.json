@@ -1,0 +1,22 @@
+{
+  "schema": "parallax.cineswarm.challenge-health-handoff-policy.c1.24h.v0.1",
+  "policyId": "pn0001-c1-24h-challenge-health-handoff-policy",
+  "sourceC24GPolicyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "maximumEnrollmentChallengeHours": 24,
+  "requireCanonicalBaselineMatch": true,
+  "requirePublicArtifactHashVerification": true,
+  "requireChallengeFreshnessCheck": true,
+  "requirePublicOnlyHandoff": true,
+  "requireExplicitExpiredChallengeReissue": true,
+  "requireReissueLineage": true,
+  "requireCompactHandoff": true,
+  "reissueMode": "EXPIRED_ONLY_NO_ENROLLMENT_RESPONSE",
+  "canGenerateHumanPrivateKey": false,
+  "canInferHumanAcknowledgement": false,
+  "canSignAdmission": false,
+  "canConfirmCanonicalCommit": false,
+  "canAutoApplyCanonicalCommit": false,
+  "canAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

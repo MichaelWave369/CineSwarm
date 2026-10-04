@@ -1,0 +1,12 @@
+{
+  "schema": "parallax.cineswarm.key-ceremony-policy.c1.7.v0.1",
+  "algorithm": "Ed25519",
+  "privateKeyCustody": "external-human-controlled",
+  "repositoryPrivateKeyStorageProhibited": true,
+  "proofOfPossessionRequired": true,
+  "rotationRetiresPreviousKey": true,
+  "recoveryRevokesPreviousKey": true,
+  "minimumRecoveryEvidenceRefs": 2,
+  "publicRelease": false,
+  "relayDependency": false
+}

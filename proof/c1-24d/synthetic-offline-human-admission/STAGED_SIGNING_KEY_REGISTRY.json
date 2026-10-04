@@ -1,0 +1,21 @@
+{
+  "schema": "parallax.cineswarm.signing-key-registry.c1.6.v0.1",
+  "keys": [
+    {
+      "keyId": "proof-human-c1-24d-key",
+      "algorithm": "Ed25519",
+      "status": "active",
+      "authority": {
+        "kind": "human",
+        "id": "proof-human"
+      },
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUAdB3IhdqFSnfwslEKPEssUWq3xU5X6z9xTDzfEYVyQ=\n-----END PUBLIC KEY-----",
+      "fingerprintSha256": "6af46e6201c457f38b3fd338e7fb9239d45ce6aa22e68099106309c3896747e2",
+      "validFrom": "2026-08-13T23:42:00Z",
+      "validUntil": null,
+      "enrolledByCeremonyId": "proof-c1-24d-enrollment-ceremony"
+    }
+  ],
+  "status": "PROVISIONED",
+  "note": "No real human signing public key has been registered yet. Private keys are never stored here."
+}

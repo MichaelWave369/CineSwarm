@@ -1,0 +1,18 @@
+{
+  "schema": "parallax.cineswarm.signing-key-registry.c1.6.v0.1",
+  "keys": [
+    {
+      "keyId": "proof_human_c1_13_001",
+      "algorithm": "Ed25519",
+      "status": "active",
+      "authority": {
+        "kind": "human",
+        "id": "michael-hughes"
+      },
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIrP412jgpG/pDiyEgYtTLqKz/OQIShNZ2YnDqRQgVOs=\n-----END PUBLIC KEY-----\n",
+      "validFrom": "2026-08-13T19:00:00.000Z",
+      "validUntil": null
+    }
+  ],
+  "status": "ACTIVE"
+}

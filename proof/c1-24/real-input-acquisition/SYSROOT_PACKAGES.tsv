@@ -1,0 +1,5 @@
+libc6	2.41-12+deb13u3	amd64
+libc6-dev	2.41-12+deb13u3	amd64
+libgcc-14-dev	14.2.0-19	amd64
+libgcc-s1	14.2.0-19	amd64
+linux-libc-dev	6.12.96-1	all

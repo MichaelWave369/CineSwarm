@@ -1,0 +1,113 @@
+{
+  "schema": "parallax.cineswarm.ledger-admission-packet.c1.13.v0.1",
+  "packetId": "pn0001-seq01-cold-open-ledger-admission-6c97820b0a7e",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "state": "LEDGER_ADMISSION_PACKET",
+  "canonRecordId": "pn0001-seq01-cold-open-canon-a320aa7ea80f",
+  "canonRecordHash": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f",
+  "canonRegisterHash": "5549c15f1a27694a4fc9a6f8bc588e13e58933871482055bb5a7aa0458e3205e",
+  "masterCandidateId": "proof-master-candidate-c1-13",
+  "masterCandidateHash": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5",
+  "outputAsset": {
+    "relativePath": "renders/proof-c1-13.mp4",
+    "sha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60",
+    "sizeBytes": 444444,
+    "mediaType": "video/mp4"
+  },
+  "evidenceInventory": [
+    {
+      "kind": "output-asset",
+      "id": "renders/proof-c1-13.mp4",
+      "sha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60"
+    },
+    {
+      "kind": "measured-render-qc",
+      "id": "qcHash",
+      "sha256": "2ccdc62874a4b896d9de5114ab56bde8a8eb2abb2e83cf3e8c319753ee736640"
+    },
+    {
+      "kind": "render-contract",
+      "id": "renderContractHash",
+      "sha256": "87b1c5e094ac3a40f7a0ad8c1c21b9c1aac2e67c71d4773e09915f0d2a5a19d9"
+    },
+    {
+      "kind": "locked-picture-manifest",
+      "id": "lockedPictureManifestHash",
+      "sha256": "241845a0ad1b601be20ee675ad0270f94f0c1b07a2bc074d3a39b32b84062b84"
+    },
+    {
+      "kind": "audio-conform",
+      "id": "audioConformHash",
+      "sha256": "6d1366afe2e6665f31d02858796b1736df623dcbef01525df5d6a29ec55ac564"
+    },
+    {
+      "kind": "locked-audio-manifest",
+      "id": "pn0001-seq01-cold-open-locked-audio-6d1366afe2e6",
+      "sha256": "e624bb1b5e3cb4d261cae84084a8552f1d7ba426ed7bacead3fa912e4ebfb62c"
+    },
+    {
+      "kind": "master-review",
+      "id": "pn0001-seq01-cold-open-master-review-018064d1816c",
+      "sha256": "4fbe9ec27309ef32961f1e714ad9430c4bf8095d4a180f39f2f00feb5b0626c4"
+    },
+    {
+      "kind": "master-acceptance-ceremony",
+      "id": "pn0001-seq01-cold-open-master-acceptance-018064d1816c",
+      "sha256": "c173bf3bc5d9b60ad61347c4ebc48c6966ea946d06ea6a1536386c3b2f5b1919"
+    },
+    {
+      "kind": "master-candidate",
+      "id": "proof-master-candidate-c1-13",
+      "sha256": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5"
+    },
+    {
+      "kind": "master-candidate-register",
+      "id": "pn0001-seq01-cold-open-master-candidate-register",
+      "sha256": "9f10c92528bd6cd28699a3ad53db9bf41fb5c978d5d410d57c34a1bf07431efe"
+    },
+    {
+      "kind": "canon-review",
+      "id": "pn0001-seq01-cold-open-canon-review-a320aa7ea80f",
+      "sha256": "65be49f727b71da7e13d465ede0582051a5daa7c25ffcb37fd782af41f65c076"
+    },
+    {
+      "kind": "canon-promotion-ceremony",
+      "id": "pn0001-seq01-cold-open-canon-promotion-a320aa7ea80f",
+      "sha256": "82471bec756791ef31e6d6a38e063f32b56da3d8e68737f51c1e8bd7f5362a22"
+    },
+    {
+      "kind": "canon-record",
+      "id": "pn0001-seq01-cold-open-canon-a320aa7ea80f",
+      "sha256": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f"
+    },
+    {
+      "kind": "canon-register",
+      "id": "pn0001-seq01-cold-open-canon-register",
+      "sha256": "5549c15f1a27694a4fc9a6f8bc588e13e58933871482055bb5a7aa0458e3205e"
+    }
+  ],
+  "evidenceItemCount": 14,
+  "evidenceRootHash": "992a62699e63b39819b49233b0eb2ab669c69fa15ab65e7b8cf0e126a223d608",
+  "createdAt": "2026-08-13T19:35:00.000Z",
+  "verificationAssertions": {
+    "pictureLocked": true,
+    "audioLocked": true,
+    "measuredQcPassed": true,
+    "masterAccepted": true,
+    "canonPromoted": true,
+    "humanCanonPromotionSignatureVerified": true,
+    "exactMasterOutputHashBound": true,
+    "provenanceInventoryComplete": true
+  },
+  "ledgerAdmissionEligible": true,
+  "ledgerAdmissionDecisionRequired": true,
+  "ledgerAdmissionReceiptRequired": true,
+  "ledgerAdmitted": false,
+  "networkReleaseCeremonyRequired": true,
+  "networkReleaseEligible": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "ledgerPacketHash": "1c5d253cabe55dc1dc636686e70f11fc957a1e2c3337c3a3ee21f28523532779"
+}

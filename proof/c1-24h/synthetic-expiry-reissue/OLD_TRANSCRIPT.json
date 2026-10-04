@@ -1,0 +1,53 @@
+{
+  "schema": "parallax.cineswarm.resumable-human-ceremony-transcript.c1.24g.v0.1",
+  "transcriptId": "proof-c1-24h-old-transcript",
+  "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "sessionHash": "2e8c6b2a06f579fd590bd8b4133f7308eae258cb70b09f20ded12ddf00f5253d",
+  "revision": 1,
+  "entries": [
+    {
+      "schema": "parallax.cineswarm.resumable-human-ceremony-event.c1.24g.v0.1",
+      "eventId": "proof-c1-24h-old-session:event:1",
+      "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+      "sessionHash": "2e8c6b2a06f579fd590bd8b4133f7308eae258cb70b09f20ded12ddf00f5253d",
+      "index": 1,
+      "eventType": "CHALLENGE_BOUND",
+      "artifactKind": "CHALLENGE",
+      "artifactHash": "bf55bd1bc7a3c2977b57f578c3d1aa3f1161f9d1106447668bba79dcb9482a2f",
+      "artifactPath": "proof/c1-24h/old-challenge.json",
+      "artifactVisibility": "PUBLIC",
+      "validatorId": "validator.c1-24h.challenge",
+      "validationResult": "PASS",
+      "actor": {
+        "kind": "machine",
+        "id": "cineswarm-c1-24h"
+      },
+      "observedAt": "2026-08-13T00:00:02Z",
+      "previousEventHash": null,
+      "containsPrivateKeyMaterial": false,
+      "orchestratorCanGeneratePrivateKey": false,
+      "orchestratorCanInferHumanAcknowledgement": false,
+      "orchestratorCanSignAdmission": false,
+      "orchestratorCanConfirmCommit": false,
+      "orchestratorCanAutoApplyCanonicalCommit": false,
+      "orchestratorCanAuthorizeRelease": false,
+      "publicRelease": false,
+      "relayDependency": false,
+      "eventHash": "063434c34b630466ff7d389955e199a40f9d44feb980d90e53353d233fdae800"
+    }
+  ],
+  "headHash": "063434c34b630466ff7d389955e199a40f9d44feb980d90e53353d233fdae800",
+  "recordedAt": "2026-08-13T00:00:02Z",
+  "witnessMode": "EVIDENCE_TRANSCRIPT_NOT_INDEPENDENT_HUMAN_WITNESS",
+  "publicArtifactsOnly": true,
+  "containsPrivateKeyMaterial": false,
+  "orchestratorCanGeneratePrivateKey": false,
+  "orchestratorCanInferHumanAcknowledgement": false,
+  "orchestratorCanSignAdmission": false,
+  "orchestratorCanConfirmCommit": false,
+  "orchestratorCanAutoApplyCanonicalCommit": false,
+  "orchestratorCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "transcriptHash": "95a7c37101d2517a26a3d4e03029a928af614bbfd9c512b26a8f7084cc7bc410"
+}

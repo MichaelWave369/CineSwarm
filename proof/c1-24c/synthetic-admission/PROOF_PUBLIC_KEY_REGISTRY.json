@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.signing-key-registry.c1.6.v0.1",
+  "keys": [
+    {
+      "keyId": "c1-24c-proof-only-key",
+      "algorithm": "Ed25519",
+      "status": "active",
+      "authority": {
+        "kind": "human",
+        "id": "c1-24c-proof-human"
+      },
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/nvccKDmp1SrODvkcS79yBmn0IPSS93oO+LhK5GGBoQ=\n-----END PUBLIC KEY-----\n",
+      "validFrom": "2026-08-13T23:00:00Z",
+      "validUntil": null
+    }
+  ],
+  "status": "SYNTHETIC_PROOF_ONLY",
+  "note": "Disposable public key for C1.24C machinery proof. Private key was memory-only and is not persisted."
+}

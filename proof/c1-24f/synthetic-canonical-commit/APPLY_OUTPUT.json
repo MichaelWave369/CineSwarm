@@ -1,0 +1,17 @@
+{
+  "status": "COMMITTED",
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+  "auditHash": "75891f52d840fdde610e35c7179ce83c74bbd1abb2213ae3e0def9f27a8c8a4a",
+  "receiptHash": "026063ca6c0d236d64f510803b507ff014a57e8fa2fdff5310982e26e4664032",
+  "commitRegisterHash": "5988f647e3e444d681eb5ebcd27ba678824784b796b33aaf11aec8c0e9080a0c",
+  "canonicalFullIndependentSourceRebuildProven": true,
+  "multiFileAtomicityClaimed": false,
+  "journalHash": "4af4fcf256c1736b7cb2e40feb4ac5004a96d5a8ee8e2be83ed1ffe79539f2fd",
+  "canonicalFileSha256": {
+    "keyRegistry": "cddd71d3bbabdc3b6e501b38df5d2773ab7b5b7180bec1457f175867a1ae17b2",
+    "c24Register": "cc5619a5f559e50558eee8cd7ece71ea798ba410552c6ba5ee278e3b22c65a82",
+    "admissionRegister": "e3f89f11498bee1d843ba91b0da5f5bda3ed28c1b78d63ccad5be0c8cd29f1bc"
+  },
+  "publicRelease": false,
+  "relayDependency": false
+}

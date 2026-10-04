@@ -1,0 +1,39 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-post-commit-audit.c1.24f.v0.1",
+  "auditId": "pn0001-c1-24f-post-commit-audit",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "keyId": "proof-human-c1-24d-key",
+  "auditedAt": "2026-08-14T00:47:30Z",
+  "result": "PASS",
+  "expected": {
+    "keyRegistryHash": "3c166de15db6d56867dbaea393a4c9e8ca1cbaa0422177e6fe245f488de1749d",
+    "c24RegisterHash": "af612f6c196321ed4accd38aefb6e870647b7cd63b99aac473d1f7e2ce8e8cb4",
+    "admissionRegisterHash": "5657f7c211b1398f62935e3448e2fdaad950abda293147f938abd8e72c966546"
+  },
+  "observed": {
+    "keyRegistryHash": "3c166de15db6d56867dbaea393a4c9e8ca1cbaa0422177e6fe245f488de1749d",
+    "c24RegisterHash": "af612f6c196321ed4accd38aefb6e870647b7cd63b99aac473d1f7e2ce8e8cb4",
+    "admissionRegisterHash": "5657f7c211b1398f62935e3448e2fdaad950abda293147f938abd8e72c966546"
+  },
+  "matches": {
+    "keyRegistry": true,
+    "c24Register": true,
+    "admissionRegister": true
+  },
+  "exactAll": true,
+  "canonicalFullIndependentSourceRebuildProven": true,
+  "admissionReceiptRecorded": true,
+  "humanPublicKeyActive": true,
+  "multiFileAtomicityClaimed": false,
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "auditHash": "75891f52d840fdde610e35c7179ce83c74bbd1abb2213ae3e0def9f27a8c8a4a"
+}

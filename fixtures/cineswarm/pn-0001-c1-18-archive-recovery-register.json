@@ -1,0 +1,21 @@
+{
+  "schema": "parallax.cineswarm.archive-recovery-register.c1.18.v0.1",
+  "registerId": "pn0001-seq01-cold-open-archive-recovery-register",
+  "policyId": "pn0001-c1-18-archive-recovery-policy",
+  "c17PolicyId": "pn0001-c1-17-public-archive-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "sourceC17ArchiveRegisterHash": "9713efa7a5cb6f812336a53402eced060e16ebcc428fe8d03d6dcba84fd7d5b5",
+  "revision": 0,
+  "recordedAt": "2026-08-13T20:30:00.000Z",
+  "entries": [],
+  "entryCount": 0,
+  "headHash": null,
+  "successfulRestoreDrillCount": 0,
+  "status": "EMPTY_NO_RESTORE_DRILLS",
+  "recoveryCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "38310b2b6aa051bba031daefff459abacf20cba0eff1764f59eaf90d266f1d3e"
+}

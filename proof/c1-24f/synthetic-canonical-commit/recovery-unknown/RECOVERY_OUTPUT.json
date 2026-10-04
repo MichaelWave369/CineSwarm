@@ -1,0 +1,9 @@
+{
+  "status": "MANUAL_INTERVENTION_REQUIRED",
+  "states": [
+    "BEFORE",
+    "UNKNOWN",
+    "BEFORE"
+  ],
+  "reason": "At least one canonical target matches neither signed before nor signed after hash. No automatic overwrite performed."
+}

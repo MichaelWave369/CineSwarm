@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.canon-register.c1.13.v0.1",
+  "registerId": "pn0001-seq01-cold-open-canon-register",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T12:20:00-07:00",
+  "status": "EMPTY_NO_CANON_RECORDS",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "canonRecordCount": 0,
+  "activeCanonRecordHash": null,
+  "ledgerAdmittedCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "a32dde4a63d880967dc754fb4835029820fa82326839c1c13fb03e9486c1959d"
+}

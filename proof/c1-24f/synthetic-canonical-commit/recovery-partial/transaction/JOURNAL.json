@@ -1,0 +1,16 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-transaction-journal.c1.24f.v0.1",
+  "transactionId": "pn0001-c1-24f-canonical-admission-transaction",
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+  "state": "ROLLED_BACK_RECOVERED",
+  "updatedAt": "2026-08-14T00:34:30.575Z",
+  "observedStatesBeforeRecovery": [
+    "AFTER",
+    "BEFORE",
+    "BEFORE"
+  ],
+  "multiFileAtomicityClaimed": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "journalHash": "a4f12d55d1293bc8df3825c241673dfc047d8a97602722b5f6ca887430ea57bb"
+}

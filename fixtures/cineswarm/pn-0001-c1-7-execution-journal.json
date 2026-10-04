@@ -1,0 +1,11 @@
+{
+  "schema": "parallax.cineswarm.execution-journal.c1.7.v0.1",
+  "journalId": "pn0001-seq01-execution-journal",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "appendOnly": true,
+  "singleUseEnvelopes": true,
+  "publicRelease": false,
+  "relayDependency": false,
+  "entries": []
+}

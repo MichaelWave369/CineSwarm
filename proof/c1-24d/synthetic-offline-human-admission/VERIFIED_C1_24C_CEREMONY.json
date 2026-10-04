@@ -1,0 +1,27 @@
+{
+  "schema": "parallax.cineswarm.independent-rebuild-admission-ceremony.c1.24c.v0.1",
+  "ceremonyId": "proof-c1-24d-admission-ceremony",
+  "policyId": "pn0001-c1-24c-independent-rebuild-admission-policy",
+  "reviewHash": "0334916d715610e9e78f53091a2e7ea07a48c66ef244f158c3d2b6adca4313cf",
+  "planHash": "b53bf5f5daefc7fccacea924e6eb951add28d7b9a5eddc6f3c598021fefaacb3",
+  "canonicalRegisterBeforeHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "expectedCanonicalRegisterAfterHash": "af612f6c196321ed4accd38aefb6e870647b7cd63b99aac473d1f7e2ce8e8cb4",
+  "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+  "rebuildReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+  "keyId": "proof-human-c1-24d-key",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "signedAt": "2026-08-13T23:44:00Z",
+  "signatureAlgorithm": "Ed25519",
+  "admissionAuthorized": true,
+  "ceremonyDigest": "5f041ce3d8dcbed612909fa3cf51f461572763aa7ba1d0f0285563a057feda96",
+  "signatureBase64": "crKPevlik6O0YpsTQRpI2+AsfW/ZEKhh5Xp1x90BmEzS8Z1gVf6eHVHdA46DUEKRodn0VwQHzJimUpIillotBg==",
+  "admissionCanAuthorizeRelease": false,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "ceremonyHash": "0bcc6124c15afb25e58b08a7d1d847e9cf18163c38be69f5e3d68c6eff22edb6"
+}

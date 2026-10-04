@@ -1,0 +1,35 @@
+{
+  "schema": "parallax.cineswarm.canon-register.c1.13.v0.1",
+  "registerId": "pn0001-seq01-cold-open-canon-register",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 1,
+  "recordedAt": "2026-08-13T19:34:00.000Z",
+  "status": "CANON_PROMOTED_LEDGER_ADMISSION_PENDING",
+  "entryCount": 1,
+  "entries": [
+    {
+      "entryId": "pn0001-seq01-cold-open-canon-event-0001",
+      "canonRecordId": "pn0001-seq01-cold-open-canon-a320aa7ea80f",
+      "canonRecordHash": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f",
+      "masterCandidateHash": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5",
+      "outputSha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60",
+      "promotionCeremonyHash": "82471bec756791ef31e6d6a38e063f32b56da3d8e68737f51c1e8bd7f5362a22",
+      "previousEntryHash": null,
+      "recordedAt": "2026-08-13T19:34:00.000Z",
+      "canonPromoted": true,
+      "ledgerAdmitted": false,
+      "publicRelease": false,
+      "relayDependency": false,
+      "entryHash": "2c6da63b080c7dee3f90a59655e24b713825769b76142fdd8fc2e16a12c1ec0c"
+    }
+  ],
+  "headHash": "2c6da63b080c7dee3f90a59655e24b713825769b76142fdd8fc2e16a12c1ec0c",
+  "canonRecordCount": 1,
+  "activeCanonRecordHash": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f",
+  "ledgerAdmittedCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "5549c15f1a27694a4fc9a6f8bc588e13e58933871482055bb5a7aa0458e3205e"
+}

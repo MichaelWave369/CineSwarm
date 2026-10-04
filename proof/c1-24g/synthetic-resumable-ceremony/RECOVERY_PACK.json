@@ -1,0 +1,86 @@
+{
+  "schema": "parallax.cineswarm.resumable-human-ceremony-recovery-pack.c1.24g.v0.1",
+  "packId": "proof-c1-24g-recovery-pack",
+  "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "sessionHash": "66dd942f887e547a91432199f3393731ab5f08c87b7c454a181e8f1285dc92c6",
+  "transcriptHash": "d974f781c1a17f38b20695e55399323469f95a365d4fbabdc5549a291c134d7a",
+  "resumeHash": "93777cb8d87ef4ce84cb8fb53cb9aa472593658cc637b50225922e7611065dc8",
+  "currentStatus": "COMPLETE",
+  "createdAt": "2026-08-14T00:20:30Z",
+  "canonicalBaseline": {
+    "keyRegistryHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+    "c24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "admissionRegisterHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+    "commitRegisterHash": "66215b5a84de14f44428f21aca3882c502cc4ebd8c2809413eb55776e049be94"
+  },
+  "artifacts": [
+    {
+      "kind": "C1_24D_CHALLENGE",
+      "path": "proof/c1-24d/synthetic-offline-human-admission/ENROLLMENT_CHALLENGE.json",
+      "sha256": "bf06eec97a9fc1f28a5802ea02110e373d329bae59b7189e1ebee7e3de2e275f",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24D_ENROLLMENT_RESPONSE",
+      "path": "proof/c1-24d/synthetic-offline-human-admission/ENROLLMENT_RESPONSE.json",
+      "sha256": "f76c87c328ea686239edd1f6f9467090bc7169a0de764522031f4e9ce2c1b1bf",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24E_FINGERPRINT_ACK",
+      "path": "proof/c1-24e/synthetic-human-ceremony-console/FINGERPRINT_ACKNOWLEDGEMENT.json",
+      "sha256": "aa268c95edf545ff5bac08d3514748534b3be09e108dc0caccbd15e50928eb4e",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24E_KEY_STAGE",
+      "path": "proof/c1-24e/synthetic-human-ceremony-console/KEY_ENROLLMENT_STAGE.json",
+      "sha256": "3c58fce35b3e1af2f1c8cb492f592fc3faa4533dd2ec0e4e654d2be000cc78c0",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24D_SIGNING_REQUEST",
+      "path": "proof/c1-24d/synthetic-offline-human-admission/OFFLINE_SIGNING_REQUEST.json",
+      "sha256": "dcc8ddfbc9df6797ae8d42c41b23adad3c498107006ebd20bbd92c2f971fff8e",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24D_SIGNED_RESPONSE",
+      "path": "proof/c1-24d/synthetic-offline-human-admission/SIGNED_ADMISSION_RESPONSE.json",
+      "sha256": "055a30c97c51d61e8e3bb90a9a9be1e8b159df0ff00d2f3abfbf29cf56b5092f",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24E_ADMISSION_STAGE",
+      "path": "proof/c1-24e/synthetic-human-ceremony-console/CANONICAL_ADMISSION_STAGE.json",
+      "sha256": "26d894f8fdd72217c5db9e1df1d6990371737ab700fec4abb6ae338d70d566e8",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24F_COMMIT_CONFIRMATION",
+      "path": "proof/c1-24f/synthetic-canonical-commit/transaction/CONFIRMATION.json",
+      "sha256": "e922f1346f1e4e6c7d7478c6d212a0473d1e05b3bae3d8cac729370a6d36c575",
+      "visibility": "PUBLIC"
+    },
+    {
+      "kind": "C1_24F_COMMIT_RECEIPT",
+      "path": "proof/c1-24f/synthetic-canonical-commit/transaction/COMMIT_RECEIPT.json",
+      "sha256": "2f1142174de12cda8aeb9024815b8bdd4dd902bb2cc2563f5200027c366fb592",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "witnessMode": "EVIDENCE_TRANSCRIPT_NOT_INDEPENDENT_HUMAN_WITNESS",
+  "containsPrivateKeyMaterial": false,
+  "privateKeyPathIncluded": false,
+  "canAuthorizeAdmission": false,
+  "canApplyCanonicalCommit": false,
+  "orchestratorCanGeneratePrivateKey": false,
+  "orchestratorCanInferHumanAcknowledgement": false,
+  "orchestratorCanSignAdmission": false,
+  "orchestratorCanConfirmCommit": false,
+  "orchestratorCanAutoApplyCanonicalCommit": false,
+  "orchestratorCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "packHash": "397a9aeb075ec08ff516c343968579f53faa87ff3d34db7056418b6589f4376a"
+}

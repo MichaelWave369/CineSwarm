@@ -1,0 +1,20 @@
+{
+  "schema": "parallax.cineswarm.challenge-health-handoff-status.c1.24h.v0.1",
+  "status": "HEALTHY_AWAITING_PUBLIC_ENROLLMENT_RESPONSE",
+  "healthAuditResult": "PASS",
+  "healthAuditHash": "cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061",
+  "handoffReady": true,
+  "handoffManifestHash": "312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e",
+  "handoffBytes": 23604,
+  "challengeExpired": false,
+  "challengeExpiresAt": "2026-08-15T00:36:55.070Z",
+  "canonicalDrift": false,
+  "privateKeyDetected": false,
+  "realHumanEnrollmentResponsePresent": false,
+  "canonicalMutation": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "blockers": [
+    "public human enrollment-response JSON not yet returned"
+  ]
+}

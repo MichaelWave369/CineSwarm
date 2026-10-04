@@ -1,0 +1,19 @@
+{
+  "phase": "C1.24",
+  "status": "EMPTY_NO_INDEPENDENT_REBUILD_HISTORY",
+  "registerRevision": 0,
+  "buildInputArchives": 0,
+  "independentRebuildReceipts": 0,
+  "fullIndependentSourceRebuildProven": false,
+  "buildInputsReady": false,
+  "missingBuildInputKinds": [
+    "UPSTREAM_SOURCE_TARBALL"
+  ],
+  "proofRequirement": "complete-input-closure-plus-source-build-plus-authoritative-media-decode",
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "originalDeletionAuthorized": false,
+  "preservationDerivativeDeletionAuthorized": false,
+  "publicRelease": false,
+  "relayDependency": false
+}
