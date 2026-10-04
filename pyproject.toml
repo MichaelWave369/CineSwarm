@@ -5,7 +5,21 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "parallax-cineswarm"
 version = "0.2.0"
-description = "Local-first media orchestration"
+description = "Local-first, receipt-driven distributed generative media orchestration"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.11"
+authors = [
+  {name = "Parallax / Michael Hughes"},
+]
 dependencies = []
+
+[project.scripts]
+cine = "cineswarm.cli:main"
+cine-node = "cineswarm.cli:node_main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
