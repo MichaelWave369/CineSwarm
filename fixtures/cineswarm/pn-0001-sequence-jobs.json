@@ -1,0 +1,86 @@
+[
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq01-cold-open", "order": 1, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:Cold open", "visual:s01", "visual:s02"] },
+    "project": { "name": "PN-0001 / 01 Cold Open", "humanAuthorityId": "michael-hughes", "brief": "Establish the overloaded media environment, then isolate one stable signal. The sequence must feel cinematic and premium, not dystopian or chaotic for its own sake.", "seed": "PN0001-C0-SEQ01" },
+    "narration": { "timecode": "0:00-0:20", "text": "The internet learned how to generate more. More videos. More posts. More feeds. More noise. But more is not the same as meaning. And speed is not the same as trust." },
+    "generation": { "seed": "PN0001-GEN-SEQ01", "shots": [
+      { "title": "Content Flood", "prompt": "Cinematic widescreen drift through stacked media walls, autoplay tiles and fragmented feeds in deep black-blue space, premium sci-fi streaming aesthetic, restrained neon accents, overload without copyrighted platform branding.", "durationSeconds": 7 },
+      { "title": "Meaning Fracture", "prompt": "Digital content fragments slow and separate in a dark premium environment while visual noise loses coherence; elegant motion-graphics composition showing more content without more meaning.", "durationSeconds": 6 },
+      { "title": "Stable Signal", "prompt": "Fragmented media dissolves into a clean dark void while a single cyan-violet signal line remains stable and luminous in the center, quiet transition from chaos to clarity.", "durationSeconds": 7 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 20, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  },
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq02-trust-question", "order": 2, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:The problem", "visual:s02"] },
+    "project": { "name": "PN-0001 / 02 Trust Question", "humanAuthorityId": "michael-hughes", "brief": "Move from speed and verification pressure into the central Parallax question: what if trust is built into the media itself? Keep the visual language calm, precise, and human-readable.", "seed": "PN0001-C0-SEQ02" },
+    "narration": { "timecode": "0:20-0:45", "text": "We are entering a world where media can be created faster than people can verify it. Parallax Network begins with a different question: What would media look like if trust was built into the content itself?" },
+    "generation": { "seed": "PN0001-GEN-SEQ02", "shots": [
+      { "title": "Acceleration", "prompt": "Elegant abstract media streams accelerate past a calm observer frame, clean dark UI space, visual metaphor for creation speed outpacing verification without fear-based imagery.", "durationSeconds": 8 },
+      { "title": "Verification Gap", "prompt": "A refined split composition: rapidly multiplying media tiles on one side and a deliberate verification trail on the other, restrained cyan and violet light, premium product-film aesthetic.", "durationSeconds": 8 },
+      { "title": "Trust Built In", "prompt": "A single media frame gains a transparent receipt-like trust layer as structured metadata geometry forms around it, luminous but grounded, clarity replacing uncertainty.", "durationSeconds": 9 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 25, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  },
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq03-network-reveal", "order": 3, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:The reveal", "visual:s03"] },
+    "project": { "name": "PN-0001 / 03 Network Reveal", "humanAuthorityId": "michael-hughes", "brief": "Reveal Parallax Network as an AI-native, mission-aligned streaming and creator-swarm platform. Show the product identity and living receipt layer without implying the unfinished platform is already broadly launched.", "seed": "PN0001-C0-SEQ03" },
+    "narration": { "timecode": "0:45-1:15", "text": "This is Parallax Network. An AI-native streaming and creator-swarm platform for mission-aligned media. Episodes are produced, reviewed, and connected to a living content receipt." },
+    "generation": { "seed": "PN0001-GEN-SEQ03", "shots": [
+      { "title": "Signal Architecture", "prompt": "A luminous signal line expands from darkness into elegant structured network geometry, cinematic cosmic atmosphere, dark premium brand reveal, precise and calm.", "durationSeconds": 10 },
+      { "title": "Network Interface", "prompt": "Parallax Network identity resolves into a premium streaming interface with mission channel cards and episode tiles, dark high-trust UI, rich contrast, no false live-service indicators.", "durationSeconds": 10 },
+      { "title": "Living Receipt Layer", "prompt": "A transparent content receipt panel connects visibly to an episode card, showing AI disclosure, review, rights and version cues in a beautiful understandable certificate-like interface.", "durationSeconds": 10 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 30, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  },
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq04-production-spine", "order": 4, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:The system", "visual:s04", "visual:s07"] },
+    "project": { "name": "PN-0001 / 04 Production Spine", "humanAuthorityId": "michael-hughes", "brief": "Show a coordinated creator swarm as an accountable production spine: showrunner, research, script, visual, editor and receipt roles. End on visible human authority rather than autonomous self-release.", "seed": "PN0001-C0-SEQ04" },
+    "narration": { "timecode": "1:15-1:55", "text": "Behind each episode is a visible production spine: showrunner, research, script, visual, editor, and receipt agents. Human operators still make the final calls." },
+    "generation": { "seed": "PN0001-GEN-SEQ04", "shots": [
+      { "title": "Swarm Roles", "prompt": "Cinematic dashboard with six elegant modular production nodes labeled by role concept: showrunner, research, script, visual, editor and receipt, clean connected workflow, dark premium UI.", "durationSeconds": 12 },
+      { "title": "Production Graph", "prompt": "Transparent production graph advances through task states, candidate assets and review gates; orchestration rather than automation chaos, visible lineage and version edges.", "durationSeconds": 14 },
+      { "title": "Human Gate", "prompt": "Warm human operator centered in a calm creative cockpit with Accept, Revise and Reject review gates visible around the work, stewardship and responsibility, not surveillance.", "durationSeconds": 14 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 40, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  },
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq05-trust-layer", "order": 5, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:The trust layer", "visual:s05"] },
+    "project": { "name": "PN-0001 / 05 Trust Layer", "humanAuthorityId": "michael-hughes", "brief": "Make the Living Content Receipt concrete and understandable. Highlight AI use, claims, rights, human review and change history without implying cryptographic verification has shipped where it has not.", "seed": "PN0001-C0-SEQ05" },
+    "narration": { "timecode": "1:55-2:25", "text": "Every serious piece of content should be able to answer simple questions: Was AI used? What claims are being made? Were rights checked? Who reviewed it? What changed?" },
+    "generation": { "seed": "PN0001-GEN-SEQ05", "shots": [
+      { "title": "Receipt Appears", "prompt": "Close-up premium Living Content Receipt interface appears beside a media frame, high-trust dark UI with readable structured sections and restrained glow.", "durationSeconds": 10 },
+      { "title": "Five Questions", "prompt": "Receipt sections illuminate sequentially for AI disclosure, claim posture, rights status, human review and version history, quiet verification feeling, no fake cryptographic success badges.", "durationSeconds": 10 },
+      { "title": "Change History", "prompt": "A clean version history and change log expands beneath the content receipt, showing transparent evolution of a media artifact and its review state.", "durationSeconds": 10 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 30, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  },
+  {
+    "schema": "parallax.network.cineswarm.production-job.v0.1",
+    "bridgeVersion": "0.1.0",
+    "targetEngine": { "name": "Parallax CineSwarm", "candidate": "C0-v0.1", "origin": "http://127.0.0.1:3690", "transport": "file-handoff" },
+    "network": { "episodeId": "episode_pn_0001", "workspaceId": "workspace_pn_0001", "receiptId": "receipt_pn_0001", "sequenceId": "pn0001-seq06-mission-close", "order": 6, "totalSequences": 6, "sourceRefs": ["scriptpack_pn_0001:The mission", "scriptpack_pn_0001:Close", "visual:s06", "visual:s07", "visual:s08"] },
+    "project": { "name": "PN-0001 / 06 Mission + Close", "humanAuthorityId": "michael-hughes", "brief": "Close on the human purpose of the network: media that can teach, heal, reveal, organize and inspire, with AI amplifying responsibility. Reveal mission-aligned channels, human guidance and the final Endless aligned signal brand line.", "seed": "PN0001-C0-SEQ06" },
+    "narration": { "timecode": "2:25-3:00", "text": "Parallax Network is for people who still believe media can teach, heal, reveal, organize, and inspire. It is for a future where AI amplifies responsibility instead of confusion. This is not infinite slop. This is endless aligned signal. Welcome to Parallax Network." },
+    "generation": { "seed": "PN0001-GEN-SEQ06", "shots": [
+      { "title": "Mission Channels", "prompt": "Premium streaming homepage glides across Parallax Originals, TruthLedger Docs, LumenBridge Network and Virtual Creator Lab channel tiles, cinematic depth and possibility.", "durationSeconds": 11 },
+      { "title": "Human Guided", "prompt": "A warm human operator remains visible at the center of transparent AI production tools and review gates, calm stewardship and dignity, human-guided AI-native media.", "durationSeconds": 11 },
+      { "title": "Aligned Signal", "prompt": "Breathtaking closing shot: luminous Parallax signal expands outward into dark cosmic space connecting creators, content and communities, premium hopeful brand finish, Endless aligned signal.", "durationSeconds": 13 }
+    ] },
+    "constraints": { "expectedDurationSeconds": 35, "shotCount": 3, "publicRelease": false, "providerAdapters": "disabled-in-c0", "humanBriefApprovalRequired": true, "humanAssetAcceptanceRequired": true, "humanDispositionRequired": true, "relayDependency": false }
+  }
+]

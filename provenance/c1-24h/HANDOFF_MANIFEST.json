@@ -1,0 +1,90 @@
+{
+  "schema": "parallax.cineswarm.human-handoff-manifest.c1.24h.v0.1",
+  "manifestId": "pn0001-c1-24h-human-handoff",
+  "policyId": "pn0001-c1-24h-challenge-health-handoff-policy",
+  "generatedAt": "2026-08-14T01:55:17.286Z",
+  "healthAuditHash": "cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061",
+  "sessionHash": "7ce6b9288947eec378f0e5609bec00d05fc3f1afefc1df8d22d8311ac99809a7",
+  "transcriptHash": "bf1878e984789ccf2a6ce7d8e7c796bc67844436cc80e7f143ae4967f7a07d21",
+  "fileCount": 10,
+  "totalBytes": 23604,
+  "files": [
+    {
+      "kind": "CHALLENGE",
+      "path": "C1_24D_LIVE_KEY_ENROLLMENT_CHALLENGE.json",
+      "sha256": "24a246e88621e6d0cc0ab97e118ece162eed50c10fc72f5731bb17219c95b32d",
+      "bytes": 1057
+    },
+    {
+      "kind": "SESSION",
+      "path": "C1_24G_LIVE_SESSION.json",
+      "sha256": "41c881c3fb9d8b18e603191d8fabe735643159c1ee96717746d20fe16d336bb8",
+      "bytes": 1522
+    },
+    {
+      "kind": "TRANSCRIPT",
+      "path": "C1_24G_LIVE_TRANSCRIPT.json",
+      "sha256": "034eb9e3df6fc138182408e5f108ba95a850b000c0bdf9d81837c837502e8e92",
+      "bytes": 2429
+    },
+    {
+      "kind": "RESUME_STATE",
+      "path": "C1_24G_LIVE_RESUME_STATE.json",
+      "sha256": "80c2c8ed95e4834bde1a55cc3f8b2d5755cd71d90140ea673e72206ecbc8affd",
+      "bytes": 1249
+    },
+    {
+      "kind": "RECOVERY_PACK",
+      "path": "C1_24G_LIVE_RECOVERY_PACK.json",
+      "sha256": "6543374f6b1d8212f3b370398340987a544778d80a5c4d1a55b2c11315c0c837",
+      "bytes": 2239
+    },
+    {
+      "kind": "HEALTH_AUDIT",
+      "path": "C1_24H_HEALTH_AUDIT.json",
+      "sha256": "dde2d311b9507cb89510f09ecb62f546cba700e3c69749e7c0517306b9a26a6d",
+      "bytes": 3526
+    },
+    {
+      "kind": "EXTERNAL_KEY_TOOL",
+      "path": "C1_24H_EXTERNAL_KEY_CEREMONY.mjs",
+      "sha256": "4bd5bb195302948e993c343ade299c8871f011dd7e8bb331bc9020ac84beafa0",
+      "bytes": 4667
+    },
+    {
+      "kind": "RESPONSE_VERIFIER",
+      "path": "C1_24H_VERIFY_ENROLLMENT_RESPONSE.mjs",
+      "sha256": "05c2e6c953929f88946b3e51211f9f66d3aeeb9c4ec622b28eb26f161f6eee8c",
+      "bytes": 2996
+    },
+    {
+      "kind": "HANDOFF_VERIFIER",
+      "path": "C1_24H_VERIFY_HANDOFF.mjs",
+      "sha256": "f7d54841c58da968551bfbc707c481115dcdc58f6d149509d451fff9fe256860",
+      "bytes": 2844
+    },
+    {
+      "kind": "INSTRUCTIONS",
+      "path": "README.md",
+      "sha256": "2da57fc3951c5dea9c2e205f709659b971ea000d137e498ac08341db14bd532f",
+      "bytes": 1075
+    }
+  ],
+  "compactHandoff": true,
+  "containsPreservationBuildClosure": false,
+  "containsPrivateKeyMaterial": false,
+  "includesExternalKeyGenerator": true,
+  "privateKeyDestinationMustRemainOutsideHandoff": true,
+  "handoffCanEnrollKey": false,
+  "handoffCanAuthorizeAdmission": false,
+  "handoffCanApplyCanonicalCommit": false,
+  "canGenerateHumanPrivateKey": false,
+  "canInferHumanAcknowledgement": false,
+  "canSignAdmission": false,
+  "canConfirmCanonicalCommit": false,
+  "canAutoApplyCanonicalCommit": false,
+  "canAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "manifestHash": "312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "parallax.cineswarm.picture-plan-register.c1.9.v0.1",
+  "registerId": "pn0001-seq01-picture-plan-register",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "status": "EMPTY_NO_ACCEPTED_CANDIDATES",
+  "candidateRegistryRevision": 0,
+  "candidateRegistryHash": "b61d98199a961e60d50e0612d840c6f8bb9a7bcf7e336f89ed6269201867920b",
+  "acceptedCandidateCount": 0,
+  "picturePlanCandidateCount": 0,
+  "humanReviewedPlanCount": 0,
+  "pictureLockCeremonyEligibleCount": 0,
+  "pictureLockedCount": 0,
+  "canonEligibleCount": 0,
+  "publicRelease": false,
+  "relayDependency": false
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "parallax.cineswarm.resumable-human-ceremony-session.c1.24g.v0.1",
+  "sessionId": "c1-24g-michael-hughes-c1-24-admission-001-session",
+  "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "startedAt": "2026-08-14T00:58:00Z",
+  "challengeId": "c1-24d-challenge-5be9642cdc24fb1a",
+  "challengeHash": "c4c012fadd1525c0c8fd58fa94a6091de2ff61edf402cccc727729d596c6d983",
+  "challengeExpiresAt": "2026-08-15T00:36:55.070Z",
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "keyId": "michael-hughes-c1-24-admission-001",
+  "canonicalBaseline": {
+    "keyRegistryHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+    "c24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "admissionRegisterHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+    "commitRegisterHash": "66215b5a84de14f44428f21aca3882c502cc4ebd8c2809413eb55776e049be94"
+  },
+  "witnessMode": "EVIDENCE_TRANSCRIPT_NOT_INDEPENDENT_HUMAN_WITNESS",
+  "publicArtifactsOnly": true,
+  "containsPrivateKeyMaterial": false,
+  "orchestratorCanGeneratePrivateKey": false,
+  "orchestratorCanInferHumanAcknowledgement": false,
+  "orchestratorCanSignAdmission": false,
+  "orchestratorCanConfirmCommit": false,
+  "orchestratorCanAutoApplyCanonicalCommit": false,
+  "orchestratorCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "sessionHash": "7ce6b9288947eec378f0e5609bec00d05fc3f1afefc1df8d22d8311ac99809a7"
+}

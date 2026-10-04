@@ -1,0 +1,37 @@
+{
+  "schema": "parallax.cineswarm.challenge-reissue-receipt.c1.24h.v0.1",
+  "receiptId": "proof-c1-24h-reissue-receipt",
+  "policyId": "pn0001-c1-24h-challenge-health-handoff-policy",
+  "reissuedAt": "2026-08-14T00:01:00Z",
+  "reason": "EXPIRED",
+  "predecessor": {
+    "sessionHash": "2e8c6b2a06f579fd590bd8b4133f7308eae258cb70b09f20ded12ddf00f5253d",
+    "transcriptHash": "95a7c37101d2517a26a3d4e03029a928af614bbfd9c512b26a8f7084cc7bc410",
+    "challengeHash": "bf55bd1bc7a3c2977b57f578c3d1aa3f1161f9d1106447668bba79dcb9482a2f",
+    "challengeExpiredAt": "2026-08-14T00:00:00Z"
+  },
+  "replacement": {
+    "challengeId": "proof-c1-24h-new-challenge",
+    "challengeHash": "c1d208b0913b5e765bba3b0f63fa6dac2d015774ea2eec044f3ade2c30e209f6",
+    "challengeExpiresAt": "2026-08-15T00:01:00Z"
+  },
+  "canonicalBaseline": {
+    "keyRegistryHash": "c3494d07c0034245e28b7f45f4807b9211e92d9ad0c639c89607d81e12dc2613",
+    "c24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "admissionRegisterHash": "4462f3e95aacb469ce50f9b79a8475d94c47faf8a1554b736a18f6a10d1bb3b1",
+    "commitRegisterHash": "66215b5a84de14f44428f21aca3882c502cc4ebd8c2809413eb55776e049be94"
+  },
+  "humanAuthorityChanged": false,
+  "enrollmentResponseCarriedForward": false,
+  "reissueCanEnrollKey": false,
+  "reissueCanAuthorizeAdmission": false,
+  "canGenerateHumanPrivateKey": false,
+  "canInferHumanAcknowledgement": false,
+  "canSignAdmission": false,
+  "canConfirmCanonicalCommit": false,
+  "canAutoApplyCanonicalCommit": false,
+  "canAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "receiptHash": "04903152fd10af4f92bf3e0301364115d869d3da5fb60eee0282deb642de7d08"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.master-candidate-register.c1.12.v0.1",
+  "registerId": "pn0001-seq01-cold-open-master-candidate-register",
+  "policyId": "pn0001-seq01-master-review-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T11:15:00-07:00",
+  "status": "EMPTY_NO_MASTER_CANDIDATES",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "masterCandidateCount": 0,
+  "canonEligibleCount": 0,
+  "ledgerPromotionEligibleCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "5e876ca791d629a25ab284034b70c58898e3e12b91719cb7aedd8b76b3e887eb"
+}

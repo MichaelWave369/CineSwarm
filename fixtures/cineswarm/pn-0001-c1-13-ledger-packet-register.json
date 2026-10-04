@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.ledger-packet-register.c1.13.v0.1",
+  "registerId": "pn0001-seq01-cold-open-ledger-admission-packet-register",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T12:20:00-07:00",
+  "status": "EMPTY_NO_LEDGER_ADMISSION_PACKETS",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "packetCount": 0,
+  "ledgerAdmittedCount": 0,
+  "networkReleaseCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "af8335ae96936475158eda8abdc1f19be59de592939f69e2ea523e0b62bd32fe"
+}

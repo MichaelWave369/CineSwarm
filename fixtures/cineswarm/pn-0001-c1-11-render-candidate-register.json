@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.render-candidate-register.c1.11.v0.1",
+  "registerId": "pn0001-seq01-cold-open-render-candidate-register",
+  "policyId": "pn0001-seq01-locked-render-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T11:05:00-07:00",
+  "status": "EMPTY_NO_RENDER_CANDIDATES",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "renderCandidateCount": 0,
+  "masterAcceptedCount": 0,
+  "canonEligibleCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "a45b95fe9f2a276b4a0556e702b7cadfdf9c8d703e544524602da3148ddde6e4"
+}

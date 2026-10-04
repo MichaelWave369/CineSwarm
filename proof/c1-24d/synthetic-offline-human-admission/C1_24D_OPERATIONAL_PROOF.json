@@ -1,0 +1,25 @@
+{
+  "schema": "parallax.cineswarm.c1-24d-operational-proof.v0.1",
+  "proofOnly": true,
+  "proofAuthority": {
+    "kind": "human",
+    "id": "proof-human",
+    "simulated": true
+  },
+  "realHumanKeyGenerated": false,
+  "realHumanKeyEnrolled": false,
+  "realHumanAdmissionPerformed": false,
+  "privateKeyPersisted": false,
+  "canonicalFixturesMutated": false,
+  "technicalProofEarned": true,
+  "proofKeyPossessionVerified": true,
+  "proofOfflineSignatureVerified": true,
+  "proofClonedCanonicalAdmissionSucceeded": true,
+  "proofClonedCanonicalRegisterRevision": 2,
+  "proofClonedCanonicalFullIndependentSourceRebuildProven": true,
+  "realCanonicalRegisterRevision": 0,
+  "realCanonicalFullIndependentSourceRebuildProven": false,
+  "realAdmissionRegisterRevision": 0,
+  "publicRelease": false,
+  "relayDependency": false
+}

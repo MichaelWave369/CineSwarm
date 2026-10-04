@@ -1,0 +1,36 @@
+{
+  "schema": "parallax.cineswarm.independent-rebuild-admission-register.c1.24c.v0.1",
+  "registerId": "pn0001-seq01-cold-open-independent-rebuild-admission-register",
+  "policyId": "pn0001-c1-24c-independent-rebuild-admission-policy",
+  "sourceC24PolicyId": "pn0001-c1-24-independent-build-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "sourceCanonicalC24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "revision": 1,
+  "recordedAt": "2026-08-13T23:20:00Z",
+  "entries": [
+    {
+      "index": 1,
+      "event": "INDEPENDENT_REBUILD_CANONICAL_ADMISSION_RECORDED",
+      "receiptId": "c1-24c-proof-admission-receipt",
+      "receiptHash": "058bf8188ebad182c53e9fbc84b0e45f6b67b013fd9411486e51f14459163001",
+      "canonicalRegisterAfterHash": "a976490da36718f2ec3aea831bc1f9a172974e956387ddc9a77c4bffdf9b079e",
+      "canonicalRegisterAfterRevision": 2,
+      "fullIndependentSourceRebuildProven": true,
+      "recordedAt": "2026-08-13T23:20:00Z",
+      "previousEntryHash": null,
+      "entryHash": "74c8c9e8a1c76960ab73dee6de2bd57334c253daf006cc76474c77ee2056f312"
+    }
+  ],
+  "entryCount": 1,
+  "headHash": "74c8c9e8a1c76960ab73dee6de2bd57334c253daf006cc76474c77ee2056f312",
+  "admissionReceiptCount": 1,
+  "status": "CANONICAL_ADMISSION_HISTORY_PRESENT",
+  "admissionCanAuthorizeRelease": false,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "a8bc7ae02dc6046dbec7b51410f01c7d17822073ae2f2c0d3fd53c3a81a6e7a0"
+}

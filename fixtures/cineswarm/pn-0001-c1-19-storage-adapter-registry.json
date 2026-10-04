@@ -1,0 +1,18 @@
+{
+  "schema": "parallax.cineswarm.storage-adapter-registry.c1.19.v0.1",
+  "registryId": "pn0001-seq01-cold-open-storage-adapter-registry",
+  "policyId": "pn0001-c1-19-replica-maintenance-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "revision": 0,
+  "recordedAt": "2026-08-13T20:40:00.000Z",
+  "adapters": [],
+  "adapterCount": 0,
+  "configuredAdapterCount": 0,
+  "contractOnlyAdapterCount": 0,
+  "maintenanceCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registryHash": "4f49e2d3d717e0aed58bfecb86cb70ea76349ebb91aa21151791ea797bf3b147"
+}

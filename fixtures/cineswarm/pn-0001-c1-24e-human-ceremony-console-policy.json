@@ -1,0 +1,18 @@
+{
+  "schema": "parallax.cineswarm.human-ceremony-console-policy.c1.24e.v0.1",
+  "policyId": "pn0001-c1-24e-human-ceremony-console-policy",
+  "sourceC24DPolicyId": "pn0001-c1-24d-offline-human-admission-kit-policy",
+  "requireExactFingerprintReentry": true,
+  "requireProofOfPossessionBeforeAcknowledgement": true,
+  "requireStagedRegistryBeforeAdmissionSigning": true,
+  "requireSignedResponseBeforeAdmissionStage": true,
+  "requireExactCanonicalBeforeHash": true,
+  "stagingOnly": true,
+  "consoleCanGeneratePrivateKey": false,
+  "consoleCanAutoAcknowledgeFingerprint": false,
+  "consoleCanAutoSignAdmission": false,
+  "consoleCanAutoApplyCanonicalAdmission": false,
+  "consoleCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

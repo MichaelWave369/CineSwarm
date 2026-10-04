@@ -1,0 +1,83 @@
+{
+  "schema": "parallax.cineswarm.real-build-input-acquisition-evidence.c1.24.v0.2",
+  "phase": "C1.24B",
+  "checkedAt": "2026-08-13T23:04:03.827Z",
+  "policyId": "pn0001-c1-24-independent-build-policy",
+  "sourceProject": "FFmpeg",
+  "sourceVersion": "7.1.5",
+  "preservedInputs": [
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-01",
+      "kind": "UPSTREAM_SOURCE_TARBALL",
+      "origin": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-7.1.5.tar.xz",
+      "sha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+      "size": 11050340
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-02",
+      "kind": "DETACHED_SIGNATURE",
+      "origin": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz.asc",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-7.1.5.tar.xz.asc",
+      "sha256": "7ce4b9d56e3ef0cd4c3a9c0b2c8a034ac91e6c4c011c1f10b05a8aa7292fca35",
+      "size": 520
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-03",
+      "kind": "SIGNING_PUBLIC_KEY",
+      "origin": "https://ffmpeg.org/ffmpeg-devel.asc",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-devel.asc",
+      "sha256": "397b3becedcd5a98769967ff1ff8501ddc89f8368b8f766e4701377d7dbaabe5",
+      "size": 1709
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-04",
+      "kind": "COMPILER_TOOLCHAIN",
+      "origin": "captured-local-toolchain://debian-trixie-amd64-gcc-14.2.0",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/toolchain.tar.xz",
+      "sha256": "8af8383b5caa0990b73354c8d8d7bed0484a5c42ad0b7ffa9f34554ad9c1500f",
+      "size": 53748380
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-05",
+      "kind": "BUILD_TOOL",
+      "origin": "captured-local-buildtools://make-4.4.1-shell-coreutils",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/buildtools.tar",
+      "sha256": "c9c7fabf6da5b1f2bf2072c2736ab4d9c109a16d3b69781f9393cd72fe44d0f8",
+      "size": 17940480
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-06",
+      "kind": "SYSROOT_OR_BUILD_DEPENDENCY_CLOSURE",
+      "origin": "captured-local-sysroot://debian-trixie-amd64-libc-linux-headers",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/sysroot.tar.xz",
+      "sha256": "f05ba018a1f0e991d6015787ec173c9a2209b421a7a83cc323047684405c0384",
+      "size": 9497312
+    },
+    {
+      "artifactId": "pn0001-c1-24-preserved-input-07",
+      "kind": "BUILD_CONFIGURATION",
+      "origin": "parallax-governed-config://c1.24-minimal-decoder",
+      "present": true,
+      "path": "proof/c1-24/real-input-acquisition/build-configuration-bundle.tar",
+      "sha256": "4544eddb7458e998116005885277eabe0fd1a002bdbbf4e09c22c1db51cf3ea3",
+      "size": 51200
+    }
+  ],
+  "missingKinds": [],
+  "status": "READY_TO_BUILD_INPUT_ARCHIVE",
+  "sourceIngestReceiptHash": "44e3c7775a7d4935e34518bef87a391e81f7ffe6c665ece4738e63857a035317",
+  "sourceSignatureVerified": true,
+  "releaseSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+  "fullIndependentSourceRebuildProofAvailable": true,
+  "fullIndependentSourceRebuildProofReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+  "canonicalAdmissionPending": true,
+  "publicRelease": false,
+  "relayDependency": false
+}

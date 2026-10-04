@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.candidate-registry-policy.c1.9.v0.1",
+  "policyId": "pn0001-seq01-candidate-registry-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "requiredShotCount": 3,
+  "requireAcceptedC1_8Asset": true,
+  "requireExactRequestDigest": true,
+  "requireExactSequenceJobDigest": true,
+  "requireDistinctArtifactPerShot": true,
+  "requireSingleContinuityVersion": true,
+  "requireHumanPicturePlanReview": true,
+  "autoPictureLock": false,
+  "pictureLockAuthority": false,
+  "canonAuthority": false,
+  "ledgerPromotionAuthority": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

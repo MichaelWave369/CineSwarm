@@ -1,0 +1,28 @@
+{
+  "schema": "parallax.cineswarm.independent-rebuild-admission-receipt.c1.24c.v0.1",
+  "receiptId": "c1-24c-proof-admission-receipt",
+  "policyId": "pn0001-c1-24c-independent-rebuild-admission-policy",
+  "ceremonyHash": "68ca8c6a7a86d6a78d78d8931ccda76824b1faa0480799eec1cd87400474898b",
+  "reviewHash": "48f58f6506e09d9d435845dac07f77a877b1f1679171041fbdc8fee3fab92a95",
+  "planHash": "0ab547dfb8210603da6da4f341bf4736a5bf1dd303cc79563d63477b4ad81749",
+  "authority": {
+    "kind": "human",
+    "id": "c1-24c-proof-human"
+  },
+  "keyId": "c1-24c-proof-only-key",
+  "issuedAt": "2026-08-13T23:19:30Z",
+  "canonicalRegisterBeforeHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "canonicalRegisterAfterHash": "a976490da36718f2ec3aea831bc1f9a172974e956387ddc9a77c4bffdf9b079e",
+  "canonicalRegisterAfterRevision": 2,
+  "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+  "rebuildReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+  "proofRegisterHash": "6f1b2af31f1039942071e0af4dd51083411115e168d0306cc7b5fddd2706eb54",
+  "canonicalFullIndependentSourceRebuildProven": true,
+  "fullOsIsolationProven": false,
+  "admissionCanAuthorizeRelease": false,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "receiptHash": "058bf8188ebad182c53e9fbc84b0e45f6b67b013fd9411486e51f14459163001"
+}

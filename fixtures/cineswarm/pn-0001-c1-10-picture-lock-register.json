@@ -1,0 +1,23 @@
+{
+  "schema": "parallax.cineswarm.picture-lock-register.c1.10.v0.1",
+  "registerId": "pn0001-seq01-cold-open-picture-lock-register",
+  "policyId": "pn0001-seq01-picture-lock-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T10:50:00-07:00",
+  "status": "EMPTY_NO_PICTURE_LOCKS",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "currentManifestHash": null,
+  "lockedManifestCount": 0,
+  "unlockEventCount": 0,
+  "supersededManifestCount": 0,
+  "pictureLocked": false,
+  "canonEligible": false,
+  "ledgerPromotionEligible": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "4c902691e1e1458aaae25fc6615ec962c87d855ac4f9db410592851a3d7a8faa"
+}

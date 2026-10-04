@@ -1,0 +1,43 @@
+{
+  "name": "@parallax-network/cineswarm-bridge",
+  "private": true,
+  "version": "0.26.0",
+  "type": "module",
+  "description": "Fail-closed Studio/CineSwarm bridge through C1.24H challenge health/reissue and compact public human handoff, preserving C1.24G resumability and C1.24F journaled canonical commit.",
+  "exports": {
+    ".": "./src/index.js",
+    "./execution-authorization": "./src/execution-authorization.js",
+    "./authorization-seal": "./src/authorization-seal.js",
+    "./key-ceremony-journal": "./src/key-ceremony-journal.js",
+    "./asset-intake": "./src/asset-intake.js",
+    "./candidate-picture-plan": "./src/candidate-picture-plan.js",
+    "./picture-lock": "./src/picture-lock.js",
+    "./locked-render-audio": "./src/locked-render-audio.js",
+    "./master-review-audio-lock": "./src/master-review-audio-lock.js",
+    "./canon-ledger-admission": "./src/canon-ledger-admission.js",
+    "./ledger-release-candidate": "./src/ledger-release-candidate.js",
+    "./network-release": "./src/network-release.js",
+    "./release-lifecycle": "./src/release-lifecycle.js",
+    "./public-archive-integrity": "./src/public-archive-integrity.js",
+    "./archive-recovery": "./src/archive-recovery.js",
+    "./replica-maintenance": "./src/replica-maintenance.js",
+    "./preservation-audit-refresh": "./src/preservation-audit-refresh.js",
+    "./format-obsolescence-migration": "./src/format-obsolescence-migration.js",
+    "./decode-environment-access": "./src/decode-environment-access.js",
+    "./reproducible-decode-capsule": "./src/reproducible-decode-capsule.js",
+    "./independent-source-rebuild": "./src/independent-source-rebuild.js",
+    "./independent-rebuild-admission": "./src/independent-rebuild-admission.js",
+    "./offline-human-admission-kit": "./src/offline-human-admission-kit.js",
+    "./human-ceremony-console": "./src/human-ceremony-console.js",
+    "./canonical-admission-commit": "./src/canonical-admission-commit.js",
+    "./resumable-human-ceremony": "./src/resumable-human-ceremony.js",
+    "./challenge-health-handoff": "./src/challenge-health-handoff.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "UNLICENSED"
+}

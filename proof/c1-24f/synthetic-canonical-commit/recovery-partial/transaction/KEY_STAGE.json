@@ -1,0 +1,75 @@
+{
+  "schema": "parallax.cineswarm.human-key-enrollment-stage.c1.24e.v0.1",
+  "stageId": "proof-c1-24e-key-enrollment-stage",
+  "policyId": "pn0001-c1-24e-human-ceremony-console-policy",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human",
+    "simulated": false
+  },
+  "keyId": "proof-human-c1-24d-key",
+  "acknowledgementHash": "df4ba23b62ac4604fa02f8eec8d6573628e015bc4020cb4111ebd78e9f3efa26",
+  "enrollmentResponseHash": "30015b02d03e47146a77eb8fb009c52e5b8e06ca14e918fdbf0d3d0a7dc41c47",
+  "keyCeremony": {
+    "schema": "parallax.cineswarm.human-key-ceremony.c1.7.v0.1",
+    "ceremonyId": "proof-c1-24d-enrollment-ceremony",
+    "action": "ENROLL",
+    "authority": {
+      "kind": "human",
+      "id": "proof-human"
+    },
+    "simulated": false,
+    "recordedAt": "2026-08-13T23:42:30Z",
+    "previousKeyId": null,
+    "newKey": {
+      "keyId": "proof-human-c1-24d-key",
+      "algorithm": "Ed25519",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUAdB3IhdqFSnfwslEKPEssUWq3xU5X6z9xTDzfEYVyQ=\n-----END PUBLIC KEY-----",
+      "fingerprintSha256": "6af46e6201c457f38b3fd338e7fb9239d45ce6aa22e68099106309c3896747e2",
+      "possessionProof": {
+        "challengeNonce": "cafebabedeadbeef00112233445566778899aabbccddeeff0123456789abcdef",
+        "signatureBase64": "W62q/29LlJXrSeAhs1c6RC4nwM6H+wAdPRU3N35aaOguuDA/pLDnSuBiQ3BIhdDO3oFqIxkewspHzWvo5mZSDw=="
+      }
+    },
+    "acknowledgements": {
+      "privateKeyHeldExternally": true,
+      "privateKeyNotStoredInRepository": true,
+      "fingerprintVerifiedByHuman": true
+    },
+    "publicRelease": false,
+    "relayDependency": false
+  },
+  "stagedKeyRegistry": {
+    "schema": "parallax.cineswarm.signing-key-registry.c1.6.v0.1",
+    "keys": [
+      {
+        "keyId": "proof-human-c1-24d-key",
+        "algorithm": "Ed25519",
+        "status": "active",
+        "authority": {
+          "kind": "human",
+          "id": "proof-human"
+        },
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAUAdB3IhdqFSnfwslEKPEssUWq3xU5X6z9xTDzfEYVyQ=\n-----END PUBLIC KEY-----",
+        "fingerprintSha256": "6af46e6201c457f38b3fd338e7fb9239d45ce6aa22e68099106309c3896747e2",
+        "validFrom": "2026-08-13T23:42:30Z",
+        "validUntil": null,
+        "enrolledByCeremonyId": "proof-c1-24d-enrollment-ceremony"
+      }
+    ],
+    "status": "PROVISIONED",
+    "note": "No real human signing public key has been registered yet. Private keys are never stored here."
+  },
+  "stagedKeyRegistryHash": "3c166de15db6d56867dbaea393a4c9e8ca1cbaa0422177e6fe245f488de1749d",
+  "canonicalKeyRegistryMutated": false,
+  "canonicalApplyIncluded": false,
+  "recordedAt": "2026-08-13T23:42:30Z",
+  "consoleCanGeneratePrivateKey": false,
+  "consoleCanAutoAcknowledgeFingerprint": false,
+  "consoleCanAutoSignAdmission": false,
+  "consoleCanAutoApplyCanonicalAdmission": false,
+  "consoleCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "stageHash": "781aab2f8dc069e7702e66348d5ff6c5d5b9f11d91b8385a4661ea6e613e0139"
+}

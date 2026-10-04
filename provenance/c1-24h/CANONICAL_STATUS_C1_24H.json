@@ -1,0 +1,16 @@
+{
+  "status": "HEALTHY_AWAITING_PUBLIC_ENROLLMENT_RESPONSE",
+  "humanAuthorityStillRequired": true,
+  "canGenerateHumanPrivateKey": false,
+  "canInferHumanAcknowledgement": false,
+  "canSignAdmission": false,
+  "canConfirmCanonicalCommit": false,
+  "canAutoApplyCanonicalCommit": false,
+  "canAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "healthAuditHash": "cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061",
+  "handoffManifestHash": "312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e",
+  "challengeExpiresAt": "2026-08-15T00:36:55.070Z",
+  "canonicalMutation": false
+}

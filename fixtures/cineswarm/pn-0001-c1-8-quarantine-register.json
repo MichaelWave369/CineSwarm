@@ -1,0 +1,15 @@
+{
+  "schema": "parallax.cineswarm.asset-quarantine-register.c1.8.v0.1",
+  "registerId": "pn0001-seq01-quarantine-register",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "status": "EMPTY_NO_PROVIDER_ATTEMPTS",
+  "attemptReceiptCount": 0,
+  "quarantinedAssetCount": 0,
+  "acceptedCandidateCount": 0,
+  "pictureLockEligibleCount": 0,
+  "canonEligibleCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "entries": []
+}

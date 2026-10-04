@@ -1,0 +1,21 @@
+{
+  "schema": "parallax.cineswarm.resumable-human-ceremony-policy.c1.24g.v0.1",
+  "policyId": "pn0001-c1-24g-resumable-human-ceremony-policy",
+  "sourceC24FPolicyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "requirePublicArtifactsOnly": true,
+  "requireHashChainedTranscript": true,
+  "requireEvidenceBasedResume": true,
+  "requireHumanGateSeparation": true,
+  "requirePrivateKeyExclusion": true,
+  "requireRecoveryPack": true,
+  "requireCanonicalHashBinding": true,
+  "witnessMode": "EVIDENCE_TRANSCRIPT_NOT_INDEPENDENT_HUMAN_WITNESS",
+  "orchestratorCanGeneratePrivateKey": false,
+  "orchestratorCanInferHumanAcknowledgement": false,
+  "orchestratorCanSignAdmission": false,
+  "orchestratorCanConfirmCommit": false,
+  "orchestratorCanAutoApplyCanonicalCommit": false,
+  "orchestratorCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

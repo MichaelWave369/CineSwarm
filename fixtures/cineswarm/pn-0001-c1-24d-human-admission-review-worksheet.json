@@ -1,0 +1,20 @@
+{
+  "authorityId": "michael-hughes",
+  "decision": "HOLD",
+  "reason": "Human must review the exact C1.24B evidence before changing this worksheet to ADMIT_TO_CANONICAL.",
+  "reviewedAt": null,
+  "checks": {
+    "sourceAuthenticityAccepted": false,
+    "buildInputClosureAccepted": false,
+    "sourceBuildAccepted": false,
+    "authoritativeDecodeAccepted": false,
+    "fullOsIsolationLimitationAcknowledged": false,
+    "releaseBoundaryAcknowledged": false
+  },
+  "instructions": [
+    "Do not set ADMIT_TO_CANONICAL until you personally accept every check.",
+    "fullOsIsolationProven remains false and must be acknowledged.",
+    "Admission does not authorize publication or public release.",
+    "Set reviewedAt to the actual ISO-8601 time of the human decision."
+  ]
+}

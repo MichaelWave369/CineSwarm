@@ -1,0 +1,40 @@
+{
+  "mechanicsOnly": true,
+  "governanceReceipt": false,
+  "sourceObservation": {
+    "actualSha256": "75119a3052bbe86cfaea2efc67b39003a714f889f7854d5e07487cd21c4848ee",
+    "fullDecodePassed": true,
+    "technical": {
+      "container": "matroska",
+      "videoCodec": "ffv1",
+      "audioCodec": "pcm_s24le",
+      "pixelFormat": "yuv420p",
+      "audioSampleRateHz": 48000,
+      "audioChannels": 2,
+      "durationSeconds": 2,
+      "width": 320,
+      "height": 180,
+      "frameRate": 24
+    }
+  },
+  "accessObservation": {
+    "actualSha256": "340043dec543b89bad917e97ae2feeb771e84aa2caa8f9e0b9b5b57c6ace1518",
+    "fullDecodePassed": true,
+    "technical": {
+      "container": "mp4",
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "pixelFormat": "yuv420p",
+      "audioSampleRateHz": 48000,
+      "audioChannels": 2,
+      "durationSeconds": 2,
+      "width": 320,
+      "height": 180,
+      "frameRate": 24
+    }
+  },
+  "outputPath": "/mnt/data/cineswarm_decode_access_proof/playback-access.mp4",
+  "originalOrPreservationAuthorityChanged": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

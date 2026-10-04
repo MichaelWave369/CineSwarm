@@ -1,0 +1,22 @@
+{
+  "phase": "C1.24D",
+  "status": "OFFLINE_KIT_READY_FOR_EXTERNAL_KEY_CEREMONY",
+  "technicalProofEarned": true,
+  "kitReady": true,
+  "externalHumanKeyEnrolled": false,
+  "activeAuthorityKeyIds": [],
+  "humanAdmissionSigned": false,
+  "canonicalRegisterRevision": 0,
+  "canonicalFullIndependentSourceRebuildProven": false,
+  "blockers": [
+    "EXTERNAL_HUMAN_KEY_NOT_ENROLLED",
+    "HUMAN_C1_24C_ADMISSION_NOT_SIGNED",
+    "CANONICAL_C1_24_NOT_ADMITTED"
+  ],
+  "privateKeyCustody": "external-human-controlled",
+  "privateKeyExpectedInRepository": false,
+  "kitCanAuthorizeAdmission": false,
+  "kitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

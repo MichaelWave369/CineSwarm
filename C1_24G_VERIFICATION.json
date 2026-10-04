@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "phase": "C1.24G",
+  "proofOnly": true,
+  "sessionHash": "66dd942f887e547a91432199f3393731ab5f08c87b7c454a181e8f1285dc92c6",
+  "transcriptHash": "d974f781c1a17f38b20695e55399323469f95a365d4fbabdc5549a291c134d7a",
+  "recoveryPackHash": "397a9aeb075ec08ff516c343968579f53faa87ff3d34db7056418b6589f4376a",
+  "completedEventCount": 9,
+  "resumeStatus": "COMPLETE",
+  "realCanonicalRevision": 0,
+  "realAdmissionRevision": 0,
+  "realCommitRevision": 0,
+  "realHumanKeyCount": 0,
+  "privateKeyPersisted": false,
+  "independentHumanWitnessClaimed": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

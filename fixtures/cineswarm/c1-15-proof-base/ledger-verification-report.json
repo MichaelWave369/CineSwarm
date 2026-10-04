@@ -1,0 +1,42 @@
+{
+  "schema": "parallax.cineswarm.ledger-verification-report.c1.14.v0.1",
+  "reportId": "pn0001-seq01-cold-open-ledger-verification-1c5d253cabe5",
+  "policyId": "pn0001-seq01-ledger-release-policy",
+  "canonLedgerPolicyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "verifier": {
+    "kind": "ledger-verifier",
+    "id": "parallax-ledger-local-verifier"
+  },
+  "packetId": "pn0001-seq01-cold-open-ledger-admission-6c97820b0a7e",
+  "ledgerPacketHash": "1c5d253cabe55dc1dc636686e70f11fc957a1e2c3337c3a3ee21f28523532779",
+  "evidenceRootHash": "992a62699e63b39819b49233b0eb2ab669c69fa15ab65e7b8cf0e126a223d608",
+  "evidenceItemCount": 14,
+  "packetRegisterHash": "19ed276284db32c00a65dfd2418ec0b0a3dcc14db155bf9e87aa8c70b7d09747",
+  "packetRegisterRevision": 1,
+  "packetRegisterEntryHash": "e81a0349d843aeed0975339ed952195a6b1e27ae4a8a3d6e23998a0842628ade",
+  "canonRecordHash": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f",
+  "masterCandidateHash": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5",
+  "outputSha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60",
+  "assertions": {
+    "packetSelfHashValid": true,
+    "packetRegistered": true,
+    "evidenceInventoryRebuiltAndMatched": true,
+    "evidenceRootMatched": true,
+    "canonPromotionSignatureVerified": true,
+    "exactMasterCandidateBound": true,
+    "exactMasterOutputBound": true,
+    "publicReleaseStillFalse": true,
+    "relayDependencyStillFalse": true
+  },
+  "notes": "C1.14 independent verification rebuilt the exact C1.13 Ledger Admission Packet and confirmed its registered evidence lineage.",
+  "verifiedAt": "2026-08-13T19:50:00.000Z",
+  "verificationPassed": true,
+  "ledgerAdmitted": false,
+  "releaseCandidateEligible": false,
+  "networkReleaseAuthorized": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "verificationReportHash": "6aa63338e938d8ca1c36a84011cfbefc8422764fe36562f62db1c6b24627598a"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-commit-receipt.c1.24f.v0.1",
+  "receiptId": "pn0001-c1-24f-canonical-admission-commit-receipt",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+  "auditHash": "75891f52d840fdde610e35c7179ce83c74bbd1abb2213ae3e0def9f27a8c8a4a",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "keyId": "proof-human-c1-24d-key",
+  "committedAt": "2026-08-14T00:48:00Z",
+  "commitSuccessful": true,
+  "journaledRecoveryModel": true,
+  "multiFileAtomicityClaimed": false,
+  "canonicalFullIndependentSourceRebuildProven": true,
+  "admissionReceiptRecorded": true,
+  "humanPublicKeyActive": true,
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "receiptHash": "026063ca6c0d236d64f510803b507ff014a57e8fa2fdff5310982e26e4664032"
+}

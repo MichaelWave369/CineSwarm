@@ -1,0 +1,20 @@
+{
+  "schema": "parallax.cineswarm.source-artifact-ingest-receipt.c1.24.v0.1",
+  "receiptId": "pn0001-c1-24-source-ingest-receipt",
+  "policyId": "pn0001-c1-24-independent-build-policy",
+  "sourceProject": "FFmpeg",
+  "sourceVersion": "7.1.5",
+  "sourceFileName": "ffmpeg-7.1.5.tar.xz",
+  "sourceArtifactSha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+  "sourceArtifactSize": 11050340,
+  "detachedSignatureSha256": "7ce4b9d56e3ef0cd4c3a9c0b2c8a034ac91e6c4c011c1f10b05a8aa7292fca35",
+  "releaseSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+  "signatureVerified": true,
+  "verificationTool": "gpg",
+  "verifiedAt": "2026-08-13T22:57:13.345Z",
+  "acquisitionStatusHash": "d8a096a5d32423876a4e7073a705989d5fe1e72c320bd05079ae2d35a4c6206e",
+  "fullIndependentSourceRebuildProven": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "receiptHash": "44e3c7775a7d4935e34518bef87a391e81f7ffe6c665ece4738e63857a035317"
+}

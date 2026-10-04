@@ -1,0 +1,21 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-commit-confirmation.c1.24f.v0.1",
+  "confirmationId": "pn0001-c1-24f-canonical-admission-commit-confirmation",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "previewHash": "f59e2486f81cdb5225aa39bb617dca7543b007c3e85bb77f23bfb8d37178d59f",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "keyId": "proof-human-c1-24d-key",
+  "commitIntentDigest": "b484b0d06d1c7c31ae9b3a10bfb587c3801ce28d68a8a2fd3ef0b641e8d44ac1",
+  "exactFullDigestReentered": true,
+  "confirmedAt": "2026-08-14T00:46:00Z",
+  "canonicalApplyPerformed": false,
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "confirmationHash": "a850746ae9e1cdb93d6c52697f8143476f4cac7498feb12eaa7ab3c827785997"
+}

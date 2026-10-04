@@ -1,0 +1,20 @@
+{
+  "schema": "parallax.cineswarm.public-release-register.c1.15.v0.1",
+  "registerId": "pn0001-seq01-cold-open-public-release-register",
+  "policyId": "pn0001-seq01-network-release-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "networkId": "parallax-network",
+  "revision": 0,
+  "recordedAt": "2026-08-13T19:55:00.000Z",
+  "status": "EMPTY_NO_PUBLIC_RELEASES",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "publicReleaseCount": 0,
+  "activePublicReleaseCount": 0,
+  "networkReleased": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "fcd4117aba91e720a84546afc64fd7ad6b2529a35631576b77a0c4dca2c856ad"
+}

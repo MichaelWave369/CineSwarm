@@ -1,0 +1,55 @@
+{
+  "schema": "parallax.cineswarm.provider-readiness-packet.v0.1",
+  "packetId": "pn0001-seq01-provider-readiness",
+  "status": "blocked-pending-provider-evidence-and-founder-go-no-go",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "providerId": "provider_openai_gpt_image_2",
+  "providerName": "OpenAI",
+  "modelSnapshot": "gpt-image-2-2026-04-21",
+  "requestIds": [
+    "pn0001_seq01_shot01_gptimage2_r01",
+    "pn0001_seq01_shot02_gptimage2_r01",
+    "pn0001_seq01_shot03_gptimage2_r01"
+  ],
+  "governanceCeilings": {
+    "requestCeilingUsd": 0.06,
+    "batchCeilingUsd": 0.18,
+    "ceilingMeaning": "Governance ceiling only; not a provider price claim."
+  },
+  "checklist": {
+    "modelPinned": true,
+    "requestManifestsFrozen": true,
+    "runnerBuilt": true,
+    "outputPathConstrained": true,
+    "humanAssetAcceptanceRequired": true,
+    "founderCeremonyBuilt": true,
+    "retentionPostureConfirmed": false,
+    "currentPricingConfirmed": false,
+    "externalCredentialProvisioned": false,
+    "founderLiveRunDecisionRecorded": false,
+    "requestAuthorizationsRecorded": false
+  },
+  "preflightBlockers": [
+    "GPT Image 2 retention / ZDR posture is not yet authoritatively confirmed for this live run.",
+    "Current request cost must be rechecked from official pricing evidence before spend authorization.",
+    "OPENAI_API_KEY has not been externally provisioned for the governed live-run environment."
+  ],
+  "workflowPending": [
+    "Founder GO / NO_GO decision comes after provider preflight clears.",
+    "Three request-specific execution authorizations come only after a founder GO."
+  ],
+  "blockers": [
+    "GPT Image 2 retention / ZDR posture is not yet authoritatively confirmed for this live run.",
+    "Current request cost must be rechecked from official pricing evidence before spend authorization.",
+    "OPENAI_API_KEY has not been externally provisioned for the governed live-run environment.",
+    "Founder has not yet recorded a GO / NO_GO decision for this first provider-backed execution.",
+    "Three request-specific live execution authorization records have not yet been created."
+  ],
+  "notes": [
+    "Gate order is preflight readiness -> founder GO -> three request authorizations -> execution eligibility.",
+    "This packet is for the first real three-image Cold Open provider run only.",
+    "Passing this packet never grants public release authority.",
+    "Parallax Relay remains out of scope and unchanged."
+  ]
+}

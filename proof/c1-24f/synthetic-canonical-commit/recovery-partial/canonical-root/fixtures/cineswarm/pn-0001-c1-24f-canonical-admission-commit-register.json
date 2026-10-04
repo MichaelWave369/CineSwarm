@@ -1,0 +1,19 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-commit-register.c1.24f.v0.1",
+  "registerId": "pn0001-c1-24f-canonical-admission-commit-register",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "sourceC24CanonicalRegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "revision": 0,
+  "recordedAt": "2026-08-14T00:30:00Z",
+  "entries": [],
+  "entryCount": 0,
+  "headHash": null,
+  "successfulCommitCount": 0,
+  "status": "EMPTY_NO_CANONICAL_COMMIT_HISTORY",
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "66215b5a84de14f44428f21aca3882c502cc4ebd8c2809413eb55776e049be94"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "parallax.cineswarm.ledger-admission-register.c1.14.v0.1",
+  "registerId": "pn0001-seq01-cold-open-ledger-admission-register",
+  "policyId": "pn0001-seq01-ledger-release-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 0,
+  "recordedAt": "2026-08-13T19:40:00.000Z",
+  "status": "EMPTY_NO_LEDGER_ADMISSIONS",
+  "entryCount": 0,
+  "entries": [],
+  "headHash": null,
+  "ledgerAdmittedCount": 0,
+  "networkReleaseCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "33ef546b88dd648991aef5ebce16364693f0de232513dc0208ae10bf09cf85cc"
+}

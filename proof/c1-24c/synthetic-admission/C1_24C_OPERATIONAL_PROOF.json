@@ -1,0 +1,22 @@
+{
+  "schema": "parallax.cineswarm.c1-24c-operational-proof.v0.1",
+  "phase": "C1.24C",
+  "status": "SYNTHETIC_HUMAN_ADMISSION_PATH_PROVEN_CANONICAL_UNCHANGED",
+  "proofOnly": true,
+  "realHumanAdmissionPerformed": false,
+  "privateKeyPersisted": false,
+  "technicalProofReceiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c",
+  "admissionReviewHash": "48f58f6506e09d9d435845dac07f77a877b1f1679171041fbdc8fee3fab92a95",
+  "admissionPlanHash": "0ab547dfb8210603da6da4f341bf4736a5bf1dd303cc79563d63477b4ad81749",
+  "admissionCeremonyHash": "68ca8c6a7a86d6a78d78d8931ccda76824b1faa0480799eec1cd87400474898b",
+  "syntheticAdmittedCanonicalRegisterHash": "a976490da36718f2ec3aea831bc1f9a172974e956387ddc9a77c4bffdf9b079e",
+  "syntheticAdmittedCanonicalRegisterRevision": 2,
+  "admissionReceiptHash": "058bf8188ebad182c53e9fbc84b0e45f6b67b013fd9411486e51f14459163001",
+  "syntheticAdmissionRegisterHash": "a8bc7ae02dc6046dbec7b51410f01c7d17822073ae2f2c0d3fd53c3a81a6e7a0",
+  "syntheticCanonicalFullIndependentSourceRebuildProven": true,
+  "realCanonicalRegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "realCanonicalRegisterRevision": 0,
+  "realCanonicalFullIndependentSourceRebuildProven": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

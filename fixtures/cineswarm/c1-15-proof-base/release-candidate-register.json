@@ -1,0 +1,35 @@
+{
+  "schema": "parallax.cineswarm.release-candidate-register.c1.14.v0.1",
+  "registerId": "pn0001-seq01-cold-open-release-candidate-register",
+  "policyId": "pn0001-seq01-ledger-release-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "revision": 1,
+  "recordedAt": "2026-08-13T19:51:00.000Z",
+  "status": "RELEASE_CANDIDATE_READY_NETWORK_RELEASE_CEREMONY_REQUIRED",
+  "entryCount": 1,
+  "entries": [
+    {
+      "entryId": "pn0001-seq01-cold-open-release-candidate-event-0001",
+      "packageId": "pn0001-seq01-cold-open-release-candidate-64376e478f8b",
+      "releaseCandidatePackageHash": "ca733ffa6faa180eb60846e47c8994c16fa8cf3388b7200a95573cec4053904e",
+      "ledgerAdmissionReceiptHash": "64376e478f8bdfec6c717ac08dccfcbd3dfacc8ae6b6b29765a2f73e7b5c3ab7",
+      "canonRecordHash": "6c97820b0a7e5fac1f99daace18b5479bc6b881e13cbf4024a8b0456f11e363f",
+      "masterCandidateHash": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5",
+      "outputSha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60",
+      "previousEntryHash": null,
+      "recordedAt": "2026-08-13T19:51:00.000Z",
+      "releaseCeremonyEligible": true,
+      "networkReleased": false,
+      "publicRelease": false,
+      "relayDependency": false,
+      "entryHash": "32539409a47f9a61b74bc9159bd15e8692948c81d33b12b2202f74f95d8dfbb5"
+    }
+  ],
+  "headHash": "32539409a47f9a61b74bc9159bd15e8692948c81d33b12b2202f74f95d8dfbb5",
+  "releaseCandidateCount": 1,
+  "networkReleasedCount": 0,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "48d6e3cc7a6ea9f3d4fb631b06ee463c17f6c3beede1cac95968353122890602"
+}

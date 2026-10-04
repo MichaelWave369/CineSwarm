@@ -1,0 +1,31 @@
+{
+  "schema": "parallax.cineswarm.canon-review.c1.13.v0.1",
+  "reviewId": "pn0001-seq01-cold-open-canon-review-a320aa7ea80f",
+  "policyId": "pn0001-seq01-canon-ledger-policy",
+  "episodeId": "episode_pn_0001",
+  "sequenceId": "pn0001-seq01-cold-open",
+  "masterReviewPolicyId": "pn0001-seq01-master-review-policy",
+  "masterCandidateId": "proof-master-candidate-c1-13",
+  "masterCandidateHash": "a320aa7ea80f69cc42a598c09b18ebee9e03806f194baeef8fbfa11d2a140be5",
+  "outputAssetSha256": "f5820a30d426ee7b09b3aa57599e76c8ad5f052c84fb78bb37f35bb6b5d27e60",
+  "masterCandidateRegisterHash": "9f10c92528bd6cd28699a3ad53db9bf41fb5c978d5d410d57c34a1bf07431efe",
+  "masterCandidateRegisterRevision": 1,
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "simulated": false,
+  "decision": "APPROVE_FOR_CANON_PROMOTION",
+  "masterLineageApproved": true,
+  "provenanceCompleteForCanon": true,
+  "promotionBoundaryUnderstood": true,
+  "notes": "Proof-only independent Canon Review.",
+  "recordedAt": "2026-08-13T19:33:00.000Z",
+  "eligibleForCanonPromotionCeremony": true,
+  "canonPromoted": false,
+  "ledgerAdmitted": false,
+  "networkReleased": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "reviewHash": "65be49f727b71da7e13d465ede0582051a5daa7c25ffcb37fd782af41f65c076"
+}

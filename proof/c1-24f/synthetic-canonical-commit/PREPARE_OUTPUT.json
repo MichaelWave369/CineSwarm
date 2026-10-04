@@ -1,0 +1,6 @@
+{
+  "previewHash": "f59e2486f81cdb5225aa39bb617dca7543b007c3e85bb77f23bfb8d37178d59f",
+  "commitIntentDigest": "b484b0d06d1c7c31ae9b3a10bfb587c3801ce28d68a8a2fd3ef0b641e8d44ac1",
+  "requiredHumanAction": "Re-enter the complete 64-hex commitIntentDigest in the local C1.24F apply command. Chat text cannot satisfy this gate.",
+  "canonicalApplyPerformed": false
+}

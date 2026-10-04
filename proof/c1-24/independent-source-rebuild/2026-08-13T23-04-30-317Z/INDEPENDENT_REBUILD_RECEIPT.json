@@ -1,0 +1,20 @@
+{
+  "schema": "parallax.cineswarm.independent-decoder-rebuild-receipt.c1.24.v0.1",
+  "receiptId": "c1-24-proof-ffmpeg-7.1.5-independent-rebuild-receipt",
+  "policyId": "pn0001-c1-24-independent-build-policy",
+  "reportHash": "ffa490672c3e5e5a8da53bd663648031be019977577e1b3f115de77b9406a56b",
+  "buildInputArchiveHash": "16b0488d2ed201516ea28210d1f8afe00b9cbeb8dc4258dd0105c299eb7401df",
+  "recipeHash": "131aca2a679688789e8b2d6083c044bbb2d14d8c50a18a2856b32f7e0ee9c207",
+  "issuedAt": "2026-08-13T23:04:30.323Z",
+  "fullIndependentSourceRebuildProven": true,
+  "hermeticInputClosureProven": true,
+  "authoritativeMediaDecodeProven": true,
+  "fullOsIsolationProven": false,
+  "buildCanAuthorizeRelease": false,
+  "rebuildCanAuthorizeRelease": false,
+  "originalDeleteAuthorized": false,
+  "preservationDerivativeDeleteAuthorized": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "receiptHash": "93406d0a494f7d8829e8b707b6fdb714379b3c2b3ff9eca51b7c3eb392bdef3c"
+}

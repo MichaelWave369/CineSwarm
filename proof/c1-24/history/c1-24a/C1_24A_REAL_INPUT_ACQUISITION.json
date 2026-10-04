@@ -1,0 +1,95 @@
+{
+  "schema": "parallax.cineswarm.real-input-acquisition-checkpoint.c1.24a.v0.1",
+  "checkpointId": "pn0001-c1-24a-real-input-acquisition",
+  "createdAt": "2026-08-13T22:43:13.571Z",
+  "sourceProject": "FFmpeg",
+  "sourceVersion": "7.1.5",
+  "acquisitionStatusHash": "e2f305ec3371d0b195c4e5610e45ed08df565fa4a3686b3f67085ed83e58089a",
+  "independentRebuildRegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "independentRebuildRegisterRevision": 0,
+  "requiredInputClassCount": 7,
+  "physicallyPreservedInputClassCount": 6,
+  "missingInputKinds": [
+    "UPSTREAM_SOURCE_TARBALL"
+  ],
+  "expectedSourceArtifact": {
+    "fileName": "ffmpeg-7.1.5.tar.xz",
+    "expectedSha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+    "expectedSizeBytes": 11050340,
+    "present": false
+  },
+  "releaseEvidence": {
+    "detachedSignatureSha256": "7ce4b9d56e3ef0cd4c3a9c0b2c8a034ac91e6c4c011c1f10b05a8aa7292fca35",
+    "detachedSignatureSizeBytes": 520,
+    "signingPublicKeySha256": "397b3becedcd5a98769967ff1ff8501ddc89f8368b8f766e4701377d7dbaabe5",
+    "observedSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+    "expectedSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+    "signatureBytesPreserved": true,
+    "signingKeyFingerprintVerified": true,
+    "signatureVerifiedAgainstSourceArtifact": false,
+    "signatureVerificationBlockedReason": "UPSTREAM_SOURCE_TARBALL bytes are not present in the sandbox; detached signature cannot be verified against absent source bytes."
+  },
+  "preservedInputs": [
+    {
+      "kind": "DETACHED_SIGNATURE",
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-7.1.5.tar.xz.asc",
+      "sha256": "7ce4b9d56e3ef0cd4c3a9c0b2c8a034ac91e6c4c011c1f10b05a8aa7292fca35",
+      "size": 520
+    },
+    {
+      "kind": "SIGNING_PUBLIC_KEY",
+      "path": "proof/c1-24/real-input-acquisition/ffmpeg-devel.asc",
+      "sha256": "397b3becedcd5a98769967ff1ff8501ddc89f8368b8f766e4701377d7dbaabe5",
+      "size": 1709
+    },
+    {
+      "kind": "COMPILER_TOOLCHAIN",
+      "path": "proof/c1-24/real-input-acquisition/toolchain.tar.xz",
+      "sha256": "8af8383b5caa0990b73354c8d8d7bed0484a5c42ad0b7ffa9f34554ad9c1500f",
+      "size": 53748380
+    },
+    {
+      "kind": "BUILD_TOOL",
+      "path": "proof/c1-24/real-input-acquisition/buildtools.tar",
+      "sha256": "c9c7fabf6da5b1f2bf2072c2736ab4d9c109a16d3b69781f9393cd72fe44d0f8",
+      "size": 17940480
+    },
+    {
+      "kind": "SYSROOT_OR_BUILD_DEPENDENCY_CLOSURE",
+      "path": "proof/c1-24/real-input-acquisition/sysroot.tar.xz",
+      "sha256": "ad722491e5c0bba5f7c7d3b1b888d2842bc76cdea3a7a45d5c78f573ff531574",
+      "size": 8148352
+    },
+    {
+      "kind": "BUILD_CONFIGURATION",
+      "path": "proof/c1-24/real-input-acquisition/build-configuration-bundle.tar",
+      "sha256": "8eb8db70f9257a6f4fb9d0e65e05c380d6661db1931f8da683c1a1d89558a852",
+      "size": 51200
+    }
+  ],
+  "physicalClosureProof": {
+    "compilerAndMakeFreshChrootRun": "C1.24_REAL_TOOLCHAIN_CLOSURE_OK:8",
+    "compilerProbeBinarySha256": "59107c08adcdf98326dccb775c46dea8d4815cbb92676ad49867c3720b32b2a7",
+    "archivedTarXzFreshChrootRun": "C1.24_ARCHIVED_TAR_XZ_OK",
+    "seccompNetworkDenyProof": "C1.24_NETWORK_SYSCALL_BLOCKED:EPERM",
+    "seccompLauncherSha256": "dc2610851f61df3d9913de2a51aa527065b270cba70225903e9a5e8d897fd76f"
+  },
+  "operationalGates": {
+    "sourceIngestScript": "scripts/cineswarm-c1-24-ingest-source-artifact.mjs",
+    "sourceBuildScript": "scripts/cineswarm-c1-24-run-source-build.mjs",
+    "wrongSourceMutationTestPassed": true,
+    "buildRunnerFailsClosedWhileSourceMissing": true,
+    "sourceIngestPerformsNetworkFetch": false
+  },
+  "cumulativeTests": {
+    "passed": 273,
+    "failed": 0
+  },
+  "fullIndependentSourceRebuildProven": false,
+  "buildInputArchiveIssued": false,
+  "independentRebuildReceiptIssued": false,
+  "canonicalRegisterModified": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "proofHash": "1163a3a7b1538ecfd37ef11956000b5b64075ff121ac217832ea67ae75bcbb7e"
+}

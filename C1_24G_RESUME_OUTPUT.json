@@ -1,0 +1,12 @@
+{
+  "phase": "C1.24G",
+  "status": "AWAITING_PUBLIC_ENROLLMENT_RESPONSE",
+  "nextAction": "Generate the external Ed25519 key outside CineSwarm and return only the public enrollment-response JSON.",
+  "completedEventCount": 1,
+  "sessionHash": "7ce6b9288947eec378f0e5609bec00d05fc3f1afefc1df8d22d8311ac99809a7",
+  "transcriptHash": "bf1878e984789ccf2a6ce7d8e7c796bc67844436cc80e7f143ae4967f7a07d21",
+  "recoveryPackHash": "d945566ac5655c30a183aaab0e38d151b31dd62c6e8b73b4f47e15487d708fae",
+  "canonicalMutationPerformed": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

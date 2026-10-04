@@ -1,0 +1,32 @@
+{
+  "schema": "parallax.cineswarm.canonical-admission-commit-register.c1.24f.v0.1",
+  "registerId": "pn0001-c1-24f-canonical-admission-commit-register",
+  "policyId": "pn0001-c1-24f-canonical-admission-commit-policy",
+  "sourceC24CanonicalRegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "revision": 1,
+  "recordedAt": "2026-08-14T00:48:30Z",
+  "entries": [
+    {
+      "index": 1,
+      "event": "CANONICAL_ADMISSION_COMMIT_RECORDED",
+      "receiptId": "pn0001-c1-24f-canonical-admission-commit-receipt",
+      "receiptHash": "026063ca6c0d236d64f510803b507ff014a57e8fa2fdff5310982e26e4664032",
+      "transactionHash": "8abce683652d91fa61a4db046cd5832116c7fc292fa5d03d15f95e1d1803acf8",
+      "auditHash": "75891f52d840fdde610e35c7179ce83c74bbd1abb2213ae3e0def9f27a8c8a4a",
+      "canonicalFullIndependentSourceRebuildProven": true,
+      "recordedAt": "2026-08-14T00:48:30Z",
+      "previousEntryHash": null,
+      "entryHash": "10adc25413dd51b936a2d1fbc8195510b032fc39f993e269a586852813551acb"
+    }
+  ],
+  "entryCount": 1,
+  "headHash": "10adc25413dd51b936a2d1fbc8195510b032fc39f993e269a586852813551acb",
+  "successfulCommitCount": 1,
+  "status": "CANONICAL_COMMIT_HISTORY_PRESENT",
+  "commitCanAutoConfirm": false,
+  "commitCanAutoApply": false,
+  "commitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "registerHash": "5988f647e3e444d681eb5ebcd27ba678824784b796b33aaf11aec8c0e9080a0c"
+}

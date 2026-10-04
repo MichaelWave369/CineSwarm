@@ -1,0 +1,23 @@
+{
+  "schema": "parallax.cineswarm.offline-human-key-enrollment-challenge.c1.24d.v0.1",
+  "challengeId": "proof-c1-24h-old-challenge",
+  "policyId": "pn0001-c1-24d-offline-human-admission-kit-policy",
+  "authority": {
+    "kind": "human",
+    "id": "proof-human"
+  },
+  "keyId": "proof-human-c1-24h-key",
+  "ceremonyId": "proof-c1-24h-ceremony",
+  "challengeNonce": "1111111111111111111111111111111111111111111111111111111111111111",
+  "issuedAt": "2026-08-13T00:00:00Z",
+  "expiresAt": "2026-08-14T00:00:00Z",
+  "canonicalC24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "admissionPolicyId": "pn0001-c1-24c-independent-rebuild-admission-policy",
+  "purpose": "ENROLL_EXTERNAL_HUMAN_ED25519_KEY_FOR_C1_24C",
+  "privateKeyMustRemainExternal": true,
+  "kitCanAuthorizeAdmission": false,
+  "kitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "challengeHash": "bf55bd1bc7a3c2977b57f578c3d1aa3f1161f9d1106447668bba79dcb9482a2f"
+}

@@ -1,0 +1,5 @@
+{
+  "schema": "parallax.cineswarm.revocation-registry.c1.6.v0.1",
+  "entries": [],
+  "note": "Append a human-authorized revocation entry here when a previously issued receipt seal must be invalidated."
+}

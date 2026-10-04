@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "sourceArtifactSha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+  "sourceArtifactSize": 11050340,
+  "signatureVerified": true,
+  "releaseSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+  "acquisitionStatus": "READY_TO_BUILD_INPUT_ARCHIVE",
+  "missingKinds": [],
+  "receiptHash": "44e3c7775a7d4935e34518bef87a391e81f7ffe6c665ece4738e63857a035317",
+  "nextStep": "Run scripts/cineswarm-c1-24-run-source-build.mjs only after this status is READY_TO_BUILD_INPUT_ARCHIVE."
+}

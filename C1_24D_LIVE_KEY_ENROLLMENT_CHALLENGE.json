@@ -1,0 +1,23 @@
+{
+  "schema": "parallax.cineswarm.offline-human-key-enrollment-challenge.c1.24d.v0.1",
+  "challengeId": "c1-24d-challenge-5be9642cdc24fb1a",
+  "policyId": "pn0001-c1-24d-offline-human-admission-kit-policy",
+  "authority": {
+    "kind": "human",
+    "id": "michael-hughes"
+  },
+  "keyId": "michael-hughes-c1-24-admission-001",
+  "ceremonyId": "c1-24d-enroll-michael-hughes-c1-24-admission-001",
+  "challengeNonce": "b053cdddc8f8d10fb9260cef3989421a0c703aac9447fa5bc108c5f46f74eb16",
+  "issuedAt": "2026-08-14T00:36:55.070Z",
+  "expiresAt": "2026-08-15T00:36:55.070Z",
+  "canonicalC24RegisterHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+  "admissionPolicyId": "pn0001-c1-24c-independent-rebuild-admission-policy",
+  "purpose": "ENROLL_EXTERNAL_HUMAN_ED25519_KEY_FOR_C1_24C",
+  "privateKeyMustRemainExternal": true,
+  "kitCanAuthorizeAdmission": false,
+  "kitCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false,
+  "challengeHash": "c4c012fadd1525c0c8fd58fa94a6091de2ff61edf402cccc727729d596c6d983"
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+import { createHash } from 'node:crypto'; import { readFileSync } from 'node:fs'; import { resolve } from 'node:path';
+import { validateHumanFingerprintAcknowledgement, validateHumanKeyEnrollmentStage, validateCanonicalAdmissionStageBundle } from '../packages/cineswarm-bridge/src/human-ceremony-console.js';
+import { loadC124EContext, repoRoot } from './lib/c1-24e-context.mjs';
+const c=loadC124EContext(); const dir=resolve(repoRoot,'proof/c1-24e/synthetic-human-ceremony-console'); const J=(n)=>JSON.parse(readFileSync(resolve(dir,n),'utf8')); const ddir=resolve(repoRoot,'proof/c1-24d/synthetic-offline-human-admission'); const D=(n)=>JSON.parse(readFileSync(resolve(ddir,n),'utf8'));
+const challenge=D('ENROLLMENT_CHALLENGE.json'), response=D('ENROLLMENT_RESPONSE.json'), review=D('HUMAN_ADMISSION_REVIEW.json'), plan=D('CANONICAL_ADMISSION_PLAN.json'), request=D('OFFLINE_SIGNING_REQUEST.json'), signedResponse=D('SIGNED_ADMISSION_RESPONSE.json');
+const ack=J('FINGERPRINT_ACKNOWLEDGEMENT.json'), keyStage=J('KEY_ENROLLMENT_STAGE.json'), admissionStage=J('CANONICAL_ADMISSION_STAGE.json'), summary=J('C1_24E_OPERATIONAL_PROOF.json');
+validateHumanFingerprintAcknowledgement(ack,{policy:c.consolePolicy,challenge,response,kitPolicy:c.kitPolicy});
+validateHumanKeyEnrollmentStage(keyStage,{policy:c.consolePolicy,acknowledgement:ack,challenge,response,kitPolicy:c.kitPolicy,keyCeremonyPolicy:c.keyCeremonyPolicy,keyRegistry:c.keyRegistry});
+validateCanonicalAdmissionStageBundle(admissionStage,{policy:c.consolePolicy,request,signedResponse,kitPolicy:c.kitPolicy,admissionPolicy:c.admissionPolicy,proofContext:c.proofContext,c24CanonicalRegister:c.c24CanonicalRegister,admissionRegister:c.admissionRegister,review,plan,stagedKeyRegistry:keyStage.stagedKeyRegistry,stagedKeyRegistryHash:keyStage.stagedKeyRegistryHash});
+if(admissionStage.proposedCanonicalRegister.revision!==2||admissionStage.proposedCanonicalRegister.fullIndependentSourceRebuildProven!==true) throw new Error('C1.24E proposed canonical target drift');
+if(c.keyRegistry.keys.length!==0||c.c24CanonicalRegister.revision!==0||c.admissionRegister.revision!==0) throw new Error('C1.24E real canonical fixtures mutated');
+if(summary.proofOnly!==true||summary.canonicalFixturesMutated!==false||summary.privateKeyPersisted!==false||summary.realHumanAcknowledgementPerformed!==false) throw new Error('C1.24E summary boundary drift');
+const text=['FINGERPRINT_ACKNOWLEDGEMENT.json','KEY_ENROLLMENT_STAGE.json','CANONICAL_ADMISSION_STAGE.json','C1_24E_OPERATIONAL_PROOF.json'].map(n=>readFileSync(resolve(dir,n),'utf8')).join('\n');
+if(/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----[\s\S]+?-----END (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(text)) throw new Error('C1.24E proof contains private-key material');
+console.log(JSON.stringify({valid:true,proofOnly:true,fingerprintAcknowledgementHash:ack.acknowledgementHash,keyEnrollmentStageHash:keyStage.stageHash,canonicalAdmissionStageHash:admissionStage.stageHash,proposedCanonicalRegisterHash:admissionStage.proposedCanonicalRegisterHash,proposedCanonicalRevision:2,realCanonicalRevision:c.c24CanonicalRegister.revision,realHumanKeyCount:c.keyRegistry.keys.length,realAdmissionRevision:c.admissionRegister.revision,privateKeyPersisted:false,publicRelease:false,relayDependency:false},null,2));

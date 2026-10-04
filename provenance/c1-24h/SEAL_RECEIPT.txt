@@ -1,0 +1,19 @@
+Parallax CineSwarm C1.24H Seal Receipt
+phase=C1.24H Challenge Health + Compact Human Handoff
+cumulative_tests=358/358 PASS
+c1_24h_tests=13/13 PASS
+studio_parse=PASS
+js_mjs_syntax=PASS
+json_validation=277 PASS
+private_key_pem_scan=PASS 0 found
+token_like_secret_scan=PASS 0 found
+compact_handoff_fresh_extract=PASS
+operational_proof_verifier=PASS
+health_audit_result=PASS
+health_audit_hash=cc7ae4d0a48ddb7e38d2fad4376d330b5f7fc88021ff53bcad7464cf77747061
+handoff_manifest_hash=312aa731d6654c0fbaf74db7d269dddf38f281a3b644367cf06f5ffa0f68037e
+challenge_hash=c4c012fadd1525c0c8fd58fa94a6091de2ff61edf402cccc727729d596c6d983
+canonical_c1_24_hash=b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd
+canonical_mutation=false
+public_release=false
+relay_dependency=false

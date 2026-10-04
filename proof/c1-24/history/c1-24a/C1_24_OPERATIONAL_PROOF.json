@@ -1,0 +1,87 @@
+{
+  "proofOnly": true,
+  "phase": "C1.24",
+  "scope": "synthetic-hermetic-build-engine-proof-plus-governed-ffmpeg-input-gap-report",
+  "generatedAt": "2026-08-13T22:08:00Z",
+  "officialFfmpegEvidence": {
+    "sourceProject": "FFmpeg",
+    "sourceVersion": "7.1.5",
+    "sourceTarballUrl": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz",
+    "detachedSignatureUrl": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz.asc",
+    "releaseSigningKeyUrl": "https://ffmpeg.org/ffmpeg-devel.asc",
+    "releaseSigningKeyFingerprint": "FCF986EA15E6E293A5644F10B4322F04D67658D8",
+    "externalAvailabilityObserved": true,
+    "preservedAsGovernedBuildInput": false,
+    "note": "Official availability is external evidence only. C1.24 does not infer local/governed artifact possession from a URL."
+  },
+  "governedFfmpegState": {
+    "acquisitionStatusHash": "e871651607e0c1d06f82f2df71eeb7d6194e5e8fae2cc4f48f91ae6250d9c098",
+    "status": "BLOCKED_MISSING_BUILD_INPUTS",
+    "missingBuildInputKinds": [
+      "UPSTREAM_SOURCE_TARBALL",
+      "DETACHED_SIGNATURE",
+      "SIGNING_PUBLIC_KEY",
+      "COMPILER_TOOLCHAIN",
+      "BUILD_TOOL",
+      "SYSROOT_OR_BUILD_DEPENDENCY_CLOSURE",
+      "BUILD_CONFIGURATION"
+    ],
+    "buildInputArchiveIssued": false,
+    "independentRebuildReportIssued": false,
+    "independentRebuildReceiptIssued": false,
+    "registerRevision": 0,
+    "registerHash": "b91a9efe51400f67cf96bff0f6350751b411e4406196690658645f27a47356fd",
+    "fullIndependentSourceRebuildProven": false,
+    "blocker": "The actual FFmpeg source/signature/key/toolchain/dependency/build-configuration artifacts are not yet preserved as one complete governed build-input closure."
+  },
+  "syntheticBuildEngineProof": {
+    "governanceMeaning": "BUILD_ENGINE_MECHANICS_ONLY_NOT_FFMPEG_REBUILD_EVIDENCE",
+    "sourceArchive": {
+      "path": "proof/c1-24/c1-24-synthetic-source.tar.xz",
+      "sha256": "992d965b5931d0f0b0dcd768aecda9eec3620f2dcbb845f062e49d98ebf07801",
+      "size": 436
+    },
+    "toolchain": {
+      "gcc": {
+        "version": "gcc (Debian 14.2.0-19) 14.2.0",
+        "sha256": "a23ecab8ff08f09ad8c80602c2c5df7f49e09c25905cb8975902e101bf72635f"
+      },
+      "make": {
+        "version": "GNU Make 4.4.1",
+        "sha256": "8a229baf64671988cfb5af43ba3070c6ce7214cf32bcf96155115559d1466fa7"
+      },
+      "tar": {
+        "version": "tar (GNU tar) 1.35",
+        "sha256": "38adf50825f773d353d6bda1a7cd70c22f8877823e44821c1d2bd0a52ddc3871"
+      }
+    },
+    "buildEnvironment": {
+      "freshBuildRoots": true,
+      "isolatedEnvironmentVariables": true,
+      "networkFetchCommandsInvoked": false,
+      "networkNamespaceIsolationProven": false,
+      "networkNamespaceNote": "Container runtime does not permit unshare(CLONE_NEWNET); this synthetic proof therefore does not claim kernel-enforced network isolation."
+    },
+    "build1": {
+      "binarySha256": "7d5306cc41f4046aea568840f9f1a28074b742a071c3948eb92e198b9f1aa514",
+      "output": "PARALLAX_C1_24_SYNTHETIC_BUILD_ENGINE_PROOF_V1",
+      "buildLogSha256": "fdcf6ead4cb522c15a7f6077f5a279926570e3b011c558e56886742f8fb338cd"
+    },
+    "build2": {
+      "binarySha256": "7d5306cc41f4046aea568840f9f1a28074b742a071c3948eb92e198b9f1aa514",
+      "output": "PARALLAX_C1_24_SYNTHETIC_BUILD_ENGINE_PROOF_V1",
+      "buildLogSha256": "812ff239aca4aebba0a00848f8afcd6db212345875f6ffc48c2ae3c31f5adf83"
+    },
+    "reproducibleBinaryHash": true,
+    "expectedProgramOutput": "PARALLAX_C1_24_SYNTHETIC_BUILD_ENGINE_PROOF_V1",
+    "fullIndependentSourceRebuildProven": false
+  },
+  "boundaries": {
+    "buildCanAuthorizeRelease": false,
+    "rebuildCanAuthorizeRelease": false,
+    "originalDeleteAuthorized": false,
+    "preservationDerivativeDeleteAuthorized": false,
+    "publicRelease": false,
+    "relayDependency": false
+  }
+}

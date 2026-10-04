@@ -1,0 +1,28 @@
+{
+  "phase": "C1.24E",
+  "status": "AWAITING_PUBLIC_ENROLLMENT_RESPONSE",
+  "technicalProofEarned": true,
+  "humanEnrollmentResponsePresent": false,
+  "fingerprintAcknowledged": false,
+  "publicKeyStaged": false,
+  "admissionSigningRequestPresent": false,
+  "signedAdmissionResponsePresent": false,
+  "canonicalAdmissionStagePresent": false,
+  "canonicalFullIndependentSourceRebuildProven": false,
+  "blockers": [
+    "PUBLIC_ENROLLMENT_RESPONSE_NOT_RECEIVED",
+    "FULL_FINGERPRINT_NOT_ACKNOWLEDGED",
+    "HUMAN_PUBLIC_KEY_NOT_STAGED",
+    "ADMISSION_SIGNING_REQUEST_NOT_PREPARED",
+    "SIGNED_ADMISSION_RESPONSE_NOT_RECEIVED",
+    "CANONICAL_ADMISSION_NOT_STAGED",
+    "CANONICAL_C1_24_NOT_COMMITTED"
+  ],
+  "consoleCanGeneratePrivateKey": false,
+  "consoleCanAutoAcknowledgeFingerprint": false,
+  "consoleCanAutoSignAdmission": false,
+  "consoleCanAutoApplyCanonicalAdmission": false,
+  "consoleCanAuthorizeRelease": false,
+  "publicRelease": false,
+  "relayDependency": false
+}

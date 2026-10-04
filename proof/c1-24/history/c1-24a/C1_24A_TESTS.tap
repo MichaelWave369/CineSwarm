@@ -1,0 +1,1652 @@
+
+> @parallax-network/cineswarm-bridge@0.20.1 test
+> node --test test/*.test.mjs
+
+TAP version 13
+# Subtest: C1.18 policy requires two replicas, two failure domains, exact restore verification, and no release/Relay authority
+ok 1 - C1.18 policy requires two replicas, two failure domains, exact restore verification, and no release/Relay authority
+  ---
+  duration_ms: 1.801386
+  type: 'test'
+  ...
+# Subtest: Recovery Bundle binds a registered C1.17 archive + PASS revalidation and exact eight-object semantic inventory
+ok 2 - Recovery Bundle binds a registered C1.17 archive + PASS revalidation and exact eight-object semantic inventory
+  ---
+  duration_ms: 175.399846
+  type: 'test'
+  ...
+# Subtest: Recovery Bundle rejects semantic hash drift and non-verbatim published Master storage
+ok 3 - Recovery Bundle rejects semantic hash drift and non-verbatim published Master storage
+  ---
+  duration_ms: 112.51967
+  type: 'test'
+  ...
+# Subtest: Replica Manifests copy exact bundle inventory and remain self-hashed
+ok 4 - Replica Manifests copy exact bundle inventory and remain self-hashed
+  ---
+  duration_ms: 76.505777
+  type: 'test'
+  ...
+# Subtest: Replica Set requires distinct location IDs and at least two distinct failure domains
+ok 5 - Replica Set requires distinct location IDs and at least two distinct failure domains
+  ---
+  duration_ms: 89.991012
+  type: 'test'
+  ...
+# Subtest: Replica Verification reports HEALTHY, DEGRADED, and FAIL without softening corruption into absence
+ok 6 - Replica Verification reports HEALTHY, DEGRADED, and FAIL without softening corruption into absence
+  ---
+  duration_ms: 77.510109
+  type: 'test'
+  ...
+# Subtest: Restore Drill refuses DEGRADED or FAIL source replicas
+ok 7 - Restore Drill refuses DEGRADED or FAIL source replicas
+  ---
+  duration_ms: 100.761652
+  type: 'test'
+  ...
+# Subtest: Restore Drill proves byte-for-byte full bundle + published Master recovery while primary is assumed unavailable
+ok 8 - Restore Drill proves byte-for-byte full bundle + published Master recovery while primary is assumed unavailable
+  ---
+  duration_ms: 104.866077
+  type: 'test'
+  ...
+# Subtest: Restore Drill marks restored-byte substitution FAIL rather than producing a recovery success
+ok 9 - Restore Drill marks restored-byte substitution FAIL rather than producing a recovery success
+  ---
+  duration_ms: 108.84451
+  type: 'test'
+  ...
+# Subtest: Disaster Recovery Receipt requires a PASS drill and still cannot authorize republishing
+ok 10 - Disaster Recovery Receipt requires a PASS drill and still cannot authorize republishing
+  ---
+  duration_ms: 153.618995
+  type: 'test'
+  ...
+# Subtest: Archive Recovery Register is append-only and rejects duplicate recovery receipts
+ok 11 - Archive Recovery Register is append-only and rejects duplicate recovery receipts
+  ---
+  duration_ms: 134.875493
+  type: 'test'
+  ...
+# Subtest: Archive Recovery Register hash-chain tampering fails closed
+ok 12 - Archive Recovery Register hash-chain tampering fails closed
+  ---
+  duration_ms: 121.357165
+  type: 'test'
+  ...
+# Subtest: Recovery status reports overdue internal restore drills without changing release authority
+ok 13 - Recovery status reports overdue internal restore drills without changing release authority
+  ---
+  duration_ms: 109.710838
+  type: 'test'
+  ...
+# Subtest: C1.18 revalidates the C1.17 source register instead of trusting a copied source hash
+ok 14 - C1.18 revalidates the C1.17 source register instead of trusting a copied source hash
+  ---
+  duration_ms: 92.122376
+  type: 'test'
+  ...
+# Subtest: C1.18 re-validates the full C1.17 Archive Record lineage instead of trusting register membership alone
+ok 15 - C1.18 re-validates the full C1.17 Archive Record lineage instead of trusting register membership alone
+  ---
+  duration_ms: 76.8417
+  type: 'test'
+  ...
+# Subtest: canonical C1.18 Recovery Register remains revision 0 because PN-0001 has no real archived public release to replicate
+ok 16 - canonical C1.18 Recovery Register remains revision 0 because PN-0001 has no real archived public release to replicate
+  ---
+  duration_ms: 0.630082
+  type: 'test'
+  ...
+# Subtest: C1.18 recovery evidence never substitutes for archive history, Ledger, release, or Relay authority
+ok 17 - C1.18 recovery evidence never substitutes for archive history, Ledger, release, or Relay authority
+  ---
+  duration_ms: 106.61796
+  type: 'test'
+  ...
+# Subtest: C1.8 asset intake policy preserves human review and all downstream authority boundaries
+ok 18 - C1.8 asset intake policy preserves human review and all downstream authority boundaries
+  ---
+  duration_ms: 1.116042
+  type: 'test'
+  ...
+# Subtest: successful provider attempt receipt is self-hashed and bound to the exact request and execution claim
+ok 19 - successful provider attempt receipt is self-hashed and bound to the exact request and execution claim
+  ---
+  duration_ms: 3.591185
+  type: 'test'
+  ...
+# Subtest: provider attempt receipt self-hash detects metadata tampering
+ok 20 - provider attempt receipt self-hash detects metadata tampering
+  ---
+  duration_ms: 1.095481
+  type: 'test'
+  ...
+# Subtest: quarantine intake requires matching SUCCEEDED journal terminal receipt hash
+ok 21 - quarantine intake requires matching SUCCEEDED journal terminal receipt hash
+  ---
+  duration_ms: 2.954353
+  type: 'test'
+  ...
+# Subtest: quarantine intake rejects byte tamper and path escape
+ok 22 - quarantine intake rejects byte tamper and path escape
+  ---
+  duration_ms: 1.258453
+  type: 'test'
+  ...
+# Subtest: failed provider attempts produce receipts but can never enter asset quarantine
+ok 23 - failed provider attempts produce receipts but can never enter asset quarantine
+  ---
+  duration_ms: 1.08786
+  type: 'test'
+  ...
+# Subtest: real human ACCEPT promotes only to candidate pool and never Picture Lock, Canon, Ledger, or release
+ok 24 - real human ACCEPT promotes only to candidate pool and never Picture Lock, Canon, Ledger, or release
+  ---
+  duration_ms: 1.175109
+  type: 'test'
+  ...
+# Subtest: simulated or hash-mismatched human review is rejected and pending intake never auto-promotes
+ok 25 - simulated or hash-mismatched human review is rejected and pending intake never auto-promotes
+  ---
+  duration_ms: 1.204513
+  type: 'test'
+  ...
+# Subtest: C1.6 signing policy and current empty public-key/revocation registries validate without fabricating a human key
+ok 26 - C1.6 signing policy and current empty public-key/revocation registries validate without fabricating a human key
+  ---
+  duration_ms: 0.852251
+  type: 'test'
+  ...
+# Subtest: C1.6 Ed25519 receipt seal verifies the exact payload and rejects tampering
+ok 27 - C1.6 Ed25519 receipt seal verifies the exact payload and rejects tampering
+  ---
+  duration_ms: 2.539539
+  type: 'test'
+  ...
+# Subtest: C1.6 expired or revoked receipt seals fail verification
+ok 28 - C1.6 expired or revoked receipt seals fail verification
+  ---
+  duration_ms: 1.257481
+  type: 'test'
+  ...
+# Subtest: C1.6 inactive signing keys cannot validate executable receipts
+ok 29 - C1.6 inactive signing keys cannot validate executable receipts
+  ---
+  duration_ms: 0.687488
+  type: 'test'
+  ...
+# Subtest: C1.6 happy path builds and verifies a ten-minute-or-less single-use execution envelope from four valid human receipt seals
+ok 30 - C1.6 happy path builds and verifies a ten-minute-or-less single-use execution envelope from four valid human receipt seals
+  ---
+  duration_ms: 7.759735
+  type: 'test'
+  ...
+# Subtest: C1.6 execution envelope fails if a signed request authorization payload changes or a seal is revoked
+ok 31 - C1.6 execution envelope fails if a signed request authorization payload changes or a seal is revoked
+  ---
+  duration_ms: 4.718964
+  type: 'test'
+  ...
+# Subtest: C1.6 execution envelope cannot exceed ten minutes or outlive request authorization/seal expiry
+ok 32 - C1.6 execution envelope cannot exceed ten minutes or outlive request authorization/seal expiry
+  ---
+  duration_ms: 2.891029
+  type: 'test'
+  ...
+# Subtest: C1.6 current canonical state remains unsealed and non-executable
+ok 33 - C1.6 current canonical state remains unsealed and non-executable
+  ---
+  duration_ms: 0.297681
+  type: 'test'
+  ...
+# Subtest: Pilot 001 is split into six valid Candidate C0 production jobs totaling 180 seconds
+ok 34 - Pilot 001 is split into six valid Candidate C0 production jobs totaling 180 seconds
+  ---
+  duration_ms: 1.748598
+  type: 'test'
+  ...
+# Subtest: bridge refuses to delegate public release or Relay dependency
+ok 35 - bridge refuses to delegate public release or Relay dependency
+  ---
+  duration_ms: 0.498037
+  type: 'test'
+  ...
+# Subtest: Candidate C0 delivery stays internal-only and requires real human disposition for Studio ingest
+ok 36 - Candidate C0 delivery stays internal-only and requires real human disposition for Studio ingest
+  ---
+  duration_ms: 0.31077
+  type: 'test'
+  ...
+# Subtest: provider readiness packet binds the first Cold Open run to exactly three requests and preserves the fail-closed blockers
+ok 37 - provider readiness packet binds the first Cold Open run to exactly three requests and preserves the fail-closed blockers
+  ---
+  duration_ms: 0.979249
+  type: 'test'
+  ...
+# Subtest: founder NO_GO draft is valid while blockers remain, but GO is rejected until the packet is truly ready
+ok 38 - founder NO_GO draft is valid while blockers remain, but GO is rejected until the packet is truly ready
+  ---
+  duration_ms: 0.345762
+  type: 'test'
+  ...
+# Subtest: provider go/no-go classification never turns readiness into release authority
+ok 39 - provider go/no-go classification never turns readiness into release authority
+  ---
+  duration_ms: 0.643562
+  type: 'test'
+  ...
+# Subtest: C1.9 registry policy requires accepted assets, exact lineage, human review, and preserves all later authority boundaries
+ok 40 - C1.9 registry policy requires accepted assets, exact lineage, human review, and preserves all later authority boundaries
+  ---
+  duration_ms: 1.320194
+  type: 'test'
+  ...
+# Subtest: C1.9 admits only real-human ACCEPTED C1.8 assets into the candidate registry layer
+ok 41 - C1.9 admits only real-human ACCEPTED C1.8 assets into the candidate registry layer
+  ---
+  duration_ms: 3.732214
+  type: 'test'
+  ...
+# Subtest: C1.9 candidate entries are self-hashed and exact request/sequence drift invalidates them
+ok 42 - C1.9 candidate entries are self-hashed and exact request/sequence drift invalidates them
+  ---
+  duration_ms: 1.276369
+  type: 'test'
+  ...
+# Subtest: C1.9 candidate registry revisions hash-chain accepted assets and reject duplicate artifact registration
+ok 43 - C1.9 candidate registry revisions hash-chain accepted assets and reject duplicate artifact registration
+  ---
+  duration_ms: 3.3987
+  type: 'test'
+  ...
+# Subtest: C1.9 assembles exactly one accepted candidate per governed shot into a self-hashed Picture Plan Candidate
+ok 44 - C1.9 assembles exactly one accepted candidate per governed shot into a self-hashed Picture Plan Candidate
+  ---
+  duration_ms: 7.301376
+  type: 'test'
+  ...
+# Subtest: C1.9 refuses Picture Plan assembly when metadata continuity versions drift across selected shots
+ok 45 - C1.9 refuses Picture Plan assembly when metadata continuity versions drift across selected shots
+  ---
+  duration_ms: 3.872021
+  type: 'test'
+  ...
+# Subtest: C1.9 detects provider request version drift after a Picture Plan Candidate has been assembled
+ok 46 - C1.9 detects provider request version drift after a Picture Plan Candidate has been assembled
+  ---
+  duration_ms: 4.465008
+  type: 'test'
+  ...
+# Subtest: C1.9 detects production job version drift after a Picture Plan Candidate has been assembled
+ok 47 - C1.9 detects production job version drift after a Picture Plan Candidate has been assembled
+  ---
+  duration_ms: 3.849488
+  type: 'test'
+  ...
+# Subtest: C1.9 human Picture Plan approval grants only eligibility for a later Picture Lock ceremony, never Picture Lock itself
+ok 48 - C1.9 human Picture Plan approval grants only eligibility for a later Picture Lock ceremony, never Picture Lock itself
+  ---
+  duration_ms: 3.335307
+  type: 'test'
+  ...
+# Subtest: C1.9 rejects simulated or plan-hash-mismatched reviews and an unreviewed plan stays unlocked
+ok 49 - C1.9 rejects simulated or plan-hash-mismatched reviews and an unreviewed plan stays unlocked
+  ---
+  duration_ms: 3.562613
+  type: 'test'
+  ...
+# Subtest: C1.9 canonical PN-0001 registry remains empty and claims no Picture Plan, Picture Lock, Canon, or public release
+ok 50 - C1.9 canonical PN-0001 registry remains empty and claims no Picture Plan, Picture Lock, Canon, or public release
+  ---
+  duration_ms: 0.442515
+  type: 'test'
+  ...
+# Subtest: C1.13 policy requires registered exact Master Candidate, independent Canon Review, signed promotion, complete evidence, and no auto release
+ok 51 - C1.13 policy requires registered exact Master Candidate, independent Canon Review, signed promotion, complete evidence, and no auto release
+  ---
+  duration_ms: 1.243271
+  type: 'test'
+  ...
+# Subtest: Canon Review refuses an unregistered Master Candidate
+ok 52 - Canon Review refuses an unregistered Master Candidate
+  ---
+  duration_ms: 11.090545
+  type: 'test'
+  ...
+# Subtest: Canon approval requires lineage, provenance, and promotion-boundary approval in a separate real human record
+ok 53 - Canon approval requires lineage, provenance, and promotion-boundary approval in a separate real human record
+  ---
+  duration_ms: 6.009614
+  type: 'test'
+  ...
+# Subtest: Canon Review is exact/self-hashed and rejects post-review Master Candidate or register drift
+ok 54 - Canon Review is exact/self-hashed and rejects post-review Master Candidate or register drift
+  ---
+  duration_ms: 5.530085
+  type: 'test'
+  ...
+# Subtest: Canon Promotion Ceremony signs the exact Master/Review lineage in a dedicated Ed25519 domain and grants no Ledger or release authority
+ok 55 - Canon Promotion Ceremony signs the exact Master/Review lineage in a dedicated Ed25519 domain and grants no Ledger or release authority
+  ---
+  duration_ms: 7.935275
+  type: 'test'
+  ...
+# Subtest: Canon Promotion signature rejects output/review drift and revoked signing keys
+ok 56 - Canon Promotion signature rejects output/review drift and revoked signing keys
+  ---
+  duration_ms: 6.569213
+  type: 'test'
+  ...
+# Subtest: Canon Record is immutable, exact, promoted, and still not Ledger-admitted or Network-released
+ok 57 - Canon Record is immutable, exact, promoted, and still not Ledger-admitted or Network-released
+  ---
+  duration_ms: 6.967483
+  type: 'test'
+  ...
+# Subtest: Canon Register is append-only and refuses silent replacement of an existing Canon record
+ok 58 - Canon Register is append-only and refuses silent replacement of an existing Canon record
+  ---
+  duration_ms: 11.497352
+  type: 'test'
+  ...
+# Subtest: Ledger Admission Packet inventories the full 14-link provenance chain and stays admission/release pending
+ok 59 - Ledger Admission Packet inventories the full 14-link provenance chain and stays admission/release pending
+  ---
+  duration_ms: 9.672951
+  type: 'test'
+  ...
+# Subtest: Ledger Admission Packet rejects evidence inventory or root tampering
+ok 60 - Ledger Admission Packet rejects evidence inventory or root tampering
+  ---
+  duration_ms: 8.832533
+  type: 'test'
+  ...
+# Subtest: Ledger Packet Register is hash-chained, append-only, and refuses a duplicate packet for the same Canon record
+ok 61 - Ledger Packet Register is hash-chained, append-only, and refuses a duplicate packet for the same Canon record
+  ---
+  duration_ms: 9.929346
+  type: 'test'
+  ...
+# Subtest: synthetic full C1.12 → C1.13 path reaches Ledger Admission Packet ready, never Ledger admitted or Network released
+ok 62 - synthetic full C1.12 → C1.13 path reaches Ledger Admission Packet ready, never Ledger admitted or Network released
+  ---
+  duration_ms: 8.034522
+  type: 'test'
+  ...
+# Subtest: canonical C1.13 truth remains empty because no real Master Candidate, Canon Promotion, or Ledger packet exists
+ok 63 - canonical C1.13 truth remains empty because no real Master Candidate, Canon Promotion, or Ledger packet exists
+  ---
+  duration_ms: 0.377509
+  type: 'test'
+  ...
+# Subtest: C1.22 policy keeps original and preservation derivative authoritative and blocks release authority
+ok 64 - C1.22 policy keeps original and preservation derivative authoritative and blocks release authority
+  ---
+  duration_ms: 1.437818
+  type: 'test'
+  ...
+# Subtest: decode environment snapshot hashes executable identity and decoder capabilities without credentials
+ok 65 - decode environment snapshot hashes executable identity and decoder capabilities without credentials
+  ---
+  duration_ms: 25.265474
+  type: 'test'
+  ...
+# Subtest: C1.22 refuses an unregistered C1.21 preservation derivative even if its record itself validates
+ok 66 - C1.22 refuses an unregistered C1.21 preservation derivative even if its record itself validates
+  ---
+  duration_ms: 19.167899
+  type: 'test'
+  ...
+# Subtest: compatibility matrix passes only when original and preservation derivative hashes probe and fully decode
+ok 67 - compatibility matrix passes only when original and preservation derivative hashes probe and fully decode
+  ---
+  duration_ms: 20.798563
+  type: 'test'
+  ...
+# Subtest: compatibility matrix degrades, rather than inventing success, when the original is unavailable
+ok 68 - compatibility matrix degrades, rather than inventing success, when the original is unavailable
+  ---
+  duration_ms: 12.62148
+  type: 'test'
+  ...
+# Subtest: compatibility matrix fails when the preservation derivative bytes drift
+ok 69 - compatibility matrix fails when the preservation derivative bytes drift
+  ---
+  duration_ms: 15.853384
+  type: 'test'
+  ...
+# Subtest: access derivative plan rejects stale decoder snapshots and compatibility evidence
+ok 70 - access derivative plan rejects stale decoder snapshots and compatibility evidence
+  ---
+  duration_ms: 15.519921
+  type: 'test'
+  ...
+# Subtest: access derivative QC requires the exact internal MP4 H.264 AAC playback profile and timeline parity
+ok 71 - access derivative QC requires the exact internal MP4 H.264 AAC playback profile and timeline parity
+  ---
+  duration_ms: 17.082353
+  type: 'test'
+  ...
+# Subtest: access derivative QC rejects excessive duration drift instead of treating lossy access as preservation equivalence
+ok 72 - access derivative QC rejects excessive duration drift instead of treating lossy access as preservation equivalence
+  ---
+  duration_ms: 19.079834
+  type: 'test'
+  ...
+# Subtest: human access review cannot approve failed QC and remains access-only
+ok 73 - human access review cannot approve failed QC and remains access-only
+  ---
+  duration_ms: 14.338782
+  type: 'test'
+  ...
+# Subtest: access derivative record preserves both authoritative ancestors and cannot become preservation or release authority
+ok 74 - access derivative record preserves both authoritative ancestors and cannot become preservation or release authority
+  ---
+  duration_ms: 16.352433
+  type: 'test'
+  ...
+# Subtest: decode/access register records snapshots, compatibility matrices, and approved access derivatives append-only
+ok 75 - decode/access register records snapshots, compatibility matrices, and approved access derivatives append-only
+  ---
+  duration_ms: 26.819454
+  type: 'test'
+  ...
+# Subtest: decode/access register detects historical entry tampering
+ok 76 - decode/access register detects historical entry tampering
+  ---
+  duration_ms: 16.683974
+  type: 'test'
+  ...
+# Subtest: canonical C1.22 register remains revision 0 because PN-0001 has no real C1.21 preservation derivative
+ok 77 - canonical C1.22 register remains revision 0 because PN-0001 has no real C1.21 preservation derivative
+  ---
+  duration_ms: 0.51389
+  type: 'test'
+  ...
+# Subtest: C1.22 validators reject unknown-field injection even when the attacker keeps the old canonical hash
+ok 78 - C1.22 validators reject unknown-field injection even when the attacker keeps the old canonical hash
+  ---
+  duration_ms: 16.774207
+  type: 'test'
+  ...
+# Subtest: decode environment validator rejects malformed individual capability hashes even if an attacker recomputes outer hashes
+ok 79 - decode environment validator rejects malformed individual capability hashes even if an attacker recomputes outer hashes
+  ---
+  duration_ms: 15.268779
+  type: 'test'
+  ...
+# Subtest: C1.5 binds three canonical provider requests to the readiness packet and exact SHA-256 payload digests
+ok 80 - C1.5 binds three canonical provider requests to the readiness packet and exact SHA-256 payload digests
+  ---
+  duration_ms: 2.567059
+  type: 'test'
+  ...
+# Subtest: C1.5 draft generator creates only three PENDING non-authorizing records within the $0.18 batch ceiling
+ok 81 - C1.5 draft generator creates only three PENDING non-authorizing records within the $0.18 batch ceiling
+  ---
+  duration_ms: 0.759725
+  type: 'test'
+  ...
+# Subtest: C1.5 request tampering invalidates an existing authorization digest
+ok 82 - C1.5 request tampering invalidates an existing authorization digest
+  ---
+  duration_ms: 0.673907
+  type: 'test'
+  ...
+# Subtest: C1.5 cannot authorize a request while provider preflight is blocked or founder decision is not GO
+ok 83 - C1.5 cannot authorize a request while provider preflight is blocked or founder decision is not GO
+  ---
+  duration_ms: 0.859913
+  type: 'test'
+  ...
+# Subtest: C1.5 happy path is one-way: ready preflight -> founder GO -> three request AUTHORIZE records -> execution eligible
+ok 84 - C1.5 happy path is one-way: ready preflight -> founder GO -> three request AUTHORIZE records -> execution eligible
+  ---
+  duration_ms: 1.135861
+  type: 'test'
+  ...
+# Subtest: C1.5 current canonical drafts remain execution-ineligible and preserve later human asset/release gates
+ok 85 - C1.5 current canonical drafts remain execution-ineligible and preserve later human asset/release gates
+  ---
+  duration_ms: 1.089362
+  type: 'test'
+  ...
+# Subtest: C1.21 policy preserves original bytes and cannot auto-declare obsolescence or release
+ok 86 - C1.21 policy preserves original bytes and cannot auto-declare obsolescence or release
+  ---
+  duration_ms: 1.475544
+  type: 'test'
+  ...
+# Subtest: format assessment requires operator evidence and a deliberate migration disposition
+ok 87 - format assessment requires operator evidence and a deliberate migration disposition
+  ---
+  duration_ms: 9.205174
+  type: 'test'
+  ...
+# Subtest: migration plan can only follow MIGRATION_RECOMMENDED and freezes the internal target profile
+ok 88 - migration plan can only follow MIGRATION_RECOMMENDED and freezes the internal target profile
+  ---
+  duration_ms: 7.188209
+  type: 'test'
+  ...
+# Subtest: equivalence report requires exact decoded video/audio identity plus timeline parity
+ok 89 - equivalence report requires exact decoded video/audio identity plus timeline parity
+  ---
+  duration_ms: 4.376647
+  type: 'test'
+  ...
+# Subtest: equivalence gate rejects decoded-identical output in the wrong target format
+ok 90 - equivalence gate rejects decoded-identical output in the wrong target format
+  ---
+  duration_ms: 4.721568
+  type: 'test'
+  ...
+# Subtest: human review cannot approve a failed equivalence report
+ok 91 - human review cannot approve a failed equivalence report
+  ---
+  duration_ms: 4.025027
+  type: 'test'
+  ...
+# Subtest: signed migration ceremony is exact-lineage bound and revoked keys fail
+ok 92 - signed migration ceremony is exact-lineage bound and revoked keys fail
+  ---
+  duration_ms: 5.860033
+  type: 'test'
+  ...
+# Subtest: preservation derivative keeps original mandatory and cannot replace original or authorize release
+ok 93 - preservation derivative keeps original mandatory and cannot replace original or authorize release
+  ---
+  duration_ms: 4.889346
+  type: 'test'
+  ...
+# Subtest: format migration register is append-only and rejects duplicate derivative records
+ok 94 - format migration register is append-only and rejects duplicate derivative records
+  ---
+  duration_ms: 6.791762
+  type: 'test'
+  ...
+# Subtest: post-signing derivative hash tampering fails validation
+ok 95 - post-signing derivative hash tampering fails validation
+  ---
+  duration_ms: 5.019389
+  type: 'test'
+  ...
+# Subtest: canonical C1.21 register remains revision 0 because PN-0001 has no real archived Master to migrate
+ok 96 - canonical C1.21 register remains revision 0 because PN-0001 has no real archived Master to migrate
+  ---
+  duration_ms: 0.584074
+  type: 'test'
+  ...
+# Subtest: C1.24 policy requires complete signed source/build-input closure and remains release-inert
+ok 97 - C1.24 policy requires complete signed source/build-input closure and remains release-inert
+  ---
+  duration_ms: 1.262228
+  type: 'test'
+  ...
+# Subtest: acquisition status is fail-closed while official build inputs are missing
+ok 98 - acquisition status is fail-closed while official build inputs are missing
+  ---
+  duration_ms: 1.789638
+  type: 'test'
+  ...
+# Subtest: build input archive requires every exact input plus verified release-signing fingerprint
+ok 99 - build input archive requires every exact input plus verified release-signing fingerprint
+  ---
+  duration_ms: 0.91224
+  type: 'test'
+  ...
+# Subtest: build input archive rejects missing dependency closure instead of inferring it
+ok 100 - build input archive rejects missing dependency closure instead of inferring it
+  ---
+  duration_ms: 0.225494
+  type: 'test'
+  ...
+# Subtest: hermetic recipe is offline, source-build-only, and binds authoritative decode hashes
+ok 101 - hermetic recipe is offline, source-build-only, and binds authoritative decode hashes
+  ---
+  duration_ms: 0.530144
+  type: 'test'
+  ...
+# Subtest: independent rebuild PASS requires source compilation, all capabilities, exact media bytes, and decoded equivalence
+ok 102 - independent rebuild PASS requires source compilation, all capabilities, exact media bytes, and decoded equivalence
+  ---
+  duration_ms: 0.545277
+  type: 'test'
+  ...
+# Subtest: copied host decoder binaries can never become an independent source rebuild
+ok 103 - copied host decoder binaries can never become an independent source rebuild
+  ---
+  duration_ms: 1.049333
+  type: 'test'
+  ...
+# Subtest: independent rebuild rejects missing required decoder capability or decoded-content drift
+ok 104 - independent rebuild rejects missing required decoder capability or decoded-content drift
+  ---
+  duration_ms: 1.125446
+  type: 'test'
+  ...
+# Subtest: independent rebuild receipt can only be issued from a fully passing report and remains release-inert
+ok 105 - independent rebuild receipt can only be issued from a fully passing report and remains release-inert
+  ---
+  duration_ms: 0.996975
+  type: 'test'
+  ...
+# Subtest: C1.24 append-only register requires build-input archive before the rebuild receipt
+ok 106 - C1.24 append-only register requires build-input archive before the rebuild receipt
+  ---
+  duration_ms: 3.874815
+  type: 'test'
+  ...
+# Subtest: register detects history tampering and duplicate evidence
+ok 107 - register detects history tampering and duplicate evidence
+  ---
+  duration_ms: 1.252894
+  type: 'test'
+  ...
+# Subtest: canonical C1.24 state remains revision 0 with full independent rebuild unproven
+ok 108 - canonical C1.24 state remains revision 0 with full independent rebuild unproven
+  ---
+  duration_ms: 0.791341
+  type: 'test'
+  ...
+# Subtest: canonical C1.24A acquisition checkpoint preserves six physical input classes and leaves only source tarball missing
+ok 109 - canonical C1.24A acquisition checkpoint preserves six physical input classes and leaves only source tarball missing
+  ---
+  duration_ms: 94.540234
+  type: 'test'
+  ...
+# Subtest: C1.24A preserved signature/key/closure receipts match the frozen acquisition evidence
+ok 110 - C1.24A preserved signature/key/closure receipts match the frozen acquisition evidence
+  ---
+  duration_ms: 0.737842
+  type: 'test'
+  ...
+# Subtest: C1.24A source ingest rejects wrong bytes and cannot mutate canonical acquisition status
+ok 111 - C1.24A source ingest rejects wrong bytes and cannot mutate canonical acquisition status
+  ---
+  duration_ms: 48.855269
+  type: 'test'
+  ...
+# Subtest: C1.24A governed build configuration bundle enforces network syscall denial and archived tar/xz extraction proof
+ok 112 - C1.24A governed build configuration bundle enforces network syscall denial and archived tar/xz extraction proof
+  ---
+  duration_ms: 7.738793
+  type: 'test'
+  ...
+# Subtest: C1.24A source-build runner remains dormant until the source artifact is genuinely ingested
+ok 113 - C1.24A source-build runner remains dormant until the source artifact is genuinely ingested
+  ---
+  duration_ms: 65.796473
+  type: 'test'
+  ...
+# Subtest: C1.7 policy, pending human key plan, and empty execution journal validate without fabricating an identity
+ok 114 - C1.7 policy, pending human key plan, and empty execution journal validate without fabricating an identity
+  ---
+  duration_ms: 1.853443
+  type: 'test'
+  ...
+# Subtest: C1.7 ENROLL verifies Ed25519 proof of possession and derives a C1.6-compatible active public-key registry entry
+ok 115 - C1.7 ENROLL verifies Ed25519 proof of possession and derives a C1.6-compatible active public-key registry entry
+  ---
+  duration_ms: 7.782268
+  type: 'test'
+  ...
+# Subtest: C1.7 key enrollment rejects tampered possession proof or fingerprint
+ok 116 - C1.7 key enrollment rejects tampered possession proof or fingerprint
+  ---
+  duration_ms: 2.318292
+  type: 'test'
+  ...
+# Subtest: C1.7 ROTATE retires the previous key and activates a new proven key
+ok 117 - C1.7 ROTATE retires the previous key and activates a new proven key
+  ---
+  duration_ms: 3.308276
+  type: 'test'
+  ...
+# Subtest: C1.7 RECOVER revokes the previous key and requires multiple recovery evidence references
+ok 118 - C1.7 RECOVER revokes the previous key and requires multiple recovery evidence references
+  ---
+  duration_ms: 3.782017
+  type: 'test'
+  ...
+# Subtest: C1.7 REVOKE removes active signing eligibility without inventing a replacement key
+ok 119 - C1.7 REVOKE removes active signing eligibility without inventing a replacement key
+  ---
+  duration_ms: 1.678615
+  type: 'test'
+  ...
+# Subtest: C1.7 journal claims a verified single-use envelope exactly once and blocks replay by ID/digest/nonce
+ok 120 - C1.7 journal claims a verified single-use envelope exactly once and blocks replay by ID/digest/nonce
+  ---
+  duration_ms: 0.961042
+  type: 'test'
+  ...
+# Subtest: C1.7 terminal execution events hash-chain after CLAIMED and a consumed envelope stays consumed after failure
+ok 121 - C1.7 terminal execution events hash-chain after CLAIMED and a consumed envelope stays consumed after failure
+  ---
+  duration_ms: 1.604034
+  type: 'test'
+  ...
+# Subtest: C1.7 journal hash chain detects retroactive entry tampering
+ok 122 - C1.7 journal hash chain detects retroactive entry tampering
+  ---
+  duration_ms: 0.477827
+  type: 'test'
+  ...
+# Subtest: C1.7 integrates with a fully verified C1.6 envelope, then journal claim becomes the replay-protection handoff
+ok 123 - C1.7 integrates with a fully verified C1.6 envelope, then journal claim becomes the replay-protection handoff
+  ---
+  duration_ms: 9.144915
+  type: 'test'
+  ...
+# Subtest: C1.14 policy preserves independent Ledger admission and separate Network release authority
+ok 124 - C1.14 policy preserves independent Ledger admission and separate Network release authority
+  ---
+  duration_ms: 1.173126
+  type: 'test'
+  ...
+# Subtest: independent Ledger Verification Report rebuilds the exact C1.13 packet and registered evidence root
+ok 125 - independent Ledger Verification Report rebuilds the exact C1.13 packet and registered evidence root
+  ---
+  duration_ms: 11.818272
+  type: 'test'
+  ...
+# Subtest: Ledger Verification Report rejects a packet that is valid but not registered in the C1.13 packet register
+ok 126 - Ledger Verification Report rejects a packet that is valid but not registered in the C1.13 packet register
+  ---
+  duration_ms: 2.365361
+  type: 'test'
+  ...
+# Subtest: Ledger Verification Report is tamper evident even when downstream admission has not started
+ok 127 - Ledger Verification Report is tamper evident even when downstream admission has not started
+  ---
+  duration_ms: 4.603193
+  type: 'test'
+  ...
+# Subtest: human Ledger Admission Ceremony signs the exact verification report, packet, evidence root, and output
+ok 128 - human Ledger Admission Ceremony signs the exact verification report, packet, evidence root, and output
+  ---
+  duration_ms: 25.542575
+  type: 'test'
+  ...
+# Subtest: new Ledger Admission signature refuses retired keys and exact-lineage tampering
+ok 129 - new Ledger Admission signature refuses retired keys and exact-lineage tampering
+  ---
+  duration_ms: 25.34387
+  type: 'test'
+  ...
+# Subtest: Ledger Admission Receipt is immutable evidence of admission but grants no Network release authority
+ok 130 - Ledger Admission Receipt is immutable evidence of admission but grants no Network release authority
+  ---
+  duration_ms: 30.39762
+  type: 'test'
+  ...
+# Subtest: Ledger Admission Receipt detects post-admission output or evidence drift
+ok 131 - Ledger Admission Receipt detects post-admission output or evidence drift
+  ---
+  duration_ms: 30.44782
+  type: 'test'
+  ...
+# Subtest: append-only Ledger Admission Register records admission once and rejects replay
+ok 132 - append-only Ledger Admission Register records admission once and rejects replay
+  ---
+  duration_ms: 22.943017
+  type: 'test'
+  ...
+# Subtest: Release Candidate Package assembles only after registered Ledger Admission Receipt and carries nine exact evidence links
+ok 133 - Release Candidate Package assembles only after registered Ledger Admission Receipt and carries nine exact evidence links
+  ---
+  duration_ms: 20.17174
+  type: 'test'
+  ...
+# Subtest: Release Candidate Package cannot be assembled from an unregistered Ledger Admission Receipt
+ok 134 - Release Candidate Package cannot be assembled from an unregistered Ledger Admission Receipt
+  ---
+  duration_ms: 27.65433
+  type: 'test'
+  ...
+# Subtest: Release Candidate Package and append-only register detect output drift and duplicate package registration
+ok 135 - Release Candidate Package and append-only register detect output drift and duplicate package registration
+  ---
+  duration_ms: 21.112477
+  type: 'test'
+  ...
+# Subtest: full synthetic C1.13 → C1.14 path reaches Release Candidate ready while Network release remains unauthorized
+ok 136 - full synthetic C1.13 → C1.14 path reaches Release Candidate ready while Network release remains unauthorized
+  ---
+  duration_ms: 16.29669
+  type: 'test'
+  ...
+# Subtest: canonical C1.14 truth remains empty because no real C1.13 Ledger packet has been admitted
+ok 137 - canonical C1.14 truth remains empty because no real C1.13 Ledger packet has been admitted
+  ---
+  duration_ms: 0.37211
+  type: 'test'
+  ...
+# Subtest: C1.14 chronology is fail-closed: admission cannot predate verification and Release Candidate cannot predate admission
+ok 138 - C1.14 chronology is fail-closed: admission cannot predate verification and Release Candidate cannot predate admission
+  ---
+  duration_ms: 25.798233
+  type: 'test'
+  ...
+# Subtest: a forged/rehashed admission register cannot substitute for validating the signed Ledger Admission Receipt
+ok 139 - a forged/rehashed admission register cannot substitute for validating the signed Ledger Admission Receipt
+  ---
+  duration_ms: 17.770532
+  type: 'test'
+  ...
+# Subtest: C1.11 policy freezes internal render/audio QC targets without claiming downstream authority
+ok 140 - C1.11 policy freezes internal render/audio QC targets without claiming downstream authority
+  ---
+  duration_ms: 1.383598
+  type: 'test'
+  ...
+# Subtest: C1.11 refuses render work unless an exact C1.10 manifest is the current active Picture Lock
+ok 141 - C1.11 refuses render work unless an exact C1.10 manifest is the current active Picture Lock
+  ---
+  duration_ms: 3.123072
+  type: 'test'
+  ...
+# Subtest: audio conform binds the locked timeline, 48 kHz stereo mix, narration lineage, rights, and voice consent
+ok 142 - audio conform binds the locked timeline, 48 kHz stereo mix, narration lineage, rights, and voice consent
+  ---
+  duration_ms: 2.709891
+  type: 'test'
+  ...
+# Subtest: human audio conform review can approve rendering but cannot create Audio Lock, Master acceptance, or release
+ok 143 - human audio conform review can approve rendering but cannot create Audio Lock, Master acceptance, or release
+  ---
+  duration_ms: 0.951678
+  type: 'test'
+  ...
+# Subtest: render contract selects only exact Picture-Locked hashes and approved audio conform lineage
+ok 144 - render contract selects only exact Picture-Locked hashes and approved audio conform lineage
+  ---
+  duration_ms: 3.18187
+  type: 'test'
+  ...
+# Subtest: filesystem input verification rejects byte substitution after Picture Lock
+ok 145 - filesystem input verification rejects byte substitution after Picture Lock
+  ---
+  duration_ms: 3.265593
+  type: 'test'
+  ...
+# Subtest: render contract rejects path traversal before FFmpeg can see an input path
+ok 146 - render contract rejects path traversal before FFmpeg can see an input path
+  ---
+  duration_ms: 1.105366
+  type: 'test'
+  ...
+# Subtest: measured render QC independently gates duration, streams, dimensions, 48 kHz stereo, loudness and true peak
+ok 147 - measured render QC independently gates duration, streams, dimensions, 48 kHz stereo, loudness and true peak
+  ---
+  duration_ms: 1.75656
+  type: 'test'
+  ...
+# Subtest: Render Candidate requires PASSED measured QC and still cannot become Master, Canon, Ledger promotion, or public release
+ok 148 - Render Candidate requires PASSED measured QC and still cannot become Master, Canon, Ledger promotion, or public release
+  ---
+  duration_ms: 2.302438
+  type: 'test'
+  ...
+# Subtest: Render Candidate Register is append-only and records candidates without laundering them into accepted masters
+ok 149 - Render Candidate Register is append-only and records candidates without laundering them into accepted masters
+  ---
+  duration_ms: 2.180156
+  type: 'test'
+  ...
+# Subtest: canonical pre-production state remains blocked when no active Picture Lock exists
+ok 150 - canonical pre-production state remains blocked when no active Picture Lock exists
+  ---
+  duration_ms: 0.469124
+  type: 'test'
+  ...
+# Subtest: C1.11 canonical PN-0001 Render Candidate Register remains revision 0 with no Audio Conform, Render Candidate, Master, Canon, or release claim
+ok 151 - C1.11 canonical PN-0001 Render Candidate Register remains revision 0 with no Audio Conform, Render Candidate, Master, Canon, or release claim
+  ---
+  duration_ms: 0.604424
+  type: 'test'
+  ...
+# Subtest: C1.12 policy requires separate human Audio Lock and Master acceptance while preserving downstream boundaries
+ok 152 - C1.12 policy requires separate human Audio Lock and Master acceptance while preserving downstream boundaries
+  ---
+  duration_ms: 1.897739
+  type: 'test'
+  ...
+# Subtest: Audio Lock signs the exact C1.11 conform manifest and exact mix bytes in a dedicated Ed25519 domain
+ok 153 - Audio Lock signs the exact C1.11 conform manifest and exact mix bytes in a dedicated Ed25519 domain
+  ---
+  duration_ms: 6.916427
+  type: 'test'
+  ...
+# Subtest: Audio Lock rejects post-signing audio conform/mix drift even if the surrounding object is rehashed
+ok 154 - Audio Lock rejects post-signing audio conform/mix drift even if the surrounding object is rehashed
+  ---
+  duration_ms: 4.779243
+  type: 'test'
+  ...
+# Subtest: new Audio Lock cannot be created or historically trusted with a revoked key
+ok 155 - new Audio Lock cannot be created or historically trusted with a revoked key
+  ---
+  duration_ms: 0.750821
+  type: 'test'
+  ...
+# Subtest: Locked Audio Manifest is immutable and never grants Master, Canon, Ledger, or release authority
+ok 156 - Locked Audio Manifest is immutable and never grants Master, Canon, Ledger, or release authority
+  ---
+  duration_ms: 2.609102
+  type: 'test'
+  ...
+# Subtest: Audio Lock Register is append-only and forces explicit unlock before a replacement lock
+ok 157 - Audio Lock Register is append-only and forces explicit unlock before a replacement lock
+  ---
+  duration_ms: 3.828116
+  type: 'test'
+  ...
+# Subtest: Audio Lock unlock/remix/supersession preserves the old immutable lock in history
+ok 158 - Audio Lock unlock/remix/supersession preserves the old immutable lock in history
+  ---
+  duration_ms: 8.309709
+  type: 'test'
+  ...
+# Subtest: Master Review requires the exact active Audio Lock and separate creative + technical approval
+ok 159 - Master Review requires the exact active Audio Lock and separate creative + technical approval
+  ---
+  duration_ms: 3.161289
+  type: 'test'
+  ...
+# Subtest: Master Acceptance Ceremony cryptographically binds review, exact MP4, QC, Picture Lock, and Audio Lock hashes
+ok 160 - Master Acceptance Ceremony cryptographically binds review, exact MP4, QC, Picture Lock, and Audio Lock hashes
+  ---
+  duration_ms: 4.039659
+  type: 'test'
+  ...
+# Subtest: Master Candidate is exact and accepted, but Canon, Ledger promotion, and Network release remain later gates
+ok 161 - Master Candidate is exact and accepted, but Canon, Ledger promotion, and Network release remain later gates
+  ---
+  duration_ms: 5.502213
+  type: 'test'
+  ...
+# Subtest: Master Candidate Register is append-only and cannot duplicate the same accepted exact master
+ok 162 - Master Candidate Register is append-only and cannot duplicate the same accepted exact master
+  ---
+  duration_ms: 4.210912
+  type: 'test'
+  ...
+# Subtest: canonical C1.12 registers truthfully remain empty because no real Audio Lock or Master acceptance exists
+ok 163 - canonical C1.12 registers truthfully remain empty because no real Audio Lock or Master acceptance exists
+  ---
+  duration_ms: 0.434654
+  type: 'test'
+  ...
+# Subtest: C1.15 policy preserves human-only release, publication confirmation, and explicit unpublish boundary
+ok 164 - C1.15 policy preserves human-only release, publication confirmation, and explicit unpublish boundary
+  ---
+  duration_ms: 1.449766
+  type: 'test'
+  ...
+# Subtest: independent Network Release Review binds exact registered C1.14 package, evidence root, output, and route without authorizing release
+ok 165 - independent Network Release Review binds exact registered C1.14 package, evidence root, output, and route without authorizing release
+  ---
+  duration_ms: 17.895807
+  type: 'test'
+  ...
+# Subtest: Network Release Review refuses incomplete approval assertions and unsafe route drift
+ok 166 - Network Release Review refuses incomplete approval assertions and unsafe route drift
+  ---
+  duration_ms: 8.660147
+  type: 'test'
+  ...
+# Subtest: Network Release Review is self-hashed and rejects exact output or route tampering
+ok 167 - Network Release Review is self-hashed and rejects exact output or route tampering
+  ---
+  duration_ms: 37.475906
+  type: 'test'
+  ...
+# Subtest: signed Network Release Ceremony authorizes exactly one package/route but does not claim publication success
+ok 168 - signed Network Release Ceremony authorizes exactly one package/route but does not claim publication success
+  ---
+  duration_ms: 38.164185
+  type: 'test'
+  ...
+# Subtest: new Network Release signature refuses retired keys and exact-lineage tampering
+ok 169 - new Network Release signature refuses retired keys and exact-lineage tampering
+  ---
+  duration_ms: 35.504629
+  type: 'test'
+  ...
+# Subtest: publication cannot be confirmed before signed authorization, without 2xx reachability, or without public provenance receipts
+ok 170 - publication cannot be confirmed before signed authorization, without 2xx reachability, or without public provenance receipts
+  ---
+  duration_ms: 33.251414
+  type: 'test'
+  ...
+# Subtest: successful Publication Confirmation binds the exact signed ceremony, route, package, and published output
+ok 171 - successful Publication Confirmation binds the exact signed ceremony, route, package, and published output
+  ---
+  duration_ms: 33.185276
+  type: 'test'
+  ...
+# Subtest: Publication Confirmation detects provider evidence, output, and route tampering
+ok 172 - Publication Confirmation detects provider evidence, output, and route tampering
+  ---
+  duration_ms: 29.834437
+  type: 'test'
+  ...
+# Subtest: Public Release Receipt is the first immutable object allowed to assert publicRelease=true
+ok 173 - Public Release Receipt is the first immutable object allowed to assert publicRelease=true
+  ---
+  duration_ms: 30.186037
+  type: 'test'
+  ...
+# Subtest: Public Release Receipt refuses post-release Master output or publication-confirmation drift
+ok 174 - Public Release Receipt refuses post-release Master output or publication-confirmation drift
+  ---
+  duration_ms: 29.082354
+  type: 'test'
+  ...
+# Subtest: append-only Public Release Register records a route/package once and rejects replay or hash-chain tampering
+ok 175 - append-only Public Release Register records a route/package once and rejects replay or hash-chain tampering
+  ---
+  duration_ms: 29.1414
+  type: 'test'
+  ...
+# Subtest: full synthetic C1.14 → C1.15 chain closes the loop only after publication confirmation + Public Release Receipt
+ok 176 - full synthetic C1.14 → C1.15 chain closes the loop only after publication confirmation + Public Release Receipt
+  ---
+  duration_ms: 22.799739
+  type: 'test'
+  ...
+# Subtest: canonical C1.15 truth remains empty because no real PN-0001 Release Candidate has been publicly released
+ok 177 - canonical C1.15 truth remains empty because no real PN-0001 Release Candidate has been publicly released
+  ---
+  duration_ms: 0.232985
+  type: 'test'
+  ...
+# Subtest: C1.15 chronology is fail-closed from registered Release Candidate through review, ceremony, receipt, and register
+ok 178 - C1.15 chronology is fail-closed from registered Release Candidate through review, ceremony, receipt, and register
+  ---
+  duration_ms: 38.921837
+  type: 'test'
+  ...
+# Subtest: C1.10 policy makes Picture Lock human-signed, exact-hash-bound, explicitly unlockable, and preserves downstream boundaries
+ok 179 - C1.10 policy makes Picture Lock human-signed, exact-hash-bound, explicitly unlockable, and preserves downstream boundaries
+  ---
+  duration_ms: 0.980592
+  type: 'test'
+  ...
+# Subtest: C1.10 signs and verifies an exact approved Picture Plan under a distinct Ed25519 Picture Lock signature domain
+ok 180 - C1.10 signs and verifies an exact approved Picture Plan under a distinct Ed25519 Picture Lock signature domain
+  ---
+  duration_ms: 18.345121
+  type: 'test'
+  ...
+# Subtest: C1.10 rejects Picture Lock when the C1.9 human review has not approved the exact plan for a lock ceremony
+ok 181 - C1.10 rejects Picture Lock when the C1.9 human review has not approved the exact plan for a lock ceremony
+  ---
+  duration_ms: 4.409827
+  type: 'test'
+  ...
+# Subtest: C1.10 detects plan/review/registry or signature tampering after the human Picture Lock signature
+ok 182 - C1.10 detects plan/review/registry or signature tampering after the human Picture Lock signature
+  ---
+  duration_ms: 8.86469
+  type: 'test'
+  ...
+# Subtest: C1.10 Locked Picture Manifest freezes exact shot selections and remains outside Canon, Ledger promotion, and public release
+ok 183 - C1.10 Locked Picture Manifest freezes exact shot selections and remains outside Canon, Ledger promotion, and public release
+  ---
+  duration_ms: 9.097495
+  type: 'test'
+  ...
+# Subtest: C1.10 Locked Picture Manifest is immutable: silent artifact replacement invalidates the manifest hash
+ok 184 - C1.10 Locked Picture Manifest is immutable: silent artifact replacement invalidates the manifest hash
+  ---
+  duration_ms: 6.923006
+  type: 'test'
+  ...
+# Subtest: C1.10 canonical PN-0001 Picture Lock register remains empty and claims no real lock
+ok 185 - C1.10 canonical PN-0001 Picture Lock register remains empty and claims no real lock
+  ---
+  duration_ms: 0.521953
+  type: 'test'
+  ...
+# Subtest: C1.10 append-only register activates one exact locked manifest and refuses a second active lock without explicit unlock
+ok 186 - C1.10 append-only register activates one exact locked manifest and refuses a second active lock without explicit unlock
+  ---
+  duration_ms: 10.931138
+  type: 'test'
+  ...
+# Subtest: C1.10 signed UNLOCK_FOR_REVISION preserves the old immutable lock as history while removing active Picture Lock state
+ok 187 - C1.10 signed UNLOCK_FOR_REVISION preserves the old immutable lock as history while removing active Picture Lock state
+  ---
+  duration_ms: 7.055583
+  type: 'test'
+  ...
+# Subtest: C1.10 replacement requires unlock, a separately signed new lock, then explicit signed SUPERSEDE to complete history
+ok 188 - C1.10 replacement requires unlock, a separately signed new lock, then explicit signed SUPERSEDE to complete history
+  ---
+  duration_ms: 16.633709
+  type: 'test'
+  ...
+# Subtest: C1.10 transition signatures reject tampering and revoked signing keys invalidate lock-state mutations
+ok 189 - C1.10 transition signatures reject tampering and revoked signing keys invalidate lock-state mutations
+  ---
+  duration_ms: 5.495143
+  type: 'test'
+  ...
+# Subtest: C1.10 retired keys may verify historical lock signatures but cannot create new Picture Lock signatures
+ok 190 - C1.10 retired keys may verify historical lock signatures but cannot create new Picture Lock signatures
+  ---
+  duration_ms: 7.521101
+  type: 'test'
+  ...
+# Subtest: C1.20 policy freezes audit/refresh boundaries without release or Relay authority
+ok 191 - C1.20 policy freezes audit/refresh boundaries without release or Relay authority
+  ---
+  duration_ms: 0.964527
+  type: 'test'
+  ...
+# Subtest: Preservation Audit Schedule binds one unique media identity to every governed placement
+ok 192 - Preservation Audit Schedule binds one unique media identity to every governed placement
+  ---
+  duration_ms: 408.051854
+  type: 'test'
+  ...
+# Subtest: Preservation Audit Schedule rejects duplicate media identity and placement drift
+ok 193 - Preservation Audit Schedule rejects duplicate media identity and placement drift
+  ---
+  duration_ms: 382.031562
+  type: 'test'
+  ...
+# Subtest: Audit scheduler reports refresh warning/due and overdue audit state without authorizing release
+ok 194 - Audit scheduler reports refresh warning/due and overdue audit state without authorizing release
+  ---
+  duration_ms: 409.469648
+  type: 'test'
+  ...
+# Subtest: Preservation Audit Receipt requires a fresh zero-change C1.19 VERIFY_SYNC
+ok 195 - Preservation Audit Receipt requires a fresh zero-change C1.19 VERIFY_SYNC
+  ---
+  duration_ms: 423.315836
+  type: 'test'
+  ...
+# Subtest: Media Refresh Review is human-only evidence and does not itself authorize refresh or retirement
+ok 196 - Media Refresh Review is human-only evidence and does not itself authorize refresh or retirement
+  ---
+  duration_ms: 322.129644
+  type: 'test'
+  ...
+# Subtest: Signed Media Refresh Ceremony binds exact review, old/new placement plans, historical output, and short authorization window
+ok 197 - Signed Media Refresh Ceremony binds exact review, old/new placement plans, historical output, and short authorization window
+  ---
+  duration_ms: 398.864892
+  type: 'test'
+  ...
+# Subtest: Media Refresh Ceremony rejects post-signature placement or review tampering
+ok 198 - Media Refresh Ceremony rejects post-signature placement or review tampering
+  ---
+  duration_ms: 397.734504
+  type: 'test'
+  ...
+# Subtest: Media Refresh Ceremony rejects revoked human signing keys
+ok 199 - Media Refresh Ceremony rejects revoked human signing keys
+  ---
+  duration_ms: 369.971679
+  type: 'test'
+  ...
+# Subtest: Media Refresh Receipt rejects migration attempts started after the signed authorization expires
+ok 200 - Media Refresh Receipt rejects migration attempts started after the signed authorization expires
+  ---
+  duration_ms: 382.000742
+  type: 'test'
+  ...
+# Subtest: Media Refresh Receipt requires an exact C1.19 migration executed after authorization and preserves historical identity
+ok 201 - Media Refresh Receipt requires an exact C1.19 migration executed after authorization and preserves historical identity
+  ---
+  duration_ms: 341.628814
+  type: 'test'
+  ...
+# Subtest: Media Refresh Receipt rejects migration that tries to pre-authorize source retirement
+ok 202 - Media Refresh Receipt rejects migration that tries to pre-authorize source retirement
+  ---
+  duration_ms: 353.697998
+  type: 'test'
+  ...
+# Subtest: Media Retirement Ceremony requires verified replacement and a post-refresh plan that excludes old source but retains replacement
+ok 203 - Media Retirement Ceremony requires verified replacement and a post-refresh plan that excludes old source but retains replacement
+  ---
+  duration_ms: 395.062314
+  type: 'test'
+  ...
+# Subtest: Media Retirement Receipt records logical retirement but never deletion authority
+ok 204 - Media Retirement Receipt records logical retirement but never deletion authority
+  ---
+  duration_ms: 338.654427
+  type: 'test'
+  ...
+# Subtest: Preservation Register appends audit → refresh → retirement history in an immutable hash chain
+ok 205 - Preservation Register appends audit → refresh → retirement history in an immutable hash chain
+  ---
+  duration_ms: 388.522825
+  type: 'test'
+  ...
+# Subtest: Preservation Register rejects duplicate receipts and hash-chain edits
+ok 206 - Preservation Register rejects duplicate receipts and hash-chain edits
+  ---
+  duration_ms: 356.755627
+  type: 'test'
+  ...
+# Subtest: C1.20 full proof path can refresh and retire old media without gaining release authority
+ok 207 - C1.20 full proof path can refresh and retire old media without gaining release authority
+  ---
+  duration_ms: 361.75013
+  type: 'test'
+  ...
+# Subtest: canonical C1.20 Preservation Register remains revision 0 because PN-0001 has no real managed archive media
+ok 208 - canonical C1.20 Preservation Register remains revision 0 because PN-0001 has no real managed archive media
+  ---
+  duration_ms: 0.647328
+  type: 'test'
+  ...
+# Subtest: C1.17 canonical archive policy and revision-0 register validate with no invented public history
+ok 209 - C1.17 canonical archive policy and revision-0 register validate with no invented public history
+  ---
+  duration_ms: 2.835887
+  type: 'test'
+  ...
+# Subtest: active historical release becomes an Archive Record without granting new release authority
+ok 210 - active historical release becomes an Archive Record without granting new release authority
+  ---
+  duration_ms: 57.455247
+  type: 'test'
+  ...
+# Subtest: withdrawn release Archive Record preserves historical truth while current route state becomes false
+ok 211 - withdrawn release Archive Record preserves historical truth while current route state becomes false
+  ---
+  duration_ms: 73.650286
+  type: 'test'
+  ...
+# Subtest: correction notice is rejected for an active release
+ok 212 - correction notice is rejected for an active release
+  ---
+  duration_ms: 34.009026
+  type: 'test'
+  ...
+# Subtest: withdrawn release gets an audience-visible correction/tombstone notice bound to exact history
+ok 213 - withdrawn release gets an audience-visible correction/tombstone notice bound to exact history
+  ---
+  duration_ms: 86.643076
+  type: 'test'
+  ...
+# Subtest: archive and correction paths reject traversal or query/hash ambiguity
+ok 214 - archive and correction paths reject traversal or query/hash ambiguity
+  ---
+  duration_ms: 76.40613
+  type: 'test'
+  ...
+# Subtest: long-term integrity revalidation PASS requires all six governed evidence observations to match
+ok 215 - long-term integrity revalidation PASS requires all six governed evidence observations to match
+  ---
+  duration_ms: 71.151738
+  type: 'test'
+  ...
+# Subtest: missing evidence produces DEGRADED rather than laundering an incomplete check into PASS
+ok 216 - missing evidence produces DEGRADED rather than laundering an incomplete check into PASS
+  ---
+  duration_ms: 73.122055
+  type: 'test'
+  ...
+# Subtest: hash mismatch produces FAIL even when every artifact is present
+ok 217 - hash mismatch produces FAIL even when every artifact is present
+  ---
+  duration_ms: 65.820308
+  type: 'test'
+  ...
+# Subtest: integrity verifier rejects missing, duplicate, extra, or expected-hash-substituted evidence kinds
+ok 218 - integrity verifier rejects missing, duplicate, extra, or expected-hash-substituted evidence kinds
+  ---
+  duration_ms: 71.665559
+  type: 'test'
+  ...
+# Subtest: append-only archive register records archive → correction notice → revalidation in hash-chained order
+ok 219 - append-only archive register records archive → correction notice → revalidation in hash-chained order
+  ---
+  duration_ms: 76.377403
+  type: 'test'
+  ...
+# Subtest: duplicate archive registration and archive hash-chain edits fail closed
+ok 220 - duplicate archive registration and archive hash-chain edits fail closed
+  ---
+  duration_ms: 73.913681
+  type: 'test'
+  ...
+# Subtest: archive status reports overdue internal revalidation without changing public-release authority
+ok 221 - archive status reports overdue internal revalidation without changing public-release authority
+  ---
+  duration_ms: 67.186009
+  type: 'test'
+  ...
+# Subtest: C1.17 revalidates C1.15 and C1.16 source registers rather than trusting copied source hashes
+ok 222 - C1.17 revalidates C1.15 and C1.16 source registers rather than trusting copied source hashes
+  ---
+  duration_ms: 21.171305
+  type: 'test'
+  ...
+# Subtest: archive objects preserve evidence but never substitute for release, Ledger, or Relay authority
+ok 223 - archive objects preserve evidence but never substitute for release, Ledger, or Relay authority
+  ---
+  duration_ms: 65.465733
+  type: 'test'
+  ...
+# Subtest: C1.16 policy forbids auto-withdrawal, auto-supersession, history deletion, and Relay dependency
+ok 224 - C1.16 policy forbids auto-withdrawal, auto-supersession, history deletion, and Relay dependency
+  ---
+  duration_ms: 1.390659
+  type: 'test'
+  ...
+# Subtest: canonical C1.16 register starts empty and binds exact frozen C1.15 register hash
+ok 225 - canonical C1.16 register starts empty and binds exact frozen C1.15 register hash
+  ---
+  duration_ms: 1.315277
+  type: 'test'
+  ...
+# Subtest: Withdrawal Review requires exact registered C1.15 public release and preserves historical receipt
+ok 226 - Withdrawal Review requires exact registered C1.15 public release and preserves historical receipt
+  ---
+  duration_ms: 94.875516
+  type: 'test'
+  ...
+# Subtest: Withdrawal Review cannot approve without notice/history/route readiness
+ok 227 - Withdrawal Review cannot approve without notice/history/route readiness
+  ---
+  duration_ms: 74.381529
+  type: 'test'
+  ...
+# Subtest: signed Withdrawal Ceremony authorizes withdrawal but does not rewrite historical public-release truth
+ok 228 - signed Withdrawal Ceremony authorizes withdrawal but does not rewrite historical public-release truth
+  ---
+  duration_ms: 78.970706
+  type: 'test'
+  ...
+# Subtest: Withdrawal Ceremony signature rejects exact receipt/route tampering and revoked keys
+ok 229 - Withdrawal Ceremony signature rejects exact receipt/route tampering and revoked keys
+  ---
+  duration_ms: 71.076257
+  type: 'test'
+  ...
+# Subtest: Withdrawal Confirmation requires old output removed while notice and historical receipt remain reachable
+ok 230 - Withdrawal Confirmation requires old output removed while notice and historical receipt remain reachable
+  ---
+  duration_ms: 71.173471
+  type: 'test'
+  ...
+# Subtest: Withdrawal Receipt is immutable proof of current unpublish plus preserved historical release
+ok 231 - Withdrawal Receipt is immutable proof of current unpublish plus preserved historical release
+  ---
+  duration_ms: 78.240325
+  type: 'test'
+  ...
+# Subtest: lifecycle register transitions active C1.15 release to withdrawn without deleting C1.15 history
+ok 232 - lifecycle register transitions active C1.15 release to withdrawn without deleting C1.15 history
+  ---
+  duration_ms: 79.689835
+  type: 'test'
+  ...
+# Subtest: duplicate withdrawal and hash-chain tampering fail closed
+ok 233 - duplicate withdrawal and hash-chain tampering fail closed
+  ---
+  duration_ms: 98.511082
+  type: 'test'
+  ...
+# Subtest: Correction Review can approve metadata/provenance correction using same Master bytes but remains unreleased
+ok 234 - Correction Review can approve metadata/provenance correction using same Master bytes but remains unreleased
+  ---
+  duration_ms: 192.291056
+  type: 'test'
+  ...
+# Subtest: CONTENT_OR_MASTER correction requires changed Master output hash
+ok 235 - CONTENT_OR_MASTER correction requires changed Master output hash
+  ---
+  duration_ms: 84.702003
+  type: 'test'
+  ...
+# Subtest: same public route may be reused only through explicit post-withdrawal correction/supersession path
+ok 236 - same public route may be reused only through explicit post-withdrawal correction/supersession path
+  ---
+  duration_ms: 182.028952
+  type: 'test'
+  ...
+# Subtest: signed Supersession Ceremony binds withdrawn receipt, correction review, and replacement Public Release Receipt
+ok 237 - signed Supersession Ceremony binds withdrawn receipt, correction review, and replacement Public Release Receipt
+  ---
+  duration_ms: 212.34319
+  type: 'test'
+  ...
+# Subtest: Supersession Receipt preserves withdrawn history while naming replacement as current public release
+ok 238 - Supersession Receipt preserves withdrawn history while naming replacement as current public release
+  ---
+  duration_ms: 189.977322
+  type: 'test'
+  ...
+# Subtest: full lifecycle classifies public → withdrawn → corrected replacement without erasing history
+ok 239 - full lifecycle classifies public → withdrawn → corrected replacement without erasing history
+  ---
+  duration_ms: 197.461855
+  type: 'test'
+  ...
+# Subtest: C1.16 re-validates the exact C1.15 historical register instead of trusting a copied register hash
+ok 240 - C1.16 re-validates the exact C1.15 historical register instead of trusting a copied register hash
+  ---
+  duration_ms: 0.321766
+  type: 'test'
+  ...
+# Subtest: Correction Review rejects C1.14/C1.15 policy-scope substitution
+ok 241 - Correction Review rejects C1.14/C1.15 policy-scope substitution
+  ---
+  duration_ms: 71.334569
+  type: 'test'
+  ...
+# Subtest: C1.19 policy freezes 3 managed replicas, 3 failure domains, cold/offline placement, verification-after-write, and no release/Relay authority
+ok 242 - C1.19 policy freezes 3 managed replicas, 3 failure domains, cold/offline placement, verification-after-write, and no release/Relay authority
+  ---
+  duration_ms: 2.546699
+  type: 'test'
+  ...
+# Subtest: Storage Adapter contracts are credential-free capability contracts and physical independence remains operator-attested
+ok 243 - Storage Adapter contracts are credential-free capability contracts and physical independence remains operator-attested
+  ---
+  duration_ms: 135.766807
+  type: 'test'
+  ...
+# Subtest: Storage Adapter contract rejects secret-like deletion authority or unsupported capability weakening
+ok 244 - Storage Adapter contract rejects secret-like deletion authority or unsupported capability weakening
+  ---
+  duration_ms: 0.440131
+  type: 'test'
+  ...
+# Subtest: Storage Adapter Registry rejects duplicate adapter identities
+ok 245 - Storage Adapter Registry rejects duplicate adapter identities
+  ---
+  duration_ms: 100.885255
+  type: 'test'
+  ...
+# Subtest: Replica Placement Plan binds exact C1.18 bundle/replica set to three adapters including cold storage
+ok 246 - Replica Placement Plan binds exact C1.18 bundle/replica set to three adapters including cold storage
+  ---
+  duration_ms: 104.255479
+  type: 'test'
+  ...
+# Subtest: Replica Placement Plan rejects missing cold/offline placement and failure-domain lies
+ok 247 - Replica Placement Plan rejects missing cold/offline placement and failure-domain lies
+  ---
+  duration_ms: 97.289784
+  type: 'test'
+  ...
+# Subtest: VERIFY_SYNC requires healthy source + target, exact placement, and zero changed objects
+ok 248 - VERIFY_SYNC requires healthy source + target, exact placement, and zero changed objects
+  ---
+  duration_ms: 110.981934
+  type: 'test'
+  ...
+# Subtest: VERIFY_SYNC rejects changed-object claims and unhealthy targets
+ok 249 - VERIFY_SYNC rejects changed-object claims and unhealthy targets
+  ---
+  duration_ms: 105.213251
+  type: 'test'
+  ...
+# Subtest: Replica Repair requires damaged pre-state, healthy source, healthy post-state, and exact repaired kinds
+ok 250 - Replica Repair requires damaged pre-state, healthy source, healthy post-state, and exact repaired kinds
+  ---
+  duration_ms: 132.81962
+  type: 'test'
+  ...
+# Subtest: Replica Repair refuses to claim healthy objects or exceed the internal repair window
+ok 251 - Replica Repair refuses to claim healthy objects or exceed the internal repair window
+  ---
+  duration_ms: 108.08311
+  type: 'test'
+  ...
+# Subtest: Replica Migration preserves historical identity and never auto-deletes the source
+ok 252 - Replica Migration preserves historical identity and never auto-deletes the source
+  ---
+  duration_ms: 130.93124
+  type: 'test'
+  ...
+# Subtest: Replica Migration rejects destination adapter substitution before failure-domain claims can be laundered
+ok 253 - Replica Migration rejects destination adapter substitution before failure-domain claims can be laundered
+  ---
+  duration_ms: 109.43836
+  type: 'test'
+  ...
+# Subtest: Replica Maintenance Register appends sync, repair, and migration evidence in a hash chain
+ok 254 - Replica Maintenance Register appends sync, repair, and migration evidence in a hash chain
+  ---
+  duration_ms: 156.802281
+  type: 'test'
+  ...
+# Subtest: Replica Maintenance Register rejects duplicate receipts and hash-chain edits
+ok 255 - Replica Maintenance Register rejects duplicate receipts and hash-chain edits
+  ---
+  duration_ms: 129.272245
+  type: 'test'
+  ...
+# Subtest: Maintenance status reports overdue sync under internal 30-day policy without creating release authority
+ok 256 - Maintenance status reports overdue sync under internal 30-day policy without creating release authority
+  ---
+  duration_ms: 113.524723
+  type: 'test'
+  ...
+# Subtest: canonical C1.19 Adapter + Maintenance Registers remain revision 0 because PN-0001 has no real archive replicas to manage
+ok 257 - canonical C1.19 Adapter + Maintenance Registers remain revision 0 because PN-0001 has no real archive replicas to manage
+  ---
+  duration_ms: 0.557425
+  type: 'test'
+  ...
+# Subtest: C1.19 revalidates the C1.18 source register rather than trusting a copied source hash
+ok 258 - C1.19 revalidates the C1.18 source register rather than trusting a copied source hash
+  ---
+  duration_ms: 0.443096
+  type: 'test'
+  ...
+# Subtest: C1.19 maintenance evidence can never authorize release or create a Relay dependency
+ok 259 - C1.19 maintenance evidence can never authorize release or create a Relay dependency
+  ---
+  duration_ms: 102.970071
+  type: 'test'
+  ...
+# Subtest: Replica Repair rejects valid replicas that are not both named in the governed placement plan
+ok 260 - Replica Repair rejects valid replicas that are not both named in the governed placement plan
+  ---
+  duration_ms: 115.501388
+  type: 'test'
+  ...
+# Subtest: Replica Migration rejects a valid adapter contract when it is not the adapter paired to the destination replica
+ok 261 - Replica Migration rejects a valid adapter contract when it is not the adapter paired to the destination replica
+  ---
+  duration_ms: 95.985308
+  type: 'test'
+  ...
+# Subtest: Replica Sync rejects a destination verification that predates the claimed sync window
+ok 262 - Replica Sync rejects a destination verification that predates the claimed sync window
+  ---
+  duration_ms: 114.211204
+  type: 'test'
+  ...
+# Subtest: Replica Migration rejects destination verification that predates the migration window
+ok 263 - Replica Migration rejects destination verification that predates the migration window
+  ---
+  duration_ms: 92.837774
+  type: 'test'
+  ...
+# Subtest: C1.23 policy remains fail-closed and does not overclaim a full independent rebuild
+ok 264 - C1.23 policy remains fail-closed and does not overclaim a full independent rebuild
+  ---
+  duration_ms: 1.434302
+  type: 'test'
+  ...
+# Subtest: decoder SBOM binds exact C1.22 environment executable hashes and linked libraries
+ok 265 - decoder SBOM binds exact C1.22 environment executable hashes and linked libraries
+  ---
+  duration_ms: 11.750281
+  type: 'test'
+  ...
+# Subtest: SBOM rejects executable drift and unknown-field tampering
+ok 266 - SBOM rejects executable drift and unknown-field tampering
+  ---
+  duration_ms: 6.856919
+  type: 'test'
+  ...
+# Subtest: rebuild recipe is exact, offline, and explicitly scoped to local runtime reconstruction
+ok 267 - rebuild recipe is exact, offline, and explicitly scoped to local runtime reconstruction
+  ---
+  duration_ms: 5.281497
+  type: 'test'
+  ...
+# Subtest: decode capsule binds PASS C1.22 compatibility evidence plus original and preservation hashes
+ok 268 - decode capsule binds PASS C1.22 compatibility evidence plus original and preservation hashes
+  ---
+  duration_ms: 9.293876
+  type: 'test'
+  ...
+# Subtest: reconstruction PASS requires exact executables, capability fingerprint, media bytes, and full decode
+ok 269 - reconstruction PASS requires exact executables, capability fingerprint, media bytes, and full decode
+  ---
+  duration_ms: 6.578907
+  type: 'test'
+  ...
+# Subtest: reconstruction rejects media or capability drift
+ok 270 - reconstruction rejects media or capability drift
+  ---
+  duration_ms: 7.574831
+  type: 'test'
+  ...
+# Subtest: C1.23 append-only register records SBOM, capsule, and reconstruction without release authority
+ok 271 - C1.23 append-only register records SBOM, capsule, and reconstruction without release authority
+  ---
+  duration_ms: 10.061561
+  type: 'test'
+  ...
+# Subtest: C1.23 register detects historical tampering and duplicate evidence
+ok 272 - C1.23 register detects historical tampering and duplicate evidence
+  ---
+  duration_ms: 6.045528
+  type: 'test'
+  ...
+# Subtest: canonical C1.23 register remains revision 0 because PN-0001 has no governed C1.22 decode history
+ok 273 - canonical C1.23 register remains revision 0 because PN-0001 has no governed C1.22 decode history
+  ---
+  duration_ms: 0.932831
+  type: 'test'
+  ...
+1..273
+# tests 273
+# suites 0
+# pass 273
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7396.148573
