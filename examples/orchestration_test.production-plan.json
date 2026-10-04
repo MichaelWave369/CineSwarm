@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "production-plan/v1",
+  "projectId": "orchestration-test",
+  "idempotencyKey": "orchestration-test-v1",
+  "lineage": {
+    "sourceSystem": "LOCAL-TEST",
+    "sourceHash": "3a476f12d215dcad55744c962e93aa702dba78b48ab6e1907b4d24cbec78ef0f"
+  },
+  "shots": [
+    {
+      "shotId": "orchestration-001",
+      "prompt": "Deterministic coordinator and receipt path test. This is not media generation.",
+      "durationSeconds": 1,
+      "delivery": {
+        "width": 1280,
+        "height": 720,
+        "fps": 24,
+        "container": "mp4"
+      },
+      "backendPreference": [
+        "deterministic-test"
+      ],
+      "conditioning": [],
+      "seed": 369,
+      "acceptanceEligible": false,
+      "publicReleaseAuthorized": false
+    }
+  ]
+}
+
