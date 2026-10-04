@@ -3,6 +3,7 @@ name: Bootstrap CineSwarm Public Source
 on:
   push:
     branches:
+      - main
       - release/v0.2.0-public-source
     paths:
       - bootstrap/cineswarm-public-source.tar.gz
@@ -14,6 +15,7 @@ permissions:
 
 jobs:
   import:
+    if: github.ref == 'refs/heads/release/v0.2.0-public-source'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout release branch
