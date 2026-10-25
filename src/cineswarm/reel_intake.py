@@ -135,7 +135,8 @@ def validate_reel_pitch(source: Any) -> dict[str, Any]:
         ("creatorCredit", 100), ("sourceWorld", 160),
     ):
         _text(pitch[key], f"pitch.{key}", limit, optional=(key == "sourceWorld"))
-    if pitch["format"] not in FORMAT_IDS or pitch["claimClass"] not in CLAIM_CLASSES:
+    if not isinstance(pitch["format"], str) or not isinstance(pitch["claimClass"], str) \
+            or pitch["format"] not in FORMAT_IDS or pitch["claimClass"] not in CLAIM_CLASSES:
         raise ReelIntakeError("pitch: unsupported format or claim classification")
 
     work_orders = root["workOrders"]
