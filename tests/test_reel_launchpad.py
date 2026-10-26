@@ -115,7 +115,8 @@ class ReelLaunchpadTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             fake_gpu = {"index": 0, "name": "TEST", "vramFreeMiB": 8000}
             other = {"index": 1, "name": "TEST2", "vramFreeMiB": 8000}
-            with patch("cineswarm.reel_launchpad._nvidia_gpus", return_value=([fake_gpu, other], None)), \
+            with patch("cineswarm.reel_launchpad._tool", return_value={"status": "FOUND", "executable": "/bin/fake"}), \
+                 patch("cineswarm.reel_launchpad._nvidia_gpus", return_value=([fake_gpu, other], None)), \
                  patch("cineswarm.reel_launchpad._memory_mib", return_value=(8192, 4000)):
                 report = launchpad_report(PILOT, disk_path=Path(folder))
             self.assertEqual(report["prerequisites"]["availableResources"]["status"], "BLOCKED")
