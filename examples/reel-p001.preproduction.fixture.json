@@ -1,0 +1,199 @@
+{
+  "schema": "REEL_ORIGINAL_PILOT_PREPRODUCTION_V1",
+  "id": "REEL-P001",
+  "title": "The First Transmission",
+  "show": "REEL Originals",
+  "contentClass": "fiction",
+  "legacyInspiration": "Historic Parallax Network roadmap Pilot 001: Welcome to Parallax Network. Newly authored REEL adaptation, not inherited finished media.",
+  "status": "PREPRODUCTION_DRAFT_NOT_RENDERED",
+  "createdUtc": "2026-10-25T23:41:00.000Z",
+  "pilotDurationSeconds": 74,
+  "disclosure": "Proposed AI-assisted fictional/symbolic visuals. Real media production and exact AI tool use have not been verified.",
+  "concept": "A 74-second cinematic introductory short: from a single question to a new commons for creator-owned worlds.",
+  "localProductionNotes": "",
+  "credits": {
+    "creativeDirection": "human review pending",
+    "narrationArtist": "unassigned",
+    "musicAuthor": "unassigned",
+    "visualAssets": "uncreated"
+  },
+  "shots": [
+    {
+      "id": "P001-S01",
+      "startSeconds": 0,
+      "durationSeconds": 8,
+      "name": "The Unlit Screen",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Almost-black empty theatre screen with one warm luminous point at center slowly unfolding into a small field of light. Original abstract cinematic scene, no people, logos or text.",
+      "voiceover": "Every story begins somewhere. Sometimes, with a single question.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S02",
+      "startSeconds": 8,
+      "durationSeconds": 9,
+      "name": "Many Doors",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original impossible corridor of suspended glowing portals containing abstract landscapes, no trademarks or known IP.",
+      "voiceover": "A question becomes a door. Behind every door, another world.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S03",
+      "startSeconds": 17,
+      "durationSeconds": 10,
+      "name": "The Writers’ Room",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original symbolic writers room with blank paper, pencil sketches and warm desk lamp, no legible text.",
+      "voiceover": "Someone imagines a beginning. Someone gives it a voice. Together, we find its shape.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S04",
+      "startSeconds": 27,
+      "durationSeconds": 9,
+      "name": "Give It a Pulse",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original music-production dreamscape of teal sound waves and abstract knobs, no branded DAW interface.",
+      "voiceover": "A musician gives it rhythm. A builder gives it motion.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S05",
+      "startSeconds": 36,
+      "durationSeconds": 11,
+      "name": "The Helpful Machine",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original creative workshop with floating scene cards and empty human director chair, no known faces.",
+      "voiceover": "Machines can help us make more. But the choices, the care, and the responsibility still belong to us.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S06",
+      "startSeconds": 47,
+      "durationSeconds": 10,
+      "name": "Receipts in the Light",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original abstract transparent provenance cards and light filaments, no certification marks.",
+      "voiceover": "We keep the sources close. We credit the hands behind the work. And we leave room to say what we do not know.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S07",
+      "startSeconds": 57,
+      "durationSeconds": 9,
+      "name": "The Commons Opens",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original open-air cinema at twilight with abstract creator worlds, no third-party visual IP.",
+      "voiceover": "Not one voice. Not one world. A commons for stories worth making together.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    },
+    {
+      "id": "P001-S08",
+      "startSeconds": 66,
+      "durationSeconds": 8,
+      "name": "The First Transmission",
+      "purpose": "Human-authored original cinematic identity story beat.",
+      "camera": "Slow controlled cinematic camera movement.",
+      "imagePrompt": "Original restrained network title-card environment, no generated text; human editor adds REEL wordmark.",
+      "voiceover": "Welcome to REEL. Our stories. Our worlds. Our network.",
+      "musicAndSound": "Original self-composed synthesizer score; no licensed audio implied.",
+      "transition": "Clean transition toward next original abstract scene.",
+      "rightsNote": "Proposed original visual and original audio, all rights subject to human review."
+    }
+  ],
+  "reviewGates": [
+    {
+      "id": "creative",
+      "label": "Creative direction",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "sources",
+      "label": "World and visual rights",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "voices",
+      "label": "Voice and likeness consent",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "music",
+      "label": "Original music and sound",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "claims",
+      "label": "Disclosure and claim posture",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "models",
+      "label": "Model and hardware qualification",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "editorial",
+      "label": "Rendered media and QC",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    },
+    {
+      "id": "release",
+      "label": "Publisher release and host",
+      "status": "not_reviewed",
+      "releaseAuthority": false
+    }
+  ],
+  "authority": {
+    "aiAgentsExecuted": false,
+    "assetsRendered": false,
+    "visualQCCompleted": false,
+    "provenanceReceiptIssued": false,
+    "rightsVerified": false,
+    "humanReleaseAuthorized": false,
+    "published": false,
+    "rctvChannelAssigned": false,
+    "cineSwarmPlanSubmitted": false
+  },
+  "handoff": {
+    "existingPitchSchema": "REEL_NETWORK_PITCH_PACKET_V1",
+    "thisPackageIsNativeCineSwarmPlan": false,
+    "recommendedTools": [
+      "CineSwarm",
+      "ParaCut",
+      "WaveForgeStudio",
+      "PhiBox",
+      "REEL Creator Studio"
+    ],
+    "nextStep": "Human review original storyboard, rights and local model licenses before executing any separate production plan."
+  }
+}
