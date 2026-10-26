@@ -1,0 +1,115 @@
+{
+  "schema": "REEL_NETWORK_PITCH_PACKET_V1",
+  "provenance": "CREATOR_AUTHORED_UNREVIEWED_DRAFT",
+  "network": "REEL",
+  "hostProject": "ReelCommons",
+  "originPipeline": "Parallax Creative Stack / CineSwarm",
+  "createdUtc": "2026-10-25T22:47:00.000Z",
+  "pitch": {
+    "title": "The First Transmission",
+    "concept": "A fictional, original pilot exploring a new world with clear disclosure and creative rights review.",
+    "show": "REEL Originals",
+    "creatorCredit": "Independent creator",
+    "format": "series",
+    "claimClass": "fiction",
+    "sourceWorld": "Original work"
+  },
+  "workOrders": [
+    {
+      "officeId": "intake",
+      "office": "Intake & World Packets",
+      "proposedOutput": "Format brief, audience and source-world notes",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "rights",
+      "office": "Rights & Provenance",
+      "proposedOutput": "Human-reviewed licenses, consent and attribution plan",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "development",
+      "office": "Development & Showrunner",
+      "proposedOutput": "Season arc, continuity bible and episode outline",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "writers",
+      "office": "Writers’ Room",
+      "proposedOutput": "Script, scene beats, dialogue and revision notes",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "research",
+      "office": "Research & Claim Audit",
+      "proposedOutput": "Citations, uncertainty, claim posture and correction notes",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "direction",
+      "office": "Visual & Audio Direction",
+      "proposedOutput": "Shot board, visual language, voice and music direction",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "production",
+      "office": "CineSwarm Production",
+      "proposedOutput": "Proposed shot plan for a separately approved CineSwarm runtime",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "editing",
+      "office": "ParaCut & WaveForge Post",
+      "proposedOutput": "Edit package, native verified RenderPlan and optional release-reference chain",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "quality",
+      "office": "Quality & Continuity",
+      "proposedOutput": "Media QC, provenance checks and human acceptance record",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "programming",
+      "office": "REEL Programming Desk",
+      "proposedOutput": "Proposed show slot, attribution and audience labeling",
+      "state": "not_started",
+      "executionAuthorized": false
+    },
+    {
+      "officeId": "release",
+      "office": "Human Release Gate",
+      "proposedOutput": "Human publisher authorization, public content receipt and approved distribution",
+      "state": "not_started",
+      "executionAuthorized": false
+    }
+  ],
+  "review": {
+    "creatorRights": "unverified",
+    "sourceLicense": "unverified",
+    "likenessConsent": "unverified",
+    "claims": "not_audited",
+    "humanAccepted": false,
+    "humanReleaseAuthorized": false,
+    "publicationStatus": "not_published"
+  },
+  "authority": {
+    "localPlanningOnly": true,
+    "cinemaProductionTriggered": false,
+    "videoRendered": false,
+    "autoImport": false,
+    "broadcastAuthorized": false,
+    "networkPublishingAuthorized": false,
+    "knownChannelNumber": null
+  },
+  "nextStep": "Human creator reviews this draft, source rights and consent. To produce media, independently open the authorized CineSwarm or ParaCut workflow, build a native verified plan, and approve operations there. This REEL JSON is NOT a CineSwarm-native production plan, not a WaveForge release receipt, and not a published media asset."
+}
