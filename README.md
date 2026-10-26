@@ -20,6 +20,10 @@ Domistika
 
 The WaveForge → CineSwarm receiver contract is intentionally **not yet declared ratified** by this source import. Public release and interop ratification are separate decisions so the receiver can be tested and reviewed on its own evidence.
 
+## REEL Originals · Pilot 001 actual local render session
+
+Following the merged REEL storyboard, Wan2.1 preflight, receipt evidence exporter and ParaCut R8.9 native verified-byte importer, CineSwarm now offers an **opt-in local one-shot GPU runner**: `python -m cineswarm.reel_render_session <REEL_P001_JSON>`. By default it only prints an exact source-bound first-shot plan hash. Optional `--check-local` checks GPU/RAM/disk and installed pinned checkpoint files. **Real execution happens only with** `--render`, `--model-license-reviewed`, `--approve-local-gpu`, a matching full `--confirm-plan-sha`, and a fresh `--session-dir`. The tool launches a private loopback coordinator, submits exactly one native Wan2.1 job, and only after actual media hashing/ffprobe and chained receipt verification produces a master MP4 path and first-shot unsigned evidence JSON for REEL/ParaCut. It never downloads a model or grants rights/publication. A full local Wan installation, upstream licensed checkpoint and Python/CUDA requirements are still needed; GitHub CI does not execute a video model. [Windows and local operator guide](docs/REEL_FIRST_SHOT_LOCAL_RENDER_SESSION.md).
+
 ## Quick local orchestration proof
 
 Python 3.11 or newer is required. The engine itself has no runtime package dependencies.
