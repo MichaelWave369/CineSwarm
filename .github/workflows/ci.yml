@@ -20,8 +20,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Ensure FFmpeg and FFprobe
+        run: |
+          if command -v ffmpeg >/dev/null 2>&1 && command -v ffprobe >/dev/null 2>&1; then
+            echo "Using the runner's existing FFmpeg and FFprobe binaries."
+          else
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+          ffmpeg -version
+          ffprobe -version
 
       - name: Install project and tests
         run: |
