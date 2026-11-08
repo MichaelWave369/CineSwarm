@@ -36,7 +36,7 @@ attention gates, key/value caching, kernel changes, or model-specific hooks.
 Example:
 
 ~~~sh
-cine continuity-preview examples/phi_continuity.example.json
+python -m cineswarm.continuity examples/phi_continuity.example.json
 ~~~
 
 Reference digests in the sample are illustrative placeholders. They are not
