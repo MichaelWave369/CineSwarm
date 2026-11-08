@@ -25,7 +25,7 @@ def _integer(value: Any, field: str, low: int, high: int) -> int:
 
 
 def _number(value: Any, field: str, low: float, high: float) -> float:
-    require(type(value) in (int, float) and math.isfinite(value) and low <= value <= high,
+    require(type(value) in (int, float) and low <= value <= high and math.isfinite(value),
             "CONTINUITY_INVALID", f"{field} must be a finite number from {low} to {high}", field=field)
     return float(value)
 
@@ -48,6 +48,8 @@ def compile_continuity_preview(source: dict[str, Any]) -> dict[str, Any]:
     planning heuristic, NOT video-token sparse attention or a speed benchmark.
     """
     require(isinstance(source, dict), "CONTINUITY_INVALID", "Preview input must be an object")
+    require(set(source) <= {"schemaVersion", "shotId", "fps", "durationSeconds", "referenceAssets", "motionBeats", "checkpointBudget"},
+            "CONTINUITY_INVALID", "Unexpected continuity input fields")
     require(source.get("schemaVersion") == "phi-continuity/v1", "CONTINUITY_INVALID",
             "Unsupported continuity input version")
     shot_id = _id(source.get("shotId"), "shotId")
@@ -68,7 +70,7 @@ def compile_continuity_preview(source: dict[str, Any]) -> dict[str, Any]:
         require(isinstance(digest, str) and SHA256.fullmatch(digest) is not None,
                 "CONTINUITY_INVALID", "Reference requires a lowercase SHA-256", index=index)
         role = item.get("role")
-        require(role in REFERENCE_ROLES, "CONTINUITY_INVALID", "Unknown reference role", index=index)
+        require(isinstance(role, str) and role in REFERENCE_ROLES, "CONTINUITY_INVALID", "Unknown reference role", index=index)
         tag = _id(item.get("tag", "reference"), f"referenceAssets[{index}].tag")
         identity = (digest, role, tag)
         require(identity not in seen_assets, "CONTINUITY_INVALID", "Duplicate reference asset", index=index)
@@ -151,3 +153,31 @@ def compile_continuity_preview(source: dict[str, Any]) -> dict[str, Any]:
     }
     result["previewHash"] = sha256_json(result)
     return result
+
+
+def main() -> None:
+    """Offline CLI entrypoint; does not contact the coordinator or any backend."""
+    import argparse
+    import json
+    import sys
+    from pathlib import Path
+
+    from .errors import CineSwarmError
+
+    parser = argparse.ArgumentParser(description="Compile a PhiContinuity planning preview only")
+    parser.add_argument("source", help="JSON shot preview specification")
+    args = parser.parse_args()
+    try:
+        value = json.loads(Path(args.source).read_text(encoding="utf-8"))
+        result = compile_continuity_preview(value)
+        print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
+    except (CineSwarmError, ValueError, OSError) as exc:
+        error = exc.as_dict() if isinstance(exc, CineSwarmError) else {
+            "error": {"code": "CONTINUITY_CLI_ERROR", "message": str(exc), "details": {}}
+        }
+        print(json.dumps(error, sort_keys=True), file=sys.stderr)
+        raise SystemExit(1) from exc
+
+
+if __name__ == "__main__":
+    main()
