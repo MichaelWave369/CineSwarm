@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "phi-continuity/v1",
+  "shotId": "subject-369-elsewhen-intro",
+  "fps": 24,
+  "durationSeconds": 5,
+  "referenceAssets": [
+    {
+      "artifactHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "role": "identity",
+      "tag": "subject-369"
+    },
+    {
+      "artifactHash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "role": "environment",
+      "tag": "elsewhen"
+    }
+  ],
+  "motionBeats": [
+    {
+      "atSeconds": 0.75,
+      "intensity": 0.7,
+      "label": "head-turn"
+    },
+    {
+      "atSeconds": 2.5,
+      "intensity": 1,
+      "cameraCut": true,
+      "label": "street-reveal"
+    },
+    {
+      "atSeconds": 4.25,
+      "intensity": 0.45,
+      "label": "settle"
+    }
+  ],
+  "checkpointBudget": {
+    "targetIntervalFrames": 16,
+    "maxCheckpoints": 12
+  }
+}
